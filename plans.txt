@@ -1,0 +1,8 @@
+Kurssisuoritukseen liittyy
+
+1) Ryhmän työskentelyn etenemistä dokumentoiva blogi
+2) Erillinen projektisuunnitelma
+3) Kehitettävän tuotteen, palvelun tai toimintakonseptin liiketoimintapotentiaalin/hyödyn arviointi
+4) Kehitettävän tuotteen, palvelun tai toimintakonseptin konkretisointi eli ns. protoversio tai mock-up
+5) Ryhmän työn tulosten esittely kurssin Grand Finale -tapahtumassa
+6) Oppimista reflektoiva loppuraportti
