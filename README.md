@@ -1,12 +1,12 @@
-3D Modelling of Environment from Photos with Stereo Vision
-==========================================================
+3D Modelling of Environment with Stereo Vision
+==============================================
 
 Details    | Aalto University
 -----------|----------------------------
 Course     | SCI-C1000 - Project Course 
 Date       | 12.09.16-16.12.16
 
-
+    
 Project
 -------
 [GitHub](https://github.com/jaantollander/SCI-C1000) repository

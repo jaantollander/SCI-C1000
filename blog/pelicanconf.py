@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Jaan Tollander de Balsch'
-SITENAME = '3D Modelling of Environment from Photos with Stereo Vision'
+SITENAME = '3D Modelling of Environment with Stereo Vision'
 SITEURL = ''
 
 PATH = 'content'
