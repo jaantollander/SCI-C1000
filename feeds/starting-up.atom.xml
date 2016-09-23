@@ -3,12 +3,21 @@
 &lt;h2&gt;Starting Up&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="topic-description"&gt;
-&lt;h2&gt;Topic description&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="project-plan"&gt;
-&lt;h2&gt;Project Plan&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;div class="section" id="plans-and-goals-for-the-first-week"&gt;
+&lt;h2&gt;Plans and Goals for the first week&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Meeting up with our contact professor&lt;/li&gt;
+&lt;li&gt;Make a project blog&lt;/li&gt;
+&lt;li&gt;Name the project&lt;/li&gt;
+&lt;li&gt;Design a logo&lt;/li&gt;
+&lt;li&gt;Defining the problem and how to approach it&lt;/li&gt;
+&lt;li&gt;Limiting the size of the solution to the problem&lt;/li&gt;
+&lt;li&gt;Figuring out the possible customers for this technology&lt;/li&gt;
+&lt;li&gt;Planning the allocation of time&lt;/li&gt;
+&lt;li&gt;Defining the main goal of the project&lt;/li&gt;
+&lt;li&gt;Keeping track of workhours&lt;/li&gt;
+&lt;li&gt;List of open source technologies that can create 3D models from photographs&lt;/li&gt;
+&lt;li&gt;Flowchart of the project&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 </summary><category term="Week 1"></category></entry></feed>
