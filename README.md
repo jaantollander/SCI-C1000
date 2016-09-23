@@ -1,35 +1,23 @@
-3D Modelling of Environment with Stereo Vision
-==============================================
+Project Blog
+============
+Blog is hosted in GitHub pages
 
-About
------
+https://jaantollander.github.io/SCI-C1000/
 
-Details    | Aalto University
------------|-----------------------------------------------
-Course     | SCI-C1000 - Project Course 
-Date       | 12.09.16-16.12.16
-Topic      | 3D Modelling of Environment with Stereo Vision
-    
-Project
--------
-[GitHub](https://github.com/jaantollander/SCI-C1000) repository
+Compiling webpages with Pelican
+-------------------------------
+Blog is created as static html using Python package called Pelican.
 
-* Blog
-* Project Plan
-* Estimating the potential value for customers and other people from this technology
-* Creating a prototype or mock-up
-* Demonstrating the project in Grand Finale event
-* Final Report
+Link to [Pelican documentation](http://docs.getpelican.com/).
 
-Authors / Contact
------------------
+----
 
-Last name           | First name | Email
---------------------|------------|-----------------------------
-Haavisto            | Aapo       | <aapo.haavisto@aalto.fi>
-Karkinen            | Antti      | <antti.karkinen@aalto.fi>
-Koistinen           | Misamatti  | <misamatti.koistinen@aalto.fi>
-Seppäläinen         | Lauri      | <lauri.seppalainen@aalto.fi>
-Sipilä              | Juhani     | <juhani.sipila@aalto.fi>
-Tollander de Balsch | Jaan       | <de.tollander@aalto.fi>
-Tyrkkö              | Markus     | <markus.tyrkko@aalto.fi>
+Using makefile inside `blog` directory we can automatically create website to be hosted in github pages. 
+
+```make
+make github
+```
+
+See link
+
+- [Publishing to GitHub pages](http://docs.getpelican.com/en/3.6.3/tips.html?highlight=github#publishing-to-github)

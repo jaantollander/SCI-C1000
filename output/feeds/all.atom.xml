@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>3D Modelling of Environment with Stereo Vision</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/all.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-09-23T00:00:00+02:00</updated><entry><title>Week 1</title><link href="https://jaantollander.github.io/SCI-C1000/week-1.html" rel="alternate"></link><published>2016-09-23T00:00:00+02:00</published><updated>2016-09-23T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-09-23:SCI-C1000/week-1.html</id><summary type="html">&lt;div class="section" id="starting-up"&gt;
+&lt;h2&gt;Starting Up&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="topic-description"&gt;
+&lt;h2&gt;Topic description&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="project-plan"&gt;
+&lt;h2&gt;Project Plan&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="Week 1"></category></entry></feed>

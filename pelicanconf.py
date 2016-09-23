@@ -11,6 +11,7 @@ authors = ['Jaan Tollander de Balsch',
            'Markus Tyrkkö', ]
 
 AUTHOR = "\n".join(authors)
+del authors
 SITENAME = '3D Modelling of Environment with Stereo Vision'
 SITEURL = ''
 
