@@ -1,11 +1,14 @@
 3D Modelling of Environment with Stereo Vision
 ==============================================
 
+About
+-----
+
 Details    | Aalto University
------------|----------------------------
+-----------|-----------------------------------------------
 Course     | SCI-C1000 - Project Course 
 Date       | 12.09.16-16.12.16
-
+Topic      | 3D Modelling of Environment with Stereo Vision
     
 Project
 -------
@@ -18,8 +21,8 @@ Project
 * Demonstrating the project in Grand Finale event
 * Final Report
 
-Authors
--------
+Authors / Contact
+-----------------
 
 Last name           | First name        | Email
 --------------------|-------------------|-----------------------------
