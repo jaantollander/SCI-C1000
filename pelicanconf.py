@@ -48,9 +48,9 @@ DEFAULT_PAGINATION = 10
 STATIC_PATHS = ['images', 'figures', "downloads", 'favicon.png']
 
 # Themes and Plugins
-# THEME = ''
-# PLUGIN_PATHS = []
-# PLUGINS = []
+THEME = 'pelican-octopress-theme/'
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['render_math']
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
