@@ -16,13 +16,8 @@ Lauri        Seppäläinen          lauri.seppalainen@aalto.fi
 Juhani       Sipilä               juhani.sipila@aalto.fi
 Jaan         Tollander de Balsch  de.tollander@aalto.fi
 Markus       Tyrkkö               markus.tyrkko@aalto.fi
-============ ==================== =============================
-
-Supervising professor
-
-============ ==================== =============================
-First name   Last name            Email
-============ ==================== =============================
+------------ -------------------- -----------------------------
+Supervisor
+------------ -------------------- -----------------------------
 Antti        Ylä-Jääski           antti.yla-jaaski@aalto.fi
 ============ ==================== =============================
-
