@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>3D Modelling of Environment with Stereo Vision</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/starting-up.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-09-23T00:00:00+02:00</updated><entry><title>Week 1</title><link href="https://jaantollander.github.io/SCI-C1000/week-1.html" rel="alternate"></link><published>2016-09-23T00:00:00+02:00</published><updated>2016-09-23T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-09-23:SCI-C1000/week-1.html</id><summary type="html">&lt;div class="section" id="starting-up"&gt;
-&lt;h2&gt;Starting Up&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="plans-and-goals-for-the-first-week"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>3D Modelling of Environment with Stereo Vision</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/starting-up.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-09-23T00:00:00+02:00</updated><entry><title>Week 1: Starting Up</title><link href="https://jaantollander.github.io/SCI-C1000/week-1-starting-up.html" rel="alternate"></link><published>2016-09-23T00:00:00+02:00</published><updated>2016-09-23T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-09-23:SCI-C1000/week-1-starting-up.html</id><summary type="html">&lt;div class="section" id="plans-and-goals-for-the-first-week"&gt;
 &lt;h2&gt;Plans and Goals for the first week&lt;/h2&gt;
 &lt;ul class="simple"&gt;
+&lt;li&gt;Creating a project blog&lt;/li&gt;
 &lt;li&gt;Meeting up with our contact professor&lt;/li&gt;
-&lt;li&gt;Make a project blog&lt;/li&gt;
 &lt;li&gt;Name the project&lt;/li&gt;
 &lt;li&gt;Design a logo&lt;/li&gt;
 &lt;li&gt;Defining the problem and how to approach it&lt;/li&gt;
@@ -19,5 +15,14 @@
 &lt;li&gt;List of open source technologies that can create 3D models from photographs&lt;/li&gt;
 &lt;li&gt;Flowchart of the project&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="creating-the-project-blog"&gt;
+&lt;h2&gt;Creating the Project Blog&lt;/h2&gt;
+&lt;p&gt;Created the project blog &lt;em&gt;(the one you are reading right now)&lt;/em&gt;.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt; page contains some general information about the project&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contact&lt;/strong&gt; page contains information about the authors of the project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Source code of this blog is hosted at &lt;a class="reference external" href="https://github.com/jaantollander/SCI-C1000"&gt;GitHub&lt;/a&gt; and the blog it self is in the project &lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/"&gt;GitHub pages&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </summary><category term="Week 1"></category></entry></feed>
