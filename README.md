@@ -1,23 +1,55 @@
-Project Blog
-============
-Blog is hosted in GitHub pages
+# Project Blog
+Blog built using Pelican blogging platform. Blog is hosted in project's [GitHub pages](https://jaantollander.github.io/SCI-C1000/).
 
-https://jaantollander.github.io/SCI-C1000/
+## Using Pelican
+Read the Pelican [documentation](http://docs.getpelican.com/)
 
-Compiling webpages with Pelican
--------------------------------
-Blog is created as static html using Python package called Pelican.
-
-Link to [Pelican documentation](http://docs.getpelican.com/).
-
-----
-
-Using makefile inside `blog` directory we can automatically create website to be hosted in github pages. 
-
-```make
-make github
+### Installation
+```
+pip install Pelican markdown 
 ```
 
-See link
+Optional but useful packages
 
-- [Publishing to GitHub pages](http://docs.getpelican.com/en/3.6.3/tips.html?highlight=github#publishing-to-github)
+```
+pip install Fabric livereload
+```
+
+### Writing content
+Write your content in the `content` folder. Static pages such as *About* and *Contact* are under `pages` folder. 
+
+### Developing
+Make command to produce html 
+
+```
+make html
+```
+
+Regenerate
+
+```
+make regenerate
+```
+
+Launch a development server in the `output` folder
+
+```
+python -m pelican.server
+```
+
+or if you installed `livereload` which refreshes updated content in your browser automatically run 
+
+```
+livereload
+```
+
+in the `output` folder.
+
+### Publish to blog GitHub pages
+[Publishing to GitHub pages](http://docs.getpelican.com/en/3.6.3/tips.html?highlight=github#publishing-to-github)
+
+In the root directory invoke command
+
+```
+make publish github
+```

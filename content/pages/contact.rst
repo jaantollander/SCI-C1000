@@ -1,14 +1,28 @@
 Contact
 =======
 
-==================== ============ =============================
-Last name            First name   Email
-==================== ============ =============================
-Haavisto             Aapo         aapo.haavisto@aalto.fi
-Karkinen             Antti        antti.karkinen@aalto.fi
-Koistinen            Misamatti    misamatti.koistinen@aalto.fi
-Seppäläinen          Lauri        lauri.seppalainen@aalto.fi
-Sipilä               Juhani       juhani.sipila@aalto.fi
-Tollander de Balsch  Jaan         de.tollander@aalto.fi
-Tyrkkö               Markus       markus.tyrkko@aalto.fi
-==================== ============ =============================
+:date: 2016-09-23
+:summary: Contact information of the participants
+
+Contact information of the participant in this project.
+
+============ ==================== =============================
+First name   Last name            Email
+============ ==================== =============================
+Aapo         Haavisto             aapo.haavisto@aalto.fi
+Antti        Karkinen             antti.karkinen@aalto.fi
+Misamatti    Koistinen            misamatti.koistinen@aalto.fi
+Lauri        Seppäläinen          lauri.seppalainen@aalto.fi
+Juhani       Sipilä               juhani.sipila@aalto.fi
+Jaan         Tollander de Balsch  de.tollander@aalto.fi
+Markus       Tyrkkö               markus.tyrkko@aalto.fi
+============ ==================== =============================
+
+Supervising professor
+
+============ ==================== =============================
+First name   Last name            Email
+============ ==================== =============================
+Antti        Ylä-Jääski           antti.yla-jaaski@aalto.fi
+============ ==================== =============================
+
