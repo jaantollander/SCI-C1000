@@ -19,7 +19,7 @@ pip install Fabric livereload
 ```
 
 ### Writing content
-Write your content in the `content` folder. Static pages such as *About* and *Contact* are under `pages` folder.
+Write your content in the `content` folder. Static pages such as *About* and *Contact* are under `pages` folder. Content can be written in *ReStructuredText* (recommended) as  `.rst` files or *markdown* as `.md` or `.markdown` files.
 
 ### Developing
 Make command to produce html

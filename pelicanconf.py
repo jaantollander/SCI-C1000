@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-authors = ['Jaan Tollander de Balsch',
+AUTHORS = ['Jaan Tollander de Balsch',
            'Aapo Haavisto',
            'Oskari Karkkinen',
            'Tapani Koistinen',
@@ -10,16 +10,16 @@ authors = ['Jaan Tollander de Balsch',
            'Juhani Sipilä',
            'Markus Tyrkkö', ]
 
-AUTHOR = "\n".join(authors)
-del authors
+AUTHOR = 'Jaan Tollander de Balsch'
 SITENAME = '3D Modelling of Environment with Stereo Vision'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
-
+DEFAULT_DATE_FORMAT = '%Y-%m-%d'
 DEFAULT_LANG = 'en'
+TIMEZONE = 'Europe/Helsinki'
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -30,28 +30,27 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 # (name, url)
-LINKS = (
-    ('GitHub Repository', 'https://github.com/jaantollander/SCI-C1000'),
-)
+# LINKS = (
+#     ('', '#')
+# )
 
 # Social widget
 SOCIAL = (
-    ('', '#'),
+    ('GitHub Repository', 'https://github.com/jaantollander/SCI-C1000'),
 )
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-# Non default settings
-# http://docs.getpelican.com/en/3.6.3/settings.html
-DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+# SETTINGS
+STATIC_PATHS = ['images', 'figures', "downloads", 'favicon.png']
+
+# Themes and Plugins
+# THEME = ''
+# PLUGIN_PATHS = []
+# PLUGINS = []
+
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
-
-# Plugins
-# http://docs.getpelican.com/en/3.6.3/plugins.html#plugins
-# https://github.com/getpelican/pelican-plugins
-PLUGINS = []
-PLUGIN_PATHS = []
