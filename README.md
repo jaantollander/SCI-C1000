@@ -4,9 +4,12 @@ Blog built using Pelican blogging platform. Blog is hosted in project's [GitHub 
 ## Using Pelican
 Read the Pelican [documentation](http://docs.getpelican.com/)
 
+### General
+Install Python into your machine. I recommed [Anaconda](https://www.continuum.io/downloads) distribution. You should also install some decent text and code editors such as [Atom](https://atom.io/) and [PyCharm](https://www.jetbrains.com/pycharm/).
+
 ### Installation
 ```
-pip install Pelican markdown 
+pip install Pelican markdown
 ```
 
 Optional but useful packages
@@ -16,10 +19,10 @@ pip install Fabric livereload
 ```
 
 ### Writing content
-Write your content in the `content` folder. Static pages such as *About* and *Contact* are under `pages` folder. 
+Write your content in the `content` folder. Static pages such as *About* and *Contact* are under `pages` folder.
 
 ### Developing
-Make command to produce html 
+Make command to produce html
 
 ```
 make html
@@ -37,7 +40,7 @@ Launch a development server in the `output` folder
 python -m pelican.server
 ```
 
-or if you installed `livereload` which refreshes updated content in your browser automatically run 
+or if you installed `livereload` which refreshes updated content in your browser automatically run
 
 ```
 livereload

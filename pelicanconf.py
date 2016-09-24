@@ -31,7 +31,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 # (name, url)
 LINKS = (
-    ('', '#'),
+    ('GitHub Repository', 'https://github.com/jaantollander/SCI-C1000'),
 )
 
 # Social widget
