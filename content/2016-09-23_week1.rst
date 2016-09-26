@@ -11,18 +11,25 @@ Week 1: Starting Up
 
 Plans and Goals for the first week
 ----------------------------------
-- Creating a project blog
-- Meeting up with our contact professor
-- Name the project
-- Design a logo
-- Defining the problem and how to approach it
-- Limiting the size of the solution to the problem
-- Figuring out the possible customers for this technology
-- Planning the allocation of time
-- Defining the main goal of the project
-- Keeping track of workhours
-- List of open source technologies that can create 3D models from photographs
-- Flowchart of the project
+- Contacts
+   - Meeting up with our contact professor
+
+- Project Branding
+   - Creating a project blog
+   - Name the project
+   - Design a logo and icon
+
+- Project Managment
+   - Planning the allocation of time
+   - Keeping track of workhours
+   - Flowchart of the project
+
+- Project
+   - Defining the problem and how to approach it
+   - Limiting the size of the solution to the problem
+   - Figuring out the possible customers for this technology
+   - Defining the main goal of the project
+   - List of open source technologies that can create 3D models from photographs
 
 
 Creating the Project Blog
@@ -36,3 +43,27 @@ Source code of this blog is hosted at `GitHub`_ and the blog it self is in the p
 
 .. _GitHub: https://github.com/jaantollander/SCI-C1000
 .. _GitHub pages: https://jaantollander.github.io/SCI-C1000/
+
+
+3D Reconstruction from Photos
+-----------------------------
+When taking traditional photos of 3-dimensional world, it is projected into 2-dimensional surface and the depth is lost. In order to restore this lost dimension, one way to reconstuct it is as inversion problem, meaning reconstruction from multiple images [1]_.
+
+
+Comparison with Other Technologies
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+LIDAR [2]_
+
+Pros
+
+Cons
+
+
+Possible Customers
+^^^^^^^^^^^^^^^^^^
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+References
+----------
+.. [1] https://en.wikipedia.org/wiki/3D_reconstruction_from_multiple_images
+.. [2] https://en.wikipedia.org/wiki/Lidar
