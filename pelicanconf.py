@@ -45,6 +45,7 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 # SETTINGS
+MENUITEMS = [('Home Page', '/')]
 STATIC_PATHS = ['images', 'figures', "downloads", 'favicon.png']
 
 # Themes and Plugins

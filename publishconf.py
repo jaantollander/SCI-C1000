@@ -11,6 +11,14 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://jaantollander.github.io/SCI-C1000'
+
+try:
+    for i, (key, _) in enumerate(MENUITEMS):
+        if key == 'Home Page':
+            MENUITEMS[i] = ('Home Page', SITEURL)
+except Exception:
+    pass
+
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
