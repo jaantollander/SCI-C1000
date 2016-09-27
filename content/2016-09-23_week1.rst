@@ -52,16 +52,38 @@ When taking traditional photos of 3-dimensional world, it is projected into 2-di
 
 Comparison with Other Technologies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-LIDAR [2]_
+*LIDAR is a surveying method that measures distance to a target by illuminating that target with a laser light* [2]_
 
-Pros
+Pros and cons comparing 3D recostruction from images versus LIDAR
 
-Cons
+- Pros
+   - Cheaper than LIDAR
+   - More available to consumers
+   - Is able to create texture and colors for the surfaces
+   - Images can be analysed without visiting the place.
+
+- Cons
+   - A lot less accurate
 
 
-Possible Customers
-^^^^^^^^^^^^^^^^^^
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Potential Uses and Customers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Industry
+   - Not accurate enough to replace LIDAR
+
+- Constumers
+   - Decoration app
+   - Games
+   - Navigation with smart glasses inside buildings
+
+- Architects
+   - Creating quick drafts when full precision is not needed
+   - Displaying different choices for decoration in virtual or alternate reality
+
+- Other
+   - Building safety design
+   - Virtual models of existing buildings
+
 
 References
 ----------
