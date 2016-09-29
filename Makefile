@@ -129,14 +129,15 @@ DATE := $(shell date +'%Y-%m-%d')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 EXT ?= rst
 
+# FIXME
 newpost:
 ifdef NAME
-		echo "Title: $(NAME)" >  $(INPUTDIR)/$(SLUG).$(EXT)
-		echo "Slug: $(SLUG)" >> $(INPUTDIR)/$(SLUG).$(EXT)
-		echo "Date: $(DATE)" >> $(INPUTDIR)/$(SLUG).$(EXT)
-		echo ""			  >> $(INPUTDIR)/$(SLUG).$(EXT)
+		echo "Title: $(NAME)" >  $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo "Slug: $(SLUG)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo "Date: $(DATE)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		${EDITOR} ${INPUTDIR}/${SLUG}.${EXT} &
+		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		${EDITOR} ${INPUTDIR}/${DATE}-${SLUG}.${EXT} &
 else
 		@echo 'Variable NAME is not defined.'
 		@echo 'Do make newpost NAME='"'"'Post Name'"'"
