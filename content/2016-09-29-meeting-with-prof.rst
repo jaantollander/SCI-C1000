@@ -7,6 +7,8 @@ Meeting with Professor Antti Ylä-Jääski
 :slug:
 :authors: Jaan Tollander de Balsch
 :summary:
+:status: draft
+
 
 We had a meeting with out supervising professor Antti Ylä-Jääski and two his colleagues. We had a discussed about the *structure of motion (SFM)* [1]_ technology and their research on the subject. They had applied the technology on indoor modelling and navigation [iMoon]_, [iMoon2]_.
 
