@@ -3,11 +3,11 @@ Meeting with Professor Antti Ylä-Jääski
 
 :date: 2016-09-29
 :category: Meeting with professor
-:tags: Week 1
+:tags: Week 1-2
 :slug:
 :authors: Jaan Tollander de Balsch
 :summary:
-.. :status: draft
+
 
 We had a meeting with out supervising professor Antti Ylä-Jääski and two his colleagues. We had a discussed about the *structure of motion (SFM)* technology [1]_, [OpenSFM]_, [OpenGVS]_, [VisualSFM]_, its applications to real life and his group's research on the subject. They had succesfully applied the technology to indoor modelling and navigation [iMoon]_, [iMoon2]_.
 
