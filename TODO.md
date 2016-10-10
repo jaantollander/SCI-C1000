@@ -1,4 +1,14 @@
 # TODO List
+# Course
+- [x] 30.9	Ensimmäinen blogimerkintä
+- [ ] 14.10	Ryhmän työsuunnitelmaluonnos, ajankäytön allokointi eri tehtäviin henkilötasolla
+- [ ] 4.11
+Ansaintamallin kuvaaminen / hyödyn osoittaminen (miten ratkaisusta saadaa rahaa tai hyötyä)
+- [ ] 18.11	Ratkaisun liiketoimintapotentiaalinen / toteuttamiskelpoisuuden arviointi
+- [ ] 5.12	Posteri
+- [ ] 9.12	GRAND FINALE -tapahtuma
+- [ ] 16.12	Loppuraportti
+
 ## General
 - [x] Themes and Plugins
 - [x] MathJax, OctoPress-Theme
@@ -8,7 +18,7 @@
 
 ## Branding
 - [ ] Icon, 3D model background, 3D point cloud
-- [ ] Facicon.png
+- [ ] favicon.png
 
 ## Posts
 - [ ] Basics about 3D modelling from photos

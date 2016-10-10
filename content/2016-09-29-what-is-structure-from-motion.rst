@@ -9,4 +9,10 @@ What Is Structure from Motion
 :summary: What is structure from motion (SFM) and how it works
 :status: draft
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+From video to point cloud https://www.youtube.com/watch?v=SHa_LBIzDac
+
+SFM with drones https://www.youtube.com/watch?v=7DNmN_qWUgM
+
+GeoBrowser3D https://www.youtube.com/watch?v=Nfm2fkePfmA
+
+Available software
