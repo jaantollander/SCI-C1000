@@ -1,0 +1,9 @@
+# Requirements
+python
+pelican
+
+# Optional
+typogrify
+Markdown
+livereload
+Fabric
