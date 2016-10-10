@@ -8,15 +8,12 @@ Read the Pelican [documentation](http://docs.getpelican.com/)
 Install Python into your machine. I recommed [Anaconda](https://www.continuum.io/downloads) distribution. You should also install some decent text and code editors such as [Atom](https://atom.io/) and [PyCharm](https://www.jetbrains.com/pycharm/).
 
 ### Installation
-```
-pip install Pelican markdown
-```
-
-Optional but useful packages
+See `requirements.txt` file for installable packages. You can use command 
 
 ```
-pip install Fabric livereload
+pip install -r requirements.txt
 ```
+
 
 ### Writing content
 Write your content in the `content` folder. Static pages such as *About* and *Contact* are under `pages` folder. Content can be written in *ReStructuredText* (recommended) as  `.rst` files or *markdown* as `.md` or `.markdown` files.
