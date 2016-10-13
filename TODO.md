@@ -14,7 +14,7 @@ Ansaintamallin kuvaaminen / hyödyn osoittaminen (miten ratkaisusta saadaa rahaa
 - [x] MathJax, OctoPress-Theme
 - [x] GitHub repository links
 - [ ] Social media, Facebook, ...
-- [ ] Facebook comment section
+- [ ] Disqus
 
 ## Branding
 - [ ] Icon, 3D model background, 3D point cloud
