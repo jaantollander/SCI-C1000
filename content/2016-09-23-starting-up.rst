@@ -6,7 +6,6 @@ Week 1: Starting Up
 :tags: Week 1
 :slug:
 :authors: Jaan Tollander de Balsch
-:summary: Plans, goals, ...
 
 
 Plans and Goals for the first week

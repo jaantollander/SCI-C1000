@@ -6,7 +6,6 @@ First Group Meeting
 :tags: Week 1-2
 :slug:
 :authors: Jaan Tollander de Balsch
-:summary: Group Meeting
 
 
 .. image:: images/20160928_162236.jpg

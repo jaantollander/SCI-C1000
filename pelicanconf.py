@@ -46,7 +46,7 @@ DEFAULT_PAGINATION = 10
 
 # SETTINGS
 MENUITEMS = [('Home Page', '/')]
-STATIC_PATHS = ['images', 'figures', "downloads", 'favicon.png']
+STATIC_PATHS = ['images', 'figures', 'downloads', 'tables', 'favicon.png']
 
 # Themes and Plugins
 THEME = 'pelican-octopress-theme/'
