@@ -32,6 +32,9 @@ Ansaintamallin kuvaaminen / hyödyn osoittaminen (miten ratkaisusta saadaa rahaa
 - [ ] SIFT
 - [ ] SURF
 
+## Project
+- [ ] SFM demonstation and and explanation
+
 ## Resources
 https://en.wikipedia.org/wiki/Computer_stereo_vision
 https://en.wikipedia.org/wiki/3D_reconstruction_from_multiple_images

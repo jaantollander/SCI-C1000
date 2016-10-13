@@ -132,9 +132,9 @@ EXT ?= rst
 # FIXME
 newpost:
 ifdef NAME
-		echo "Title: $(NAME)" >  $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo "Slug: $(SLUG)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo "Date: $(DATE)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo ":title: $(NAME)" >  $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo ":slug: $(SLUG)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo ":date: $(DATE)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		${EDITOR} ${INPUTDIR}/${DATE}-${SLUG}.${EXT} &

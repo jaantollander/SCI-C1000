@@ -8,13 +8,8 @@ Course
 ------
 Aalto University project course in fall, 2016.
 
-========== ==============================================
-University Aalto University
-Course     SCI-C1000 - Project Course
-Date       12.09.16 - 16.12.16
-Topic      3D Reconstruction from Images
-Group Name 4+3Dudes
-========== ==============================================
+.. csv-table::
+   :file: details.csv
 
 Blog
 ----
