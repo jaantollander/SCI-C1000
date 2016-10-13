@@ -3,6 +3,7 @@ Project Plan
 :title: project-plan
 :slug: project-plan
 :date: 2016-10-11
+:status: draft
 
 .. https://en.wikipedia.org/wiki/Project_plan
 

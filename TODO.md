@@ -39,3 +39,6 @@ Ansaintamallin kuvaaminen / hyödyn osoittaminen (miten ratkaisusta saadaa rahaa
 https://en.wikipedia.org/wiki/Computer_stereo_vision
 https://en.wikipedia.org/wiki/3D_reconstruction_from_multiple_images
 https://en.wikipedia.org/wiki/Structure_from_motion
+GeoBrowser3D https://www.youtube.com/watch?v=Nfm2fkePfmA
+SFM with drones https://www.youtube.com/watch?v=7DNmN_qWUgM
+From video to point cloud https://www.youtube.com/watch?v=SHa_LBIzDac
