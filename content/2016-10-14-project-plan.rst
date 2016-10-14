@@ -4,13 +4,13 @@ Project Plan
 :date: 2016-10-14
 :slug: project-plan
 :tags: Week 2, project plan
-:authors: Jaan Tollander de Balsch
+:authors: Jaan Tollander de Balsch; Aapo Haavisto; Antti Karkinen; Misamatti Koistinen; Lauri Seppäläinen; Juhani Sipilä; Markus Tyrkkö,
 
 
 Introduction
 ------------
 .. figure:: images/2016-10-14_10-37-27.jpg
-   :figwidth: 90%
+   :figwidth: 100%
    :alt: pöhinä_garages
 
 For outdoor use GPS (Global Positioning System) developed by USA has established itself as a standard for locating objects and people. Unfortunately indoors GPS does not often work and the accuracy is not enough for many applications. There are many alternative methods for indoor navigation that are based on different technologies such as Wi-Fi station triangulation or fingerprint locating or observing Earth's magnetic field. However, the lack of unified wireless infrastructure and standardisation interferes suitability of these technologies.
@@ -39,7 +39,7 @@ In addition to customers that utilize alternate reality it could also be used to
 Scope of the project
 --------------------
 .. figure:: images/2016-10-14_11-51-36.jpg
-   :figwidth: 90%
+   :figwidth: 100%
    :alt: pöhinä2
 
 We will make a brief statement of interest of retail stores in new positioning methods, as well as interview customers to find out problems they have encountered and potential solutions more efficient positioning solutions can bring to them. Based on the analysis we seek to create a demo based on SFM technology and present a business model.
@@ -54,7 +54,7 @@ The project schedule is set to according scheduling based on the course. We have
 
 .. csv-table:: Schedule
    :file: tables/schedule.csv
-   :widths: 5, 20
+   :widths: 20, 80
 
 Schedule is monitored weekly meetings, which dates agreed Thursday at 10.00
 
@@ -70,7 +70,7 @@ We have mapped the risks related to the project and to prepare for them as follo
 
 .. csv-table::
    :file: tables/risks.csv
-   :widths: 10, 5, 10
+   :widths: 40, 20, 40
 
 
 Responsibilities
