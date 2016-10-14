@@ -49,7 +49,7 @@ MENUITEMS = [('Home Page', '/')]
 STATIC_PATHS = ['images', 'figures', 'downloads', 'tables', 'favicon.png']
 
 # Themes and Plugins
-THEME = 'pelican-octopress-theme/'
+THEME = 'pelican-themes/octopress'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['render_math', ]
 
