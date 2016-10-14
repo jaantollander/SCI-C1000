@@ -48,36 +48,28 @@ Schedule and Milestones
 ------------------------
 The project schedule is set to according scheduling based on the course. We have set a deadlines for the various sub-regions as follows
 
-Week 42: Understanding the theoretical bases of the subject
-Week 42: Booking of interviews (e-mail)
-Week 43: Study of customers' interest and interviews of
-Week 44: Presentation 3 - presentation Guest interests and needs,
-Week 45: The interviews were analyzed and the final decision about the application of
-Week 46: Presentation 4 - presentation of business potential,
-Week 47: Model ready
-Week 48: Paragraph 5 - General Practice
+.. csv-table::
+   :file: tables/schedule.csv
 
 Punctuality is monitored weekly meetings, which dates agreed Thursday at 10.00
 
 
-Information Collecting
-----------------------
-Some source of information are
-
-- Articles written about the subject
-- Documentation of SFM libraries
-- Data of customers is collected by interviewing consumers and companies via e-mail / phone.
-
-The aim is to form a complete picture of the opportunities and challenges of the current state and create a relistic goal for a model and demo.
+Data Collecting
+---------------
+The collection of data is divided into two main phases: the formation of the theoretical basis based on the articles and the Making of fieldwork in the form of interviews. The first phase, the objective is to provide a comprehensive overview of the current state of technology, the opportunities and challenges as well as create a realistic idea of the level of complexity produced demo. Articles form the basis of the concepts of the interviews. The interviews will be carried out either by phone or physically on site and, depending on the location of the interviewee's schedule. The purpose of the interviews is to identify the potential customer interest in the concept and at the same time to get a new perspective for the development of the concept. The final concept and demo creation of the interviews on the basis of issues raised in the development areas.
 
 
 Risks
 -----
+We have mapped the risks related to the project and to prepare for them as follows
+
 .. csv-table::
    :file: tables/risks.csv
 
 
 Responsibilities
 ----------------
+Our group consists of seven people, whom we have shared responsibilities roughly as follows. The division of responsibility is indicative only, and not on the basis not intended to form a significantly differing roles within the group. The idea is that each take on the role of a little more of said sub-region while the other in the best possible way of subsidies.
+
 .. csv-table::
    :file: tables/responsibilities.csv
