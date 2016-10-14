@@ -1,5 +1,5 @@
-﻿Project Plan
-============
+Project plan
+=============
 
 :date: 2016-10-14
 :slug: project-plan
