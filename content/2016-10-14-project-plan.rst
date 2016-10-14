@@ -30,7 +30,7 @@ The purpose of this project is to find out
 
 Potential Customers and End users
 ---------------------------------
-We try to direct the main focus of the project for solving a mundane and practical problems related to indoor positioning. Then end-users would likely be ordinary consumers. All smartphones and new smart devices in the future will be powerful enough to run the indoor positioning application. The only requirements are a camera and internet connectivity. This means that the potential customer base comprises all users of smart devices. 
+We try to direct the main focus of the project for solving a mundane and practical problems related to indoor positioning. Then end-users would likely be ordinary consumers. All smartphones and new smart devices in the future will be powerful enough to run the indoor positioning application. The only requirements are a camera and internet connectivity. This means that the potential customer base comprises all users of smart devices.
 
 One of the main customer groups are shopping centers and major hypermarket-class shops, which could take advantage of indoor positioning to provide a better customer experience, guidance service and presentation of advertisements. In addition to shops other large public places, such as musea might be interested in the possibilities for increasing the AR-elements to improve the customer experience. Elements in augmented reality could be signs, but also various commercials and reconstructions to provide customers with much more immersive museum experience.
 
