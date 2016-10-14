@@ -1,5 +1,5 @@
-Risks related to the project,The level of risk,Measures to prevent
-Proton complexity,Large,Detection of its feasibility early enough.
+Risks related to the project, The level of risk, Measures to prevent
+Complexity of the prototype,Large,Detection of its feasibility early enough.
 Data loss,Medium,Version Management / Backup
 Male labor force reduction,Small,Is noted when planning schedules
 Failure of the scheduling,Medium-sized,Sub-project Monitoring the progress of our weekly meetings
