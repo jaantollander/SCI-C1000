@@ -7,12 +7,13 @@ Project Plan
 :authors: Jaan Tollander de Balsch; Aapo Haavisto; Antti Karkinen; Misamatti Koistinen; Lauri Seppäläinen; Juhani Sipilä; Markus Tyrkkö,
 
 
-Introduction
-------------
 .. figure:: images/2016-10-14_10-37-27.jpg
    :figwidth: 100%
    :alt: pöhinä_garages
 
+
+Introduction
+------------
 For outdoor use GPS (Global Positioning System) developed by USA has established itself as a standard for locating objects and people. Unfortunately indoors GPS does not often work and the accuracy is not enough for many applications. There are many alternative methods for indoor navigation that are based on different technologies such as Wi-Fi station triangulation or fingerprint locating or observing Earth's magnetic field. However, the lack of unified wireless infrastructure and standardisation interferes suitability of these technologies.
 
 Rapidly developing computing power of handheld devices enables new kinds of sophisticated solutions to locate users indoors. Technique called *Structure from Motion (SFM)* makes it possible to form 3D model based on photographs or video images taken from several different locations and directions. Profiling points are identified from the photographs and 3D point cloud can be formed. This is used to construct the 3-dimensional model. When we later take photographs of the space, the location of the camera is possible to identify with significant accuracy from generated 3D model.
