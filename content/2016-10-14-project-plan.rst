@@ -34,7 +34,7 @@ We try to direct the main focus of the project for solving a mundane and practic
 
 One of the main customer groups are shopping centers and major hypermarket-class shops, which could take advantage of indoor positioning to provide a better customer experience, guidance service and presentation of advertisements. In addition to shops other large public places, such as musea might be interested in the possibilities for increasing the AR-elements to improve the customer experience. Elements in augmented reality could be signs, but also various commercials and reconstructions to provide customers with much more immersive museum experience.
 
-In addition to customers that utilize alternate reality it could also be used to create high-speed 3D-models of limited size interior of buildings, for example, the virtual presentation of apartments. In this case, the advantage would be particularly affordability and ease of use, because the modeling is based entirely on the existing technology.
+In addition to customers that utilize augmented reality it could also be used to quickly create 3D-models of limited size interior of buildings, for example, the virtual presentation of apartments. In this case, the advantage would be particularly affordability and ease of use, because the modeling is based entirely on the existing technology.
 
 
 Scope of the project
@@ -51,13 +51,13 @@ We will interview managers of retail stores and customers customers to find out,
 
 Schedule and Milestones
 ------------------------
-The project schedule is set to according scheduling based on the course. We have set a deadlines for the various sub-regions as follows
+The project schedule is set to according scheduling based on the course. We have set deadlines for the various sub-regions as follows
 
 .. csv-table:: Schedule
    :file: tables/schedule.csv
    :widths: 20, 80
 
-Schedule is monitored weekly meetings, which dates agreed Thursday at 10.00
+Schedule is monitored in weekly meetings, which are held on Thursdays at 10 o'clock.
 
 
 Data Collecting
