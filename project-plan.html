@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Project Plan &mdash; 3D Reconstruction from Images</title>
+  <meta name="author" content="Jaan Tollander de Balsch">
+
+
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://jaantollander.github.io/SCI-C1000/favicon.png" rel="icon">
+
+  <link href="https://jaantollander.github.io/SCI-C1000/theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="https://jaantollander.github.io/SCI-C1000/">3D Reconstruction from Images</a></h1>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
+
+
+<ul class="main-navigation">
+    <li><a href="https://jaantollander.github.io/SCI-C1000">Home Page</a></li>
+      <li><a href="https://jaantollander.github.io/SCI-C1000/pages/about.html">About</a></li>
+      <li><a href="https://jaantollander.github.io/SCI-C1000/pages/contact.html">Contact</a></li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Project Plan</h1>
+    <p class="meta">
+<time datetime="2016-10-14T00:00:00+03:00" pubdate>2016-10-14</time>    </p>
+</header>
+
+  <div class="entry-content"><div class="figure" style="width: 100%">
+<img alt="pöhinä_garages" src="images/2016-10-14_10-37-27.jpg" />
+</div>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>For outdoor use GPS (Global Positioning System) developed by USA has established itself as a standard for locating objects and people. Unfortunately indoors GPS does not often work and the accuracy is not enough for many applications. There are many alternative methods for indoor navigation that are based on different technologies such as Wi-Fi station triangulation or fingerprint locating or observing Earth's magnetic field. However, the lack of unified wireless infrastructure and standardisation interferes suitability of these technologies.</p>
+<p>Rapidly developing computing power of handheld devices enables new kinds of sophisticated solutions to locate users indoors. Technique called <em>Structure from Motion (SFM)</em> makes it possible to form 3D model based on photographs or video images taken from several different locations and directions. Profiling points are identified from the photographs and 3D point cloud can be formed. This is used to construct the 3-dimensional model. When we later take photographs of the space, the location of the camera is possible to identify with significant accuracy from generated 3D model.</p>
+<p>Clear strength compared when SFM technology to other indoor positioning methods is that it works reliably, for example, using a standard smartphone camera. Both the formation of the model and utilization are possible with existing and affordable devices. Also, there is no need  for separately installing expensive infrastructure in the space where indoor navigation is used.</p>
+<p>The purpose of this project is to find out</p>
+<ul class="simple">
+<li>Is photograph based positioning indoor positioning system a viable option?</li>
+<li>Can this technology achieve adequate accuracy with available consumer devices such as smartphone cameras?</li>
+<li>Who would be willing to pay for such a service, and what kind of synergies it would have, for example, with advertising, or in a context of mobile games?</li>
+<li>We are also investigating wheter a small-scale prototype is realistic in the conclusion of the project.</li>
+</ul>
+</div>
+<div class="section" id="potential-customers-and-end-users">
+<h2>Potential Customers and End users</h2>
+<p>We try to direct the main focus of the project for solving a mundane and practical problems related to indoor positioning. Then end-users would likely be ordinary consumers. Indoor positioning with technique described above is possible to implement with many devices available to consumers so we can see the most potential in a commercial consumer products.</p>
+<p>One of the main customer groups are shopping centers and major hypermarket-class shops, which could take advantage of indoor positioning to provide a better customer experience, guidance service and presentation of advertisements. In addition to shops other large public places, such as museums might be interested in the possibilities for increasing the AR-elements to improve the customer experience. Elements in augmented reality could be signs, but also various commercials and reconstructions to provide customers with much wider than usual museum experience.</p>
+<p>In addition to customers that utilize alternate reality it could also be used to create high-speed 3D-models of limited size interior of buildings, for example, the virtual presentation of apartments. In this case, the advantage would be particularly affordability and ease of use, because the modeling is based entirely on the existing technology.</p>
+</div>
+<div class="section" id="scope-of-the-project">
+<h2>Scope of the project</h2>
+<div class="figure" style="width: 100%">
+<img alt="pöhinä2" src="images/2016-10-14_11-51-36.jpg" />
+</div>
+<p>We will make a brief statement of interest of retail stores in new positioning methods, as well as interview customers to find out problems they have encountered and potential solutions more efficient positioning solutions can bring to them. Based on the analysis we seek to create a demo based on SFM technology and present a business model.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Time usage</td>
+<td>hour / person</td>
+</tr>
+<tr><td>Lectures and Presentations</td>
+<td>150</td>
+</tr>
+<tr><td>Meetings</td>
+<td>150</td>
+</tr>
+<tr><td>Information Collecting</td>
+<td>200</td>
+</tr>
+<tr><td>Interviews</td>
+<td>200</td>
+</tr>
+<tr><td>Programming, Modelling and Testing</td>
+<td>150</td>
+</tr>
+<tr><td>Documenting and Reporting</td>
+<td>50</td>
+</tr>
+<tr><td>Blog</td>
+<td>100</td>
+</tr>
+<tr><td>Total</td>
+<td>1000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="schedule-and-milestones">
+<h2>Schedule and Milestones</h2>
+<p>The project schedule is set to according scheduling based on the course. We have set a deadlines for the various sub-regions as follows</p>
+<table border="1" class="docutils">
+<caption>Schedule</caption>
+<colgroup>
+<col width="20%" />
+<col width="80%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Week</td>
+<td>Tasks</td>
+</tr>
+<tr><td>42</td>
+<td>Understanding the theoretical bases of the subject</td>
+</tr>
+<tr><td>42</td>
+<td>Booking of interviews (e-mail)</td>
+</tr>
+<tr><td>43</td>
+<td>Study of customers' interest and interviews of</td>
+</tr>
+<tr><td>44</td>
+<td>Presentation 3 - presentation Guest interests and needs,</td>
+</tr>
+<tr><td>45</td>
+<td>The interviews were analyzed and the final decision about the application of</td>
+</tr>
+<tr><td>46</td>
+<td>Presentation 4 - presentation of business potential,</td>
+</tr>
+<tr><td>47</td>
+<td>Model ready</td>
+</tr>
+<tr><td>48</td>
+<td>Paragraph 5 - General Practice</td>
+</tr>
+</tbody>
+</table>
+<p>Schedule is monitored weekly meetings, which dates agreed Thursday at 10.00</p>
+</div>
+<div class="section" id="data-collecting">
+<h2>Data Collecting</h2>
+<p>The collection of data is divided into two main phases: the formation of the theoretical basis based on the articles and fieldwork in the form of interviews. In the first phase, the objective is to provide a comprehensive overview of the current state of technology, the opportunities and challenges as well as create a realistic idea of the level of complexity for the produced demo. Articles form the basis of the concepts of the interviews. The interviews will be carried out either by phone or physically on site and, depending on the location of the interviewee's schedule. The purpose of the interviews is to identify the potential customer interest in the concept and at the same time to get a new perspective for the development of the concept. The final concept and demo is created on the basis of issues and areas of development raised in the interviews .</p>
+</div>
+<div class="section" id="risks">
+<h2>Risks</h2>
+<p>We have mapped the risks related to the project and to prepare for them as follows</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="40%" />
+<col width="20%" />
+<col width="40%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Risks related to the project</td>
+<td>The level of risk</td>
+<td>Measures to prevent</td>
+</tr>
+<tr><td>Complexity of the prototype</td>
+<td>Large</td>
+<td>Detection of its feasibility early enough.</td>
+</tr>
+<tr><td>Data loss</td>
+<td>Medium</td>
+<td>Version Management / Backup</td>
+</tr>
+<tr><td>Male labor force reduction</td>
+<td>Small</td>
+<td>Is noted when planning schedules</td>
+</tr>
+<tr><td>Failure of the scheduling</td>
+<td>Medium-sized</td>
+<td>Sub-project Monitoring the progress of our weekly meetings</td>
+</tr>
+<tr><td>The interviewees can not be found</td>
+<td>Small</td>
+<td>In due time started searching for the interviewees a large number of the interviewees</td>
+</tr>
+<tr><td>The interviews are not useful</td>
+<td>Small</td>
+<td>Carefully prepared questions, in order to obtain answers to the problems being</td>
+</tr>
+<tr><td>Time management</td>
+<td>Small</td>
+<td>The division of responsibilities, scheduling and deadlines, a weekly focus of evaluation</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="responsibilities">
+<h2>Responsibilities</h2>
+<p>Our group consists of seven people, whom we have shared responsibilities roughly as follows. The division of responsibility is indicative only, and not on the basis not intended to form a significantly differing roles within the group. The idea is that each take on the role of a little more of said sub-region while the other in the best possible way of subsidies.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Aapo</td>
+<td>Interviews, photographing, stand</td>
+</tr>
+<tr><td>Markus</td>
+<td>Interviews, documenting, presentations</td>
+</tr>
+<tr><td>Jaan</td>
+<td>Blog, modelling, testing</td>
+</tr>
+<tr><td>Misamatti</td>
+<td>Modelling, data collection, leading the team</td>
+</tr>
+<tr><td>Antti</td>
+<td>Analysis from the Interviews, Interviewing</td>
+</tr>
+<tr><td>Lauri</td>
+<td>Data collection, interviews</td>
+</tr>
+<tr><td>Juhani</td>
+<td>Data collection, modelling</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Jaan Tollander de Balsch
+    </span>
+  </span>
+<time datetime="2016-10-14T00:00:00+03:00" pubdate>2016-10-14</time>  <span class="categories">
+    <a class='category' href='https://jaantollander.github.io/SCI-C1000/category/misc.html'>misc</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/project-plan.html">Project Plan</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/meeting-with-professor-antti-yla-jaaski.html">Meeting with Professor Antti Ylä-Jääski</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/first-group-meeting.html">First Group Meeting</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/week-1-starting-up.html">Week 1: Starting Up</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/group-meeting.html">Group Meeting</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/meeting-with-professor.html">Meeting with professor</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/misc.html">misc</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/starting-up.html">Starting up</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>  </section>
+
+
+    <section>
+        <h1>Social</h1>
+        <ul>
+            <li><a href="https://github.com/jaantollander/SCI-C1000" target="_blank">GitHub Repository</a></li>
+        </ul>
+    </section>
+
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2016  Jaan Tollander de Balsch &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/modernizr-2.0.js"></script>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/ender.js"></script>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var disqus_shortname = 'sci-c1000';
+    var disqus_identifier = '/project-plan.html';
+    var disqus_url = 'https://jaantollander.github.io/SCI-C1000/project-plan.html';
+    var disqus_title = 'Project Plan';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
+</body>
+</html>
