@@ -1,7 +1,7 @@
 Project Plan
 ============
 
-:date: 2016-10-13
+:date: 2016-10-14
 :slug: project-plan
 :tags: Week 2, project plan
 :authors: Jaan Tollander de Balsch
@@ -9,7 +9,8 @@ Project Plan
 
 Introduction
 ------------
-.. image:: images/2016-10-14_10-37-27.jpg
+.. figure:: images/2016-10-14_10-37-27.jpg
+   :figwidth: 100%
    :alt: pöhinä_garages
 
 In outdoors GPS (Global Positioning System) developed by USA has established itself for locating objects and people. Unfortunately indoors GPS does not work often and the accuracy is not enough for many applications.There are many alternative methods for indoor navigation that are based on different technologies such as Wi-Fi station triangulation or fingerprint locating or observing Earth's magnetic field. However, the lack of unified wireless infrastructure and standardisation interferes suitability of these technologies.
