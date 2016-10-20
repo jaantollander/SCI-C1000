@@ -46,7 +46,7 @@ DEFAULT_PAGINATION = 10
 
 # SETTINGS
 MENUITEMS = [('Home Page', '/')]
-STATIC_PATHS = ['images', 'figures', 'downloads', 'tables', 'favicon.png']
+STATIC_PATHS = ['images', 'figures', 'downloads', 'tables', 'favicon.png', 'logo.png']
 
 # Themes and Plugins
 THEME = 'pelican-themes/octopress'
@@ -55,3 +55,6 @@ PLUGINS = ['render_math', ]
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
+
+SIDEBAR_IMAGE = "logo.png"
+SIDEBAR_IMAGE_ALT = "logo"

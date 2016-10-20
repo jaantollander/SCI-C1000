@@ -7,3 +7,4 @@ typogrify
 Markdown
 livereload
 Fabric
+ghp-import
