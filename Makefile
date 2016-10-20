@@ -129,12 +129,14 @@ DATE := $(shell date +'%Y-%m-%d')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 EXT ?= rst
 
-# FIXME
 newpost:
 ifdef NAME
-		echo ":title: $(NAME)" >  $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ":slug: $(SLUG)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo "$(NAME)" >  $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		echo ":date: $(DATE)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo ":slug: $(SLUG)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo ":tags:" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		echo ":authors:" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
 		${EDITOR} ${INPUTDIR}/${DATE}-${SLUG}.${EXT} &
@@ -143,34 +145,6 @@ else
 		@echo 'Do make newpost NAME='"'"'Post Name'"'"
 endif
 
-editpost:
-ifdef NAME
-		${EDITOR} ${INPUTDIR}/${SLUG}.${EXT} &
-else
-		@echo 'Variable NAME is not defined.'
-		@echo 'Do make editpost NAME='"'"'Post Name'"'"
-endif
-
-newpage:
-ifdef NAME
-		echo "Title: $(NAME)" >  $(PAGESDIR)/$(SLUG).$(EXT)
-		echo "Slug: $(SLUG)" >> $(PAGESDIR)/$(SLUG).$(EXT)
-		echo ""			  >> $(PAGESDIR)/$(SLUG).$(EXT)
-		echo ""			  >> $(PAGESDIR)/$(SLUG).$(EXT)
-		${EDITOR} ${PAGESDIR}/${SLUG}.$(EXT)
-else
-		@echo 'Variable NAME is not defined.'
-		@echo 'Do make newpage NAME='"'"'Page Name'"'"
-endif
-
-editpage:
-ifdef NAME
-		${EDITOR} ${PAGESDIR}/${SLUG}.$(EXT)
-else
-		@echo 'Variable NAME is not defined.'
-		@echo 'Do make editpage NAME='"'"'Page Name'"'"
-endif
-
 
 # What commands are available
-.PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github newpost editpost editpage
+.PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github newpost
