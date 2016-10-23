@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Notes on SFM and Image Based Navigation Research &mdash; 3D Reconstruction from Images</title>
+  <meta name="author" content="Jaan Tollander de Balsch">
+
+
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://jaantollander.github.io/SCI-C1000/favicon.png" rel="icon">
+
+  <link href="https://jaantollander.github.io/SCI-C1000/theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="https://jaantollander.github.io/SCI-C1000/">3D Reconstruction from Images</a></h1>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
+
+
+<ul class="main-navigation">
+    <li><a href="https://jaantollander.github.io/SCI-C1000">Home Page</a></li>
+      <li><a href="https://jaantollander.github.io/SCI-C1000/pages/about.html">About</a></li>
+      <li><a href="https://jaantollander.github.io/SCI-C1000/pages/contact.html">Contact</a></li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Notes on SFM and Image Based Navigation Research</h1>
+    <p class="meta">
+<time datetime="2016-10-23T00:00:00+03:00" pubdate>2016-10-23</time>    </p>
+</header>
+
+  <div class="entry-content"><div class="figure">
+<img alt="image of iMoon software" src="images/2016-10-23_17-43-47_imoon.jpg" />
+</div>
+<p>During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (<a class="reference external" href="https://www.youtube.com/watch?v=sNvf7N_s59c&amp;feature=youtu.be">youtube</a>) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues <a class="citation-reference" href="#imoon" id="id1">[iMoon]</a>.</p>
+<p>Indoor navigation is a topic that has been researched for several decades. Yet there isn’t a solution that could be widely utilized in every environment, for floor plans of public buildings are either not detailed enough or are not kept up to date. Many other methods also need a specific and often expensive infrastructure to be installed in the location. Thus an alternate method is direly needed. The method should be able to adapt to constantly changing environments and be efficient at the same time. Ylä-Jääski’s research group is developing a method to achieve the aforementioned requirements.</p>
+<p>iMoon technology is based on generating 3D-models from multiple pictures taken from a space and then matching new pictures with the model to determine a location. The model is generated using Structure from Motion technology which provides a point cloud of the environment. The photos can be crowdsourced and taken with differing equipment. While users take new photos to determine their location, these photos are also used to update the model.</p>
+<p>Because of varying quality and locations of crowdsourced photos, it’s unlikely that every corner of the area is covered in many good quality photos. This being the case, iMoon first creates new separate model from new images and then tries to merge separate model with existing one by comparing details in both models. This way the model can also adapt to small changes in environment caused by eg. moving furniture and other objects.</p>
+<p>iMoon also utilizes other technologies in addition to locating the user with pictures. This is necessary to keep the computation time at minimum and to provide a pleasant user experience. The time complexity of calculations increase with respect to the size of the model for more points need to compared with one another. In order to narrow down the raw location of the user iMoon uses Wi-Fi fingerprinting with K-nearest neighbours algorithm.</p>
+<p>In addition to Wi-fi fingerprinting, iMoon also utilizes user provided trajectories to generate original model and later increase navigation accuracy. Using information from motion sensors available in various smartphones, iMoon can calculate distance user has walked from last known location. The research group found out that the use of trajectories significantly improves performance of the service and quality of the generated model.</p>
+<p>iMoon is also capable of calculating navigation instructions and presenting them on top of existing images, which can be seen on youtube video linked earlier. Embedded navigation have positive impact on user friendliness, but they also provide base for using application with smart glasses like Google Glasses.</p>
+<p>The most relevant advantage of iMoon is that it runs on regular smartphones. This makes the technology affordable and user friendly. When compared to pure Wi-Fi positioning and image based positioning without Wi-Fi fingerprinting or user trajectories, iMoon clearly outperformed Wi-Fi positioning in every aspect, but was not significantly more accurate than pure image-based positioning. Both of them were able to locate user from <span class="math">\(95%\)</span> of the photos sent with <span class="math">\(2\)</span> meters of location error and <span class="math">\(6\)</span> degrees of facing direction error. The main question here is about performance, and that’s where iMoon is superior when compared to pure image-based positioning. On average, iMoon was able to locate user in under <span class="math">\(4\)</span> seconds but reference implementation took over <span class="math">\(40\)</span> seconds, which is far from acceptable when considering actually usable system that someone would actually pay something.</p>
+<p>There are also many other technologies to use for indoor positioning, like Bluetooth beacons and analyzing magnetic field. We’ll do a bit more research before presenting those in detail, but we’ll get back to them in the next post.</p>
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="imoon" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[iMoon]</a></td><td>Dong, J., Xiao, Y., Noreikis, M., Ou, Z., &amp; Ylä-Jääski, A. (2015). iMoon : Using Smartphones for Image-based Indoor Navigation Categories and Subject Descriptors. Proceedings of the ACM Conference on Embedded Networked Sensor Systems, 85–97. <a class="reference external" href="http://doi.org/10.1145/2809695.2809722">http://doi.org/10.1145/2809695.2809722</a></td></tr>
+</tbody>
+</table>
+</div>
+<script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Jaan Tollander de Balsch
+    </span>
+  </span>
+<time datetime="2016-10-23T00:00:00+03:00" pubdate>2016-10-23</time>  <span class="categories">
+    <a class='category' href='https://jaantollander.github.io/SCI-C1000/category/misc.html'>misc</a>
+  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+	  <img src="https://jaantollander.github.io/SCI-C1000/logo.png" alt="logo" width=""/> 
+  </section>
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/research.html">Notes on SFM and Image Based Navigation Research</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/project-plan.html">Project plan</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/meeting-with-professor-antti-yla-jaaski.html">Meeting with Professor Antti Ylä-Jääski</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/first-group-meeting.html">First Group Meeting</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/week-1-starting-up.html">Week 1: Starting Up</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/group-meeting.html">Group Meeting</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/meeting-with-professor.html">Meeting with professor</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/misc.html">misc</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/starting-up.html">Starting up</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>  </section>
+
+
+    <section>
+        <h1>Social</h1>
+        <ul>
+            <li><a href="https://github.com/jaantollander/SCI-C1000" target="_blank">GitHub Repository</a></li>
+        </ul>
+    </section>
+
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2016  Jaan Tollander de Balsch &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/modernizr-2.0.js"></script>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/ender.js"></script>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var disqus_shortname = 'sci-c1000';
+    var disqus_identifier = '/research.html';
+    var disqus_url = 'https://jaantollander.github.io/SCI-C1000/research.html';
+    var disqus_title = 'Notes on SFM and Image Based Navigation Research';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
+</body>
+</html>

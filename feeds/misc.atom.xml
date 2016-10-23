@@ -1,5 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>3D Reconstruction from Images</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/misc.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-10-14T00:00:00+03:00</updated><entry><title>Project plan</title><link href="https://jaantollander.github.io/SCI-C1000/project-plan.html" rel="alternate"></link><published>2016-10-14T00:00:00+03:00</published><updated>2016-10-14T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-14:SCI-C1000/project-plan.html</id><summary type="html">&lt;div class="figure" style="width: 100%"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>3D Reconstruction from Images</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/misc.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-10-23T00:00:00+03:00</updated><entry><title>Notes on SFM and Image Based Navigation Research</title><link href="https://jaantollander.github.io/SCI-C1000/research.html" rel="alternate"></link><published>2016-10-23T00:00:00+03:00</published><updated>2016-10-23T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-23:SCI-C1000/research.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="image of iMoon software" src="images/2016-10-23_17-43-47_imoon.jpg" /&gt;
+&lt;/div&gt;
+&lt;p&gt;During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (&lt;a class="reference external" href="https://www.youtube.com/watch?v=sNvf7N_s59c&amp;amp;feature=youtu.be"&gt;youtube&lt;/a&gt;) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues &lt;a class="citation-reference" href="#imoon" id="id1"&gt;[iMoon]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Indoor navigation is a topic that has been researched for several decades. Yet there isn’t a solution that could be widely utilized in every environment, for floor plans of public buildings are either not detailed enough or are not kept up to date. Many other methods also need a specific and often expensive infrastructure to be installed in the location. Thus an alternate method is direly needed. The method should be able to adapt to constantly changing environments and be efficient at the same time. Ylä-Jääski’s research group is developing a method to achieve the aforementioned requirements.&lt;/p&gt;
+&lt;p&gt;iMoon technology is based on generating 3D-models from multiple pictures taken from a space and then matching new pictures with the model to determine a location. The model is generated using Structure from Motion technology which provides a point cloud of the environment. The photos can be crowdsourced and taken with differing equipment. While users take new photos to determine their location, these photos are also used to update the model.&lt;/p&gt;
+&lt;p&gt;Because of varying quality and locations of crowdsourced photos, it’s unlikely that every corner of the area is covered in many good quality photos. This being the case, iMoon first creates new separate model from new images and then tries to merge separate model with existing one by comparing details in both models. This way the model can also adapt to small changes in environment caused by eg. moving furniture and other objects.&lt;/p&gt;
+&lt;p&gt;iMoon also utilizes other technologies in addition to locating the user with pictures. This is necessary to keep the computation time at minimum and to provide a pleasant user experience. The time complexity of calculations increase with respect to the size of the model for more points need to compared with one another. In order to narrow down the raw location of the user iMoon uses Wi-Fi fingerprinting with K-nearest neighbours algorithm.&lt;/p&gt;
+&lt;p&gt;In addition to Wi-fi fingerprinting, iMoon also utilizes user provided trajectories to generate original model and later increase navigation accuracy. Using information from motion sensors available in various smartphones, iMoon can calculate distance user has walked from last known location. The research group found out that the use of trajectories significantly improves performance of the service and quality of the generated model.&lt;/p&gt;
+&lt;p&gt;iMoon is also capable of calculating navigation instructions and presenting them on top of existing images, which can be seen on youtube video linked earlier. Embedded navigation have positive impact on user friendliness, but they also provide base for using application with smart glasses like Google Glasses.&lt;/p&gt;
+&lt;p&gt;The most relevant advantage of iMoon is that it runs on regular smartphones. This makes the technology affordable and user friendly. When compared to pure Wi-Fi positioning and image based positioning without Wi-Fi fingerprinting or user trajectories, iMoon clearly outperformed Wi-Fi positioning in every aspect, but was not significantly more accurate than pure image-based positioning. Both of them were able to locate user from &lt;span class="math"&gt;\(95%\)&lt;/span&gt; of the photos sent with &lt;span class="math"&gt;\(2\)&lt;/span&gt; meters of location error and &lt;span class="math"&gt;\(6\)&lt;/span&gt; degrees of facing direction error. The main question here is about performance, and that’s where iMoon is superior when compared to pure image-based positioning. On average, iMoon was able to locate user in under &lt;span class="math"&gt;\(4\)&lt;/span&gt; seconds but reference implementation took over &lt;span class="math"&gt;\(40\)&lt;/span&gt; seconds, which is far from acceptable when considering actually usable system that someone would actually pay something.&lt;/p&gt;
+&lt;p&gt;There are also many other technologies to use for indoor positioning, like Bluetooth beacons and analyzing magnetic field. We’ll do a bit more research before presenting those in detail, but we’ll get back to them in the next post.&lt;/p&gt;
+&lt;div class="section" id="references"&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;table class="docutils citation" frame="void" id="imoon" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[iMoon]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dong, J., Xiao, Y., Noreikis, M., Ou, Z., &amp;amp; Ylä-Jääski, A. (2015). iMoon : Using Smartphones for Image-based Indoor Navigation Categories and Subject Descriptors. Proceedings of the ACM Conference on Embedded Networked Sensor Systems, 85–97. &lt;a class="reference external" href="http://doi.org/10.1145/2809695.2809722"&gt;http://doi.org/10.1145/2809695.2809722&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary></entry><entry><title>Project plan</title><link href="https://jaantollander.github.io/SCI-C1000/project-plan.html" rel="alternate"></link><published>2016-10-14T00:00:00+03:00</published><updated>2016-10-14T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-14:SCI-C1000/project-plan.html</id><summary type="html">&lt;div class="figure" style="width: 100%"&gt;
 &lt;img alt="pöhinä_garages" src="images/2016-10-14_10-37-27.jpg" /&gt;
 &lt;/div&gt;
 &lt;div class="section" id="introduction"&gt;
