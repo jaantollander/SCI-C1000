@@ -11,21 +11,19 @@ Comparison Between Indoor Navigation Systems
    :alt: image of comparison
 
 
-On the market there exist numerous competing methods for indoor localization, some more similar with our model than others. In this blog post these methods are compared technically.
+There exits numerous competing methods for indoor navigation on the market, some more similar with out model than others. In this blog post these method are compared technically
 
 
 WIFI Triangulation
 ------------------
-WiFi-positioning system builds on two things: the received signal strength of the device being positioned and the *fingerprint* of the WiFi router sending the signal. This fingerprint can be, for example, the SSID or the MAC address of the WiFi router. In order to get positioning data with this system, the indoor areas have to mapped with fingerprint/signal strength data matching some places and interpolating the data between the measured locations. Thus the accuracy of this method is dependent on the stability of the signal strength and the number of fingerprint/signal strength pairs.
-
+WiFi-positioning systems are built on two things: the received **signal strength** of the device being positioned and the **fingerprint** of the WiFi router sending the signal. This fingerprint can be, for example, the SSID [#]_ or the MAC address [#]_ of the WiFi router. In order to get positioning data with this system, the indoor areas have to be mapped with fingerprint/signal strength data matching some places and interpolating the data between the measured locations. Thus the accuracy of this method is dependent on the stability of the signal strength and the number of fingerprint/signal strength pairs.
 
 The strengths of this positioning method include the fact that it relies on existing infrastructure: WiFi can be nowadays found in almost any building. This method also ensures that the device making the location query can be connected to the database enabling the positioning, as without WiFi there is no positioning system at all. This positioning system can also be used in Internet of Things objects as most of them connect to the internet wirelessly anyway.
 
-
 As for weaknesses, the system needs WiFi to function, and in a world of near ubiquitous mobile networks (at least in Finland), the lack of WiFi in order to get positioning data is not that big of a problem. The accuracy of some systems is also of question, although some very accurate systems have been developed, such as the award winning `Anyplace`_, which claims accuracy of less than 2 m. The initial layout of the building has to be created externally before the system can be deployed and as everyone surely knows, WiFi signals are sometimes finicky especially in rooms with thick walls.
 
-
-
+.. [#] Service set identifier (SSID)
+.. [#] A media access control address (MAC adress)
 
 Bluetooth Beacons
 -----------------
@@ -43,12 +41,14 @@ Magnetic Field Measurement
 Modern smartphones have quite excellent components to measure magnetic field in order to optimise connectivity. They are so accurate, in fact, that within a scope of a building there are very detectable fluctuations in surrounding magnetic field due to Earth’s own field as well as fields created by man-made devices. Thus each building has it’s own magnetic fingerprint and if the device knows which building it’s in, it can position itself by comparing its perceived magnetic field with a magnetic map of the building.
 
 
-This technique doesn’t need any infrastructure in order to function save the initial mapping of the magnetic field within the building. This process can be crowdsourced, as all one needs to map a building with an API is a smartphone with a working magnetic field strength meter. This means also that any device positioning itself with this technique can also be used to update the magnetic map, reducing the costs or altogether eliminating the need for external updates. A Finnish company, Indoor Atlas, developing this technique claims accuracy of less than 2 meters.
+This technique doesn’t need any infrastructure in order to function save the initial mapping of the magnetic field within the building. This process can be crowdsourced, as all one needs to map a building with an API is a smartphone with a working magnetic field strength meter. This means also that any device positioning itself with this technique can also be used to update the magnetic map, reducing the costs or altogether eliminating the need for external updates. A Finnish company, `Indoor Atlas`_, developing this technique claims accuracy of less than 2 meters.
 
 
-Pedestrian Dead Reckoning
--------------------------
-Almost all smart devices come equipped with rather accurate acceleration sensors. Pedestrian dead reckoning techniques (here abbreviated PDR) use these sensors to pick up positioning from the point where GPS signal is lost i.e. when entering a building. Individual steps taken by the user produce a certain kind of acceleration pattern and by approximating step length, the distance travelled can be measured with decent accuracy. Combining the step data with readings from the devices compass, the route taken by the device indoors can be reconstructed yielding the current position of the device. This technique is utilized in for example, aircraft.
+
+
+Pedestrian Dead Reckoning (PDR)
+-------------------------------
+Almost all smart devices come equipped with rather accurate acceleration sensors. Pedestrian dead reckoning techniques use these sensors to pick up positioning from the point where GPS signal is lost i.e. when entering a building. Individual steps taken by the user produce a certain kind of acceleration pattern and by approximating step length, the distance travelled can be measured with decent accuracy. Combining the step data with readings from the devices compass, the route taken by the device indoors can be reconstructed yielding the current position of the device. This technique is utilized in for example, aircraft.
 
 
 The strengths of this technique include the fact that only the end device is needed: if the device knows at some point its exact location (for example outside using GPS) it can approximate its route theoretically indefinitely even without an internet connection.
@@ -71,17 +71,18 @@ Summary
 .. csv-table::
 
    "**Name**", "**Accuracy**", "**Infrastructure**", "**Maintenance**", "**Power Source**", "**Other**"
-   "*WIFI Triangulation*", ":math:`5-30\,\mathrm{m}` [1]_", "Usually existing", "Remapping", "Device battery + AC", "Relies on existing infrastructure"
+   "*WIFI Triangulation*", ":math:`5-30\,\mathrm{m}` [#]_", "Usually existing", "Remapping", "Device battery + AC", "Relies on existing infrastructure"
    "*Bluetooth Beacons*", ":math:`2-30\,\mathrm{m}`", "Hardware installation, Device management", "Remapping", "Device battery + AC", ""
    "*Magnetic Field Measurement*", ":math:`2\,\mathrm{m}`", "API + initial magnetic mapping", "Crowdsourced", "Device battery", ""
    "*Pedestrian Dead Reckoning*", "Varies", "None", "Crowdsourced", "Device battery", "No additional devices / services needed"
    "*Point-cloud from Images*", ":math:`5\,\mathrm{m}`", "API + initial photoshoot", "Crowdsourced", "Device battery", "Creates 3D model to be used with AR etc."
 
 .. Footnotes
-.. [1] depending on algorithms (>2m claimed by `Anyplace`_)
+.. [#] depending on algorithms (>2m claimed by `Anyplace`_)
 
 .. Links
 .. _Anyplace: https://anyplace.cs.ucy.ac.cy/
+.. _Indoor Atlas: https://www.indooratlas.com/
 
 
 References
