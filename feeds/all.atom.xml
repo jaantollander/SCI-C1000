@@ -1,5 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>3D Reconstruction from Images</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/all.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-10-23T00:00:00+03:00</updated><entry><title>Notes on SFM and Image Based Navigation Research</title><link href="https://jaantollander.github.io/SCI-C1000/research.html" rel="alternate"></link><published>2016-10-23T00:00:00+03:00</published><updated>2016-10-23T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-23:SCI-C1000/research.html</id><summary type="html">&lt;div class="figure"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>3D Reconstruction from Images</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/all.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-10-28T00:00:00+03:00</updated><entry><title>Comparison Between Indoor Navigation Systems</title><link href="https://jaantollander.github.io/SCI-C1000/comparison.html" rel="alternate"></link><published>2016-10-28T00:00:00+03:00</published><updated>2016-10-28T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-28:SCI-C1000/comparison.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;img alt="image of comparison" src="figures/comparison.png" /&gt;
+&lt;/div&gt;
+&lt;p&gt;There exits numerous competing methods for indoor navigation on the market, some more similar with out model than others. In this blog post these method are compared technically&lt;/p&gt;
+&lt;div class="section" id="wifi-triangulation"&gt;
+&lt;h2&gt;WIFI Triangulation&lt;/h2&gt;
+&lt;p&gt;WiFi-positioning systems are built on two things: the received &lt;strong&gt;signal strength&lt;/strong&gt; of the device being positioned and the &lt;strong&gt;fingerprint&lt;/strong&gt; of the WiFi router sending the signal. This fingerprint can be, for example, the SSID &lt;a class="footnote-reference" href="#id3" id="id1"&gt;[1]&lt;/a&gt; or the MAC address &lt;a class="footnote-reference" href="#id4" id="id2"&gt;[2]&lt;/a&gt; of the WiFi router. In order to get positioning data with this system, the indoor areas have to be mapped with fingerprint/signal strength data matching some places and interpolating the data between the measured locations. Thus the accuracy of this method is dependent on the stability of the signal strength and the number of fingerprint/signal strength pairs.&lt;/p&gt;
+&lt;p&gt;The strengths of this positioning method include the fact that it relies on existing infrastructure: WiFi can be nowadays found in almost any building. This method also ensures that the device making the location query can be connected to the database enabling the positioning, as without WiFi there is no positioning system at all. This positioning system can also be used in Internet of Things objects as most of them connect to the internet wirelessly anyway.&lt;/p&gt;
+&lt;p&gt;As for weaknesses, the system needs WiFi to function, and in a world of near ubiquitous mobile networks (at least in Finland), the lack of WiFi in order to get positioning data is not that big of a problem. The accuracy of some systems is also of question, although some very accurate systems have been developed, such as the award winning &lt;a class="reference external" href="https://anyplace.cs.ucy.ac.cy/"&gt;Anyplace&lt;/a&gt;, which claims accuracy of less than 2 m. The initial layout of the building has to be created externally before the system can be deployed and as everyone surely knows, WiFi signals are sometimes finicky especially in rooms with thick walls.&lt;/p&gt;
+&lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Service set identifier (SSID)&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id4" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;A media access control address (MAC adress)&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bluetooth-beacons"&gt;
+&lt;h2&gt;Bluetooth Beacons&lt;/h2&gt;
+&lt;p&gt;Another method for indoor positioning is the use of Bluetooth beacons scattered throughout the building in question. This method is in use for example at the main building here in Otaniemi in tandem with the Aalto Space app. The technique works rather simply: bluetooth low energy beacons are installed to a structure and their locations measured. As a device tries to determine its location with this technique, it simply triangulates its position using the received signal strength and individual fingerprints of the bluetooth beacons.&lt;/p&gt;
+&lt;p&gt;The system is accurate and bluetooth functionality is found on most devices. Otherwise its strengths are similar to those of the WiFi technique: bluetooth connectivity can be found on most devices which also have WiFi.&lt;/p&gt;
+&lt;p&gt;The weaknesses of this system are the need to install new hardware into the building as well as the need to maintain said hardware. Bluetooth signal range is also shorter than that of WiFi.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="magnetic-field-measurement"&gt;
+&lt;h2&gt;Magnetic Field Measurement&lt;/h2&gt;
+&lt;p&gt;Modern smartphones have quite excellent components to measure magnetic field in order to optimise connectivity. They are so accurate, in fact, that within a scope of a building there are very detectable fluctuations in surrounding magnetic field due to Earth’s own field as well as fields created by man-made devices. Thus each building has it’s own magnetic fingerprint and if the device knows which building it’s in, it can position itself by comparing its perceived magnetic field with a magnetic map of the building.&lt;/p&gt;
+&lt;p&gt;This technique doesn’t need any infrastructure in order to function save the initial mapping of the magnetic field within the building. This process can be crowdsourced, as all one needs to map a building with an API is a smartphone with a working magnetic field strength meter. This means also that any device positioning itself with this technique can also be used to update the magnetic map, reducing the costs or altogether eliminating the need for external updates. A Finnish company, &lt;a class="reference external" href="https://www.indooratlas.com/"&gt;Indoor Atlas&lt;/a&gt;, developing this technique claims accuracy of less than 2 meters.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pedestrian-dead-reckoning-pdr"&gt;
+&lt;h2&gt;Pedestrian Dead Reckoning (PDR)&lt;/h2&gt;
+&lt;p&gt;Almost all smart devices come equipped with rather accurate acceleration sensors. Pedestrian dead reckoning techniques use these sensors to pick up positioning from the point where GPS signal is lost i.e. when entering a building. Individual steps taken by the user produce a certain kind of acceleration pattern and by approximating step length, the distance travelled can be measured with decent accuracy. Combining the step data with readings from the devices compass, the route taken by the device indoors can be reconstructed yielding the current position of the device. This technique is utilized in for example, aircraft.&lt;/p&gt;
+&lt;p&gt;The strengths of this technique include the fact that only the end device is needed: if the device knows at some point its exact location (for example outside using GPS) it can approximate its route theoretically indefinitely even without an internet connection.&lt;/p&gt;
+&lt;p&gt;The main weakness of the system is the accumulation of error: as each movement of the device is approximated and the route is constructed using a chain of these approximations, each step building on the last, eventually the position given by the system will be useless, even with small individual errors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="point-cloud-from-images"&gt;
+&lt;h2&gt;Point-cloud from Images&lt;/h2&gt;
+&lt;p&gt;The subject of this SCI-project, as one can read from previous posts, works by forming a point cloud based on images captured within the structure. When a device makes a location query by uploading a new photo of the interior of the building to the server, the image is compared with the existing point cloud, key features within the image are gathered and the location of the camera is solved as an  inversion problem. The new image is added to the point cloud.&lt;/p&gt;
+&lt;p&gt;The main selling points of this technology are similar to those of magnetic field measurement: it needs no infrastructure and the updating and initial mapping of the structure can be crowdsourced. However, with this technique a full 3D model of the structure is constructed as opposed to a simple 2D map. This offers many applications beyond simple positioning, such as augmented reality guidance overlaid on the 3D model (guiding a shopper towards a product on the aisles of a store, for example).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Accuracy&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Infrastructure&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Maintenance&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Power Source&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Other&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;WIFI Triangulation&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="math"&gt;\(5-30\,\mathrm{m}\)&lt;/span&gt; &lt;a class="footnote-reference" href="#id6" id="id5"&gt;[3]&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Usually existing&lt;/td&gt;
+&lt;td&gt;Remapping&lt;/td&gt;
+&lt;td&gt;Device battery + AC&lt;/td&gt;
+&lt;td&gt;Relies on existing infrastructure&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;Bluetooth Beacons&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="math"&gt;\(2-30\,\mathrm{m}\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Hardware installation, Device management&lt;/td&gt;
+&lt;td&gt;Remapping&lt;/td&gt;
+&lt;td&gt;Device battery + AC&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;Magnetic Field Measurement&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="math"&gt;\(2\,\mathrm{m}\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;API + initial magnetic mapping&lt;/td&gt;
+&lt;td&gt;Crowdsourced&lt;/td&gt;
+&lt;td&gt;Device battery&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;Pedestrian Dead Reckoning&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;Varies&lt;/td&gt;
+&lt;td&gt;None&lt;/td&gt;
+&lt;td&gt;Crowdsourced&lt;/td&gt;
+&lt;td&gt;Device battery&lt;/td&gt;
+&lt;td&gt;No additional devices / services needed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;Point-cloud from Images&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="math"&gt;\(5\,\mathrm{m}\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;API + initial photoshoot&lt;/td&gt;
+&lt;td&gt;Crowdsourced&lt;/td&gt;
+&lt;td&gt;Device battery&lt;/td&gt;
+&lt;td&gt;Creates 3D model to be used with AR etc.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- Footnotes --&gt;
+&lt;table class="docutils footnote" frame="void" id="id6" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id5"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;depending on algorithms (&amp;gt;2m claimed by &lt;a class="reference external" href="https://anyplace.cs.ucy.ac.cy/"&gt;Anyplace&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- Links --&gt;
+&lt;/div&gt;
+&lt;div class="section" id="references"&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;table class="docutils footnote" frame="void" id="id7" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[4]&lt;/td&gt;&lt;td&gt;Sterling, Greg (Opus Research, I. . (2014). Magnetic Positioning, 1–8.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id8" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[5]&lt;/td&gt;&lt;td&gt;Zandbergen, P. A. (2009). Accuracy of iPhone locations: A comparison of assisted GPS, WiFi and cellular positioning. Transactions in GIS, 13(SUPPL. 1), 5–25. &lt;a class="reference external" href="http://doi.org/10.1111/j.1467-9671.2009.01152.x"&gt;http://doi.org/10.1111/j.1467-9671.2009.01152.x&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id9" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[6]&lt;/td&gt;&lt;td&gt;Bekkelien, A. (2012). Bluetooth indoor positioning. Master’s Thesis, University …, (March), 1. Retrieved from &lt;a class="reference external" href="http://cui.unige.ch/~deriazm/masters/bekkelien/Bekkelien_Master_Thesis.pdf"&gt;http://cui.unige.ch/~deriazm/masters/bekkelien/Bekkelien_Master_Thesis.pdf&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id10" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[7]&lt;/td&gt;&lt;td&gt;Beauregard, S., &amp;amp; Haas, H. (2006). Pedestrian dead reckoning: A basis for personal positioning. Positioning, Navigation and Communication, 27–35. &lt;a class="reference external" href="http://doi.org/10.1613/jair.301"&gt;http://doi.org/10.1613/jair.301&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table class="docutils footnote" frame="void" id="id11" rules="none"&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;[8]&lt;/td&gt;&lt;td&gt;Liu, H., Darabi, H., Banerjee, P., &amp;amp; Liu, J. (2007). Survey of wireless indoor positioning techniques and systems. IEEE Transactions on Systems, Man and Cybernetics Part C: Applications and Reviews, 37(6), 1067–1080. &lt;a class="reference external" href="http://doi.org/10.1109/TSMCC.2007.905750"&gt;http://doi.org/10.1109/TSMCC.2007.905750&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary></entry><entry><title>Notes on SFM and Image Based Navigation Research</title><link href="https://jaantollander.github.io/SCI-C1000/research.html" rel="alternate"></link><published>2016-10-23T00:00:00+03:00</published><updated>2016-10-23T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-23:SCI-C1000/research.html</id><summary type="html">&lt;div class="figure"&gt;
 &lt;img alt="image of iMoon software" src="images/2016-10-23_17-43-47_imoon.jpg" /&gt;
 &lt;/div&gt;
 &lt;p&gt;During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (&lt;a class="reference external" href="https://www.youtube.com/watch?v=sNvf7N_s59c&amp;amp;feature=youtu.be"&gt;youtube&lt;/a&gt;) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues &lt;a class="citation-reference" href="#imoon" id="id1"&gt;[iMoon]&lt;/a&gt;.&lt;/p&gt;
