@@ -41,8 +41,9 @@
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="section" id="marker-customers"&gt;
-&lt;h2&gt;Marker Customers&lt;/h2&gt;
+&lt;hr class="docutils" /&gt;
+&lt;div class="section" id="market-customers"&gt;
+&lt;h2&gt;Market Customers&lt;/h2&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h3&gt;Customer segment&lt;/h3&gt;
 &lt;p&gt;Customer jobs&lt;/p&gt;
@@ -80,6 +81,7 @@
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;hr class="docutils" /&gt;
 &lt;div class="section" id="museums"&gt;
 &lt;h2&gt;Museums&lt;/h2&gt;
 &lt;div class="section" id="id4"&gt;
