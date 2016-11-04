@@ -129,16 +129,20 @@ DATE := $(shell date +'%Y-%m-%d')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 EXT ?= rst
 
+FILENAME=$(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+
 newpost:
 ifdef NAME
-		echo "$(NAME)" >  $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ":date: $(DATE)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ":slug: $(SLUG)" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ":tags:" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ":authors:" >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
-		echo ""			  >> $(INPUTDIR)/$(DATE)-$(SLUG).$(EXT)
+		# Make new file
+		echo "$(SLUG)" >  $(FILENAME)
+		echo "=======" >> $(FILENAME)
+		echo "" >> $(FILENAME)
+		echo ":date: $(DATE)" >> $(FILENAME)
+		echo ":slug: $(SLUG)" >> $(FILENAME)
+		echo ":tags:" >> $(FILENAME)
+		echo ":authors: Jaan Tollander de Balsch; Aapo Haavisto; Antti Karkinen; Misamatti Koistinen; Lauri Seppäläinen; Juhani Sipilä; Markus Tyrkkö," >> $(FILENAME)
+		echo "" >> $(FILENAME)
+		echo "" >> $(FILENAME)
 		${EDITOR} ${INPUTDIR}/${DATE}-${SLUG}.${EXT} &
 else
 		@echo 'Variable NAME is not defined.'
