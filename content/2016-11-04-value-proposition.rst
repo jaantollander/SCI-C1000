@@ -2,8 +2,8 @@ Value Proposition
 =================
 
 :date: 2016-11-04
-:slug: Value Proposition
-:tags:
+:slug: value-proposition
+:tags: value proposition
 :authors: Jaan Tollander de Balsch; Aapo Haavisto; Antti Karkinen; Misamatti Koistinen; Lauri Seppäläinen; Juhani Sipilä; Markus Tyrkkö,
 
 
