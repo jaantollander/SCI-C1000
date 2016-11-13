@@ -12,7 +12,7 @@ AUTHORS = ['Jaan Tollander de Balsch',
 
 AUTHOR = 'Jaan Tollander de Balsch'
 SITENAME = '3D Reconstruction from Images'
-SITEURL = ''
+SITEURL = '.'
 
 PATH = 'content'
 
@@ -31,7 +31,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 # (name, url)
 # LINKS = (
-#     ('', '#')
+#     ('', '#'),
 # )
 
 # Social widget
