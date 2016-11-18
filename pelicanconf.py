@@ -51,7 +51,7 @@ STATIC_PATHS = ['images', 'figures', 'downloads', 'tables', 'favicon.png', 'logo
 # Themes and Plugins
 THEME = 'pelican-themes/octopress'
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['render_math', ]
+#PLUGINS = ['render_math', ]
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
