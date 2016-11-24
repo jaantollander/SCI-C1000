@@ -70,7 +70,7 @@ VisualSFM generated 23 separate models from the photos. VisualSFM had trouble co
 
 Most of the cameras were placed in the red circle. This is the most simple part of the floor. It's a large open space so it's easy to take enough overlapping photos. Closer to the entrance the space is divided into much smaller sections which makes it hard to capture photos with enough features for the algorithm to work properly.
 
-By changing the feature detection algorithm to search for more details and using a proprietary software for the point could reconstruction we were able to get a bit better results. The program was able to place around twice as many cameras and find more points. 
+By changing the feature detection algorithm to search for more details and using a proprietary software for the point could reconstruction we were able to get a bit better results. The program was able to place around twice as many cameras and find more points.
 
 
 
@@ -83,6 +83,7 @@ By changing the feature detection algorithm to search for more details and using
 .. figure:: images/aula.PNG
    :alt: model
    :width: 100%
+   :target: https://jaantollander.github.io/3D-models/aula/examples/aula.html
 
 
 The results are only a slight improvement compared to the VisualSFM and generating a complete model of the whole floor would require many more photos. We estimate that a accurate model for indoor positioning purposes would require around 1000-2000 photos. Shooting a couple thousand photos is not a problem but with that many pictures feature recognition and matching becomes a problem. Without any additional knowledge of the photos every photo has to be matched with every other photo to find possible connections. This means that the computing time grows quadratically as the number of photos increases. With a powerful home computer processing a few thousand photos would take several days. We have to investigate ways to optimize our feature matching or find a powerful computing cluster.

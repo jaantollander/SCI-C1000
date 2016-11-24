@@ -11,7 +11,7 @@ AUTHORS = ['Jaan Tollander de Balsch',
            'Markus Tyrkkö', ]
 
 AUTHOR = 'Jaan Tollander de Balsch'
-SITENAME = '3D Reconstruction from Images'
+SITENAME = 'Indoor Navigation from Multiple Images'
 SITEURL = '.'
 
 PATH = 'content'
