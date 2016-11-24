@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Comparison Between Indoor Navigation Systems &mdash; 3D Reconstruction from Images</title>
+  <title>Comparison Between Indoor Navigation Systems &mdash; Indoor Navigation from Multiple Images</title>
   <meta name="author" content="Jaan Tollander de Balsch">
 
 
@@ -31,7 +31,7 @@
 
 <body>
   <header role="banner"><hgroup>
-  <h1><a href="https://jaantollander.github.io/SCI-C1000/">3D Reconstruction from Images</a></h1>
+  <h1><a href="https://jaantollander.github.io/SCI-C1000/">Indoor Navigation from Multiple Images</a></h1>
 </hgroup></header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
 </ul>
@@ -116,21 +116,21 @@
 <td><strong>Other</strong></td>
 </tr>
 <tr><td><em>WIFI Triangulation</em></td>
-<td><span class="math">\(5-30\,\mathrm{m}\)</span> <a class="footnote-reference" href="#id6" id="id5">[3]</a></td>
+<td><span class="formula">5 − 30 <span class="mathrm"> m</span></span> <a class="footnote-reference" href="#id6" id="id5">[3]</a></td>
 <td>Usually existing</td>
 <td>Remapping</td>
 <td>Device battery + AC</td>
 <td>Relies on existing infrastructure</td>
 </tr>
 <tr><td><em>Bluetooth Beacons</em></td>
-<td><span class="math">\(2-30\,\mathrm{m}\)</span></td>
+<td><span class="formula">2 − 30 <span class="mathrm"> m</span></span></td>
 <td>Hardware installation, Device management</td>
 <td>Remapping</td>
 <td>Device battery + AC</td>
 <td>&nbsp;</td>
 </tr>
 <tr><td><em>Magnetic Field Measurement</em></td>
-<td><span class="math">\(2\,\mathrm{m}\)</span></td>
+<td><span class="formula">2 <span class="mathrm"> m</span></span></td>
 <td>API + initial magnetic mapping</td>
 <td>Crowdsourced</td>
 <td>Device battery</td>
@@ -144,7 +144,7 @@
 <td>No additional devices / services needed</td>
 </tr>
 <tr><td><em>Point-cloud from Images</em></td>
-<td><span class="math">\(5\,\mathrm{m}\)</span></td>
+<td><span class="formula">5 <span class="mathrm"> m</span></span></td>
 <td>API + initial photoshoot</td>
 <td>Crowdsourced</td>
 <td>Device battery</td>
@@ -194,63 +194,7 @@
 </tbody>
 </table>
 </div>
-<script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    var location_protocol = (false) ? 'https' : document.location.protocol;
-    if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script></div>
+</div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -278,19 +222,19 @@
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/Value Proposition.html">Value Proposition</a>
+          <a href="https://jaantollander.github.io/SCI-C1000/grand-finale-invitation.html">Invitation to Grand Finale at 2016-12-09</a>
       </li>
       <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/comparison.html">Comparison Between Indoor Navigation Systems</a>
+          <a href="https://jaantollander.github.io/SCI-C1000/video-analysis.html">Video Analysis</a>
       </li>
       <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/research.html">Notes on SFM and Image Based Navigation Research</a>
+          <a href="https://jaantollander.github.io/SCI-C1000/bmc.html">Refining the business model</a>
       </li>
       <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/project-plan.html">Project plan</a>
+          <a href="https://jaantollander.github.io/SCI-C1000/prototype.html">Creating the Prototype</a>
       </li>
       <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/meeting-with-professor-antti-yla-jaaski.html">Meeting with Professor Antti Ylä-Jääski</a>
+          <a href="https://jaantollander.github.io/SCI-C1000/value-proposition.html">Value Proposition</a>
       </li>
     </ul>
   </section>
@@ -308,7 +252,7 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>  </section>
+    <a href="https://jaantollander.github.io/SCI-C1000/tag/bmc.html">bmc</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale-invitation.html">grand finale invitation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/video-analysis.html">video analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/prototype.html">prototype</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/value-proposition.html">value proposition</a>  </section>
 
 
     <section>

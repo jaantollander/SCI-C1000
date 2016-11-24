@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Creating the Prototype &mdash; Indoor Navigation from Multiple Images</title>
+  <meta name="author" content="Jaan Tollander de Balsch">
+
+
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="https://jaantollander.github.io/SCI-C1000/favicon.png" rel="icon">
+
+  <link href="https://jaantollander.github.io/SCI-C1000/theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="https://jaantollander.github.io/SCI-C1000/">Indoor Navigation from Multiple Images</a></h1>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
+
+
+<ul class="main-navigation">
+    <li><a href="https://jaantollander.github.io/SCI-C1000">Home Page</a></li>
+      <li><a href="https://jaantollander.github.io/SCI-C1000/pages/about.html">About</a></li>
+      <li><a href="https://jaantollander.github.io/SCI-C1000/pages/contact.html">Contact</a></li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">Creating the Prototype</h1>
+    <p class="meta">
+<time datetime="2016-11-11T00:00:00+02:00" pubdate>2016-11-11</time>    </p>
+</header>
+
+  <div class="entry-content"><div class="section" id="creating-3d-models-with-visualsfm">
+<h2>Creating 3D models with VisualSFM</h2>
+<p>Creating a 3D model from images with VisualSFM consists of three steps. <a class="citation-reference" href="#visualsfm" id="id1">[VisualSFM]</a></p>
+<div class="section" id="feature-detection-full-pairwise-image-matching">
+<h3>1. Feature Detection &amp; (Full) Pairwise Image Matching</h3>
+<div class="figure">
+<img alt="match" src="images/vsfm/match.PNG" style="width: 100%;" />
+</div>
+<p>Feature detection of the images finds similar features from each image in order to perform the pairwise image mathing. This operation determines where images are positioned in respect to one another</p>
+<p>Full pairwise image matching compares every image with every other image in order to do the matching. Full pairwise matching is the only way if we have completely random images but it is computationally expensive.</p>
+</div>
+<div class="section" id="sparse-reconstruction">
+<h3>2. Sparse Reconstruction</h3>
+<div class="figure">
+<img alt="sparse cloud" src="images/vsfm/sparse_cloud.PNG" style="width: 100%;" />
+</div>
+<p>Sparse reconstruction constructs the point cloud from the matched images. It finds the spatial positions the images in the 3D space. Point cloud is required for indoor navigation.</p>
+</div>
+<div class="section" id="dense-reconstruction">
+<h3>3. Dense Reconstruction</h3>
+<div class="figure">
+<a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/kaivuri/examples/kaivuri.html"><img alt="dense reconstruction" src="images/vsfm/giphy.gif" style="width: 100%;" /></a>
+</div>
+<p>Dense reconstruction builds the full 3D model with textures from the sparse reconstruction. This is optional step for the indoor navigation but required for additional features that require 3D model such as <em>alternate reality (AR)</em>.</p>
+<p>Live 3D model can be accessed by clicking the gif image above or <a class="reference external" href="https://jaantollander.github.io/3D-models/kaivuri/examples/kaivuri.html">this link</a>. It is displayed and rendered with Potree. <a class="citation-reference" href="#potree" id="id2">[Potree]</a></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="d-model-of-learning-center-beta">
+<h2>3D Model of Learning Center Beta</h2>
+<p>We took approximately 300 photos from the ground floor of the Learning Center beta and computed point cloud using VisualSFM. The results didn't quite turn out as expected.</p>
+<div class="figure">
+<img alt="visualsfm point cloud" src="images/view.jpg" style="width: 100%;" />
+</div>
+<p>VisualSFM generated 23 separate models from the photos. VisualSFM had trouble connecting photos shot with different cameras to each other and the relatively low number of photos considering the size of the space made it hard to combine them into a single model. VisualSFM is known to create many models even with ample amounts of photos due to the way that it builds the point cloud. One possible solution is to add more photos, but that would make the several hour computing time even longer.</p>
+<div class="figure">
+<img alt="beta map" src="images/beta.PNG" style="width: 100%;" />
+</div>
+<p>Most of the cameras were placed in the red circle. This is the most simple part of the floor. It's a large open space so it's easy to take enough overlapping photos. Closer to the entrance the space is divided into much smaller sections which makes it hard to capture photos with enough features for the algorithm to work properly.</p>
+<p>By changing the feature detection algorithm to search for more details and using a proprietary software for the point could reconstruction we were able to get a bit better results. The program was able to place around twice as many cameras and find more points.</p>
+<div class="figure">
+<img alt="point cloud" src="images/pc.PNG" style="width: 100%;" />
+</div>
+<div class="figure">
+<a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/aula/examples/aula.html"><img alt="model" src="images/aula.PNG" style="width: 100%;" /></a>
+</div>
+<p>The results are only a slight improvement compared to the VisualSFM and generating a complete model of the whole floor would require many more photos. We estimate that a accurate model for indoor positioning purposes would require around 1000-2000 photos. Shooting a couple thousand photos is not a problem but with that many pictures feature recognition and matching becomes a problem. Without any additional knowledge of the photos every photo has to be matched with every other photo to find possible connections. This means that the computing time grows quadratically as the number of photos increases. With a powerful home computer processing a few thousand photos would take several days. We have to investigate ways to optimize our feature matching or find a powerful computing cluster.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="references">
+<h2>References</h2>
+<table class="docutils citation" frame="void" id="visualsfm" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[VisualSFM]</a></td><td>Wu, Changchang. &quot;VisualSFM: A visual structure from motion system.&quot; (2011).</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="potree" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[Potree]</a></td><td>Potree | WebGL pointcloud renderer <a class="reference external" href="http://www.potree.org/">http://www.potree.org/</a></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Jaan Tollander de Balsch
+    </span>
+  </span>
+<time datetime="2016-11-11T00:00:00+02:00" pubdate>2016-11-11</time>  <span class="categories">
+    <a class='category' href='https://jaantollander.github.io/SCI-C1000/category/misc.html'>misc</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/prototype.html">prototype</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+	  <img src="https://jaantollander.github.io/SCI-C1000/logo.png" alt="logo" width=""/> 
+  </section>
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/grand-finale-invitation.html">Invitation to Grand Finale at 2016-12-09</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/video-analysis.html">Video Analysis</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/bmc.html">Refining the business model</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/prototype.html">Creating the Prototype</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/value-proposition.html">Value Proposition</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/group-meeting.html">Group Meeting</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/meeting-with-professor.html">Meeting with professor</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/misc.html">misc</a></li>
+        <li><a href="https://jaantollander.github.io/SCI-C1000/category/starting-up.html">Starting up</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="https://jaantollander.github.io/SCI-C1000/tag/bmc.html">bmc</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale-invitation.html">grand finale invitation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/video-analysis.html">video analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/prototype.html">prototype</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/value-proposition.html">value proposition</a>  </section>
+
+
+    <section>
+        <h1>Social</h1>
+        <ul>
+            <li><a href="https://github.com/jaantollander/SCI-C1000" target="_blank">GitHub Repository</a></li>
+        </ul>
+    </section>
+
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2016  Jaan Tollander de Balsch &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/modernizr-2.0.js"></script>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/ender.js"></script>
+  <script src="https://jaantollander.github.io/SCI-C1000/theme/js/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var disqus_shortname = 'sci-c1000';
+    var disqus_identifier = '/prototype.html';
+    var disqus_url = 'https://jaantollander.github.io/SCI-C1000/prototype.html';
+    var disqus_title = 'Creating the Prototype';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
+</body>
+</html>
