@@ -69,8 +69,8 @@ Summary
 -------
 
 .. csv-table::
+   :header: "Name", "Accuracy", "Infrastructure", "Maintenance", "Power Source", "Other"
 
-   "**Name**", "**Accuracy**", "**Infrastructure**", "**Maintenance**", "**Power Source**", "**Other**"
    "*WIFI Triangulation*", ":math:`5-30\,\mathrm{m}` [#]_", "Usually existing", "Remapping", "Device battery + AC", "Relies on existing infrastructure"
    "*Bluetooth Beacons*", ":math:`2-30\,\mathrm{m}`", "Hardware installation, Device management", "Remapping", "Device battery + AC", ""
    "*Magnetic Field Measurement*", ":math:`2\,\mathrm{m}`", "API + initial magnetic mapping", "Crowdsourced", "Device battery", ""

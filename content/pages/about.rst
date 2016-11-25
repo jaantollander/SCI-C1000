@@ -9,7 +9,14 @@ Course
 Aalto University project course in fall, 2016.
 
 .. csv-table::
-   :file: details.csv
+   :header: "", ""
+   :widths: 30, 70
+
+   "*University*","Aalto University"
+   "*Course*","SCI-C1000 - Project Course"
+   "*Date*","12.09.16 - 16.12.16"
+   "*Topic*","Indoor Navigation from Multiple Images"
+   "*Group Name*","3+4Dudes"
 
 Blog
 ----

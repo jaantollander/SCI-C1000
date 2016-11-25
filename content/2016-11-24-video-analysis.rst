@@ -1,5 +1,5 @@
-Video Analysis
-==============
+Analysis of Presentation Video
+==============================
 
 :date: 2016-11-24
 :slug: video-analysis
@@ -9,9 +9,9 @@ Video Analysis
 .. Slides
 .. Video
 
-`Presentation  <{filename}./downloads/presentation_11-18-2016.pptx>`_
+`Presentation slides  <{filename}./downloads/presentation_11-18-2016.pptx>`_
 
-`Video  <{filename}./downloads/video_2016-11-24_17-06-07.mov>`_
+`Video of the presentation  <{filename}./downloads/video_2016-11-24_17-06-07.mov>`_
 
 The goal of this presentation was to give general idea of our oncoming prototype and the progress of the overall project. In general this goal was achieved and presentation got audience interested of our project and prototype. There were still many points left to improve in presentations to come.
 
