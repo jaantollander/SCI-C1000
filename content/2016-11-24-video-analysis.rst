@@ -6,8 +6,6 @@ Analysis of Presentation Video
 :tags: video analysis
 :authors: Jaan Tollander de Balsch; Aapo Haavisto; Antti Karkinen; Misamatti Koistinen; Lauri Seppäläinen; Juhani Sipilä; Markus Tyrkkö,
 
-.. Slides
-.. Video
 
 `Presentation slides  <{filename}./downloads/presentation_11-18-2016.pptx>`_
 

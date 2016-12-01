@@ -8,6 +8,7 @@ Project plan
 
 
 .. figure:: images/2016-10-14_10-37-27.jpg
+   :target: images/2016-10-14_10-37-27.jpg
    :figwidth: 100%
    :alt: pöhinä_garages
 
@@ -40,6 +41,7 @@ In addition to customers that utilize augmented reality it could also be used to
 Scope of the project
 --------------------
 .. figure:: images/2016-10-14_11-51-36.jpg
+   :target: images/2016-10-14_11-51-36.jpg
    :figwidth: 100%
    :alt: pöhinä2
 

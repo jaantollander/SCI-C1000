@@ -8,6 +8,7 @@ Value Proposition
 
 
 .. figure:: figures/value-proposition-canvas2.png
+   :target: figures/value-proposition-canvas2.png
    :alt: value proposition canvas
 
 
@@ -15,6 +16,7 @@ Market Owners
 -------------
 
 .. figure:: figures/value-proposition-market-owners.png
+   :target: figures/value-proposition-market-owners.png
    :alt: value proposition market owners
 
 .. Customer Segment
@@ -64,6 +66,7 @@ Market Customers
 ----------------
 
 .. figure:: figures/value-proposition-market-customers.png
+   :target: figures/value-proposition-market-customers.png
    :alt: value proposition market customers
 
 .. Customer segment
@@ -112,6 +115,7 @@ Museums
 -------
 
 .. figure:: figures/value-proposition-museums.png
+   :target: figures/value-proposition-museums.png
    :alt: value proposition museums
 
 .. Customer segment

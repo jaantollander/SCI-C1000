@@ -8,6 +8,7 @@ Comparison Between Indoor Navigation Systems
 
 
 .. figure:: figures/comparison.png
+   :target: figures/comparison.png
    :alt: image of comparison
 
 

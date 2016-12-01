@@ -7,8 +7,13 @@ Notes on SFM and Image Based Navigation Research
 :authors: Jaan Tollander de Balsch; Aapo Haavisto; Antti Karkinen; Misamatti Koistinen; Lauri Seppäläinen; Juhani Sipilä; Markus Tyrkkö,
 
 
-.. figure:: images/2016-10-23_17-43-47_imoon.jpg
-   :alt: image of iMoon software
+..
+   .. figure:: images/2016-10-23_17-43-47_imoon.jpg
+      :target: images/2016-10-23_17-43-47_imoon.jpg
+      :alt: image of iMoon software
+
+
+.. youtube:: sNvf7N_s59c
 
 
 During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (`youtube`_) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues [iMoon]_.

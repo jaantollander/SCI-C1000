@@ -12,7 +12,11 @@ AUTHORS = ['Jaan Tollander de Balsch',
 
 AUTHOR = 'Jaan Tollander de Balsch'
 SITENAME = 'Indoor Navigation from Multiple Images'
-SITEURL = '.'
+SITESUBTITLE = 'Finding the way'  # Subtitle that appears below sitename
+SITEURL = 'https://jaantollander.github.io/SCI-C1000'
+# can be useful in development, but set to False when you're ready to publish
+RELATIVE_URLS = True
+
 
 PATH = 'content'
 
@@ -35,6 +39,7 @@ AUTHOR_FEED_RSS = None
 # )
 
 # Social widget
+GITHUB_URL = 'https://github.com/jaantollander'
 SOCIAL = (
     ('GitHub Repository', 'https://github.com/jaantollander/SCI-C1000'),
 )
@@ -45,13 +50,27 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 # SETTINGS
-MENUITEMS = [('Home Page', '/')]
-STATIC_PATHS = ['images', 'figures', 'downloads', 'tables', 'favicon.png', 'logo.png']
+MENUITEMS = [
+    ('Home Page', 'index.html'),
+]
+STATIC_PATHS = [
+    'images',
+    'figures',
+    'downloads',
+    'tables',
+    'favicon.png',
+    'logo.png'
+]
 
 # Themes and Plugins
 THEME = 'pelican-themes/octopress'
 PLUGIN_PATHS = ['pelican-plugins']
-#PLUGINS = ['render_math', ]
+PLUGINS = [
+    'render_math',
+    'better_tables',
+    # 'better_figures_and_images',
+    'pelican_youtube',
+]
 
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False

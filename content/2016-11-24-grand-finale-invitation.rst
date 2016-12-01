@@ -6,12 +6,13 @@ Invitation to Grand Finale at 2016-12-09
 :tags: grand finale invitation
 :authors: Jaan Tollander de Balsch; Aapo Haavisto; Antti Karkinen; Misamatti Koistinen; Lauri Seppäläinen; Juhani Sipilä; Markus Tyrkkö,
 
-.. Where, When, What
 
 .. figure:: images/aula2.png
    :alt: model
    :width: 100%
    :target: https://jaantollander.github.io/3D-models/aula/examples/aula.html
+
+   *Click the image for 3D model*
 
 
 Our team warmly welcomes you to hear our presentation and further investigate our results about *indoor navigation using point cloud from photos*  on **december 9th**. Presentations are held at Aalto University main building lobby in **Otakaari 1**.
@@ -24,5 +25,5 @@ This kind of navigation is made possible with *structure from motion* technology
 
 You can read more about our research from the blog and these posts
 
-   - `Comparison Between Indoor Navigation Systems﻿ <{filename}./2016-10-28-comparison.rst>`_
-   - `Creating the Prototype <{filename}./2016-11-11-prototype.rst>`_
+- `Comparison Between Indoor Navigation Systems﻿ <{filename}./2016-10-28-comparison.rst>`_
+- `Creating the Prototype <{filename}./2016-11-11-prototype.rst>`_

@@ -8,7 +8,8 @@ First Group Meeting
 :authors: Jaan Tollander de Balsch
 
 
-.. image:: images/20160928_162236.jpg
+.. figure:: images/20160928_162236.jpg
+   :target: images/20160928_162236.jpg
    :alt: picture about first group meeting
    :height: 400px
 
