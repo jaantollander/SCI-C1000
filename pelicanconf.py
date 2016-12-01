@@ -63,13 +63,14 @@ STATIC_PATHS = [
 ]
 
 # Themes and Plugins
-THEME = 'pelican-themes/octopress'
+THEME = 'pelican-octopress-theme'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
     'render_math',
     'better_tables',
-    # 'better_figures_and_images',
     'pelican_youtube',
+    # 'better_figures_and_images',
+    # 'bootstrap-rst',
 ]
 
 DISPLAY_PAGES_ON_MENU = True
@@ -77,3 +78,5 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 SIDEBAR_IMAGE = "logo.png"
 SIDEBAR_IMAGE_ALT = "logo"
+
+HEADER_IMAGE = "images/aula2.png"
