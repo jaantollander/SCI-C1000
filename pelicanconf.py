@@ -69,7 +69,6 @@ PLUGINS = [
     'render_math',
     'better_tables',
     'pelican_youtube',
-    # 'better_figures_and_images',
     # 'bootstrap-rst',
 ]
 

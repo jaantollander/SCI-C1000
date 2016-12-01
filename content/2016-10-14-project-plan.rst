@@ -1,4 +1,4 @@
-Project plan
+Project Plan
 =============
 
 :date: 2016-10-14
