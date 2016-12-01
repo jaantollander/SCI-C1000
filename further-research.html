@@ -4,8 +4,10 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Indoor Navigation from Multiple Images</title>
+  <title>Further Research on Indoor Positioning &mdash; Indoor Navigation from Multiple Images</title>
   <meta name="author" content="Jaan Tollander de Balsch">
+
+
 
 
 
@@ -56,77 +58,59 @@
 </ul></nav>
   <div id="main">
     <div id="content">
-<div class="blog-index">
-  		<article>
+<div>
+  <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">
-        <a href="https://jaantollander.github.io/SCI-C1000/first-group-meeting.html">First Group Meeting</a>
-      </h1>
+      <h1 class="entry-title">Further Research on Indoor Positioning</h1>
     <p class="meta">
-<time datetime="2016-09-28T00:00:00+03:00" pubdate>2016-09-28</time>    </p>
+<time datetime="2016-12-01T00:00:00+02:00" pubdate>2016-12-01</time>    </p>
 </header>
 
   <div class="entry-content"><div class="figure">
-<a class="reference external image-reference" href="images/20160928_162236.jpg"><img alt="picture about first group meeting" src="images/20160928_162236.jpg" style="height: 400px;"/></a>
+<a class="reference external image-reference" href="images/17bits-atlasmagnetic-tmagArticle.png"><img alt="geomagnetic map" src="images/17bits-atlasmagnetic-tmagArticle.png"/></a>
+<p class="caption"><em>Picture of unique map used in geomagnetic positioning</em></p>
 </div>
-<p>We met at the CS building to discuss the first steps of our project. After an intesive photoshoot to capture our freely flowing creative process, we soon arrived at a satisfactory title for our party: <strong>3+4Dudes</strong>. After some brief discussion about blog-keeping tools, we began talking about the scope ...</p></div>
-  <footer>
-    <a rel="full-article" href="https://jaantollander.github.io/SCI-C1000/first-group-meeting.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="https://jaantollander.github.io/SCI-C1000/week-1-starting-up.html">Week 1: Starting Up</a>
-      </h1>
-    <p class="meta">
-<time datetime="2016-09-23T00:00:00+03:00" pubdate>2016-09-23</time>    </p>
-</header>
+<p>In a <a class="reference external" href="https://jaantollander.github.io/SCI-C1000/comparison.html">blog post</a> written a few weeks ago we looked at competing techniques in the field of indoor positioning. In this post we will follow up on the analysis and present how our technology compares.</p>
+<div class="section" id="recap-on-comparison-results">
+<h2>Recap on Comparison Results</h2>
+<p>Compared to <em>pedestrian dead reckoning</em> we are simply far more accurate, and our error is not cumulative. Our limitation - the need to be connected to internet - is hardly a problem in our modern day and age. Compared to <em>bluetooth triangulation</em> we have the strength of not needing any infrastructure. In fact, we consider this one our main benefits, but we are not uncontested in this category.</p>
+<p>Our key selling point is the freedom from infrastructure, but we are not alone in this category. Both <em>Wi-Fi triangulation</em> and <em>geomagnetic positioning</em> offer the same benefit in most spaces nowadays as Wi-Fi is near ubiquitous. They are both rather accurate and geomagnetic positioning has a “cool” factor with it, something that we thought was singular for our <em>3D-modelling</em>. This forced us to rethink our technology’s strengths: we are not the only ones with these benefits.</p>
+<div class="figure">
+<a class="reference external image-reference" href="images/main_floor.png"><img alt="main floor plan" src="images/main_floor.png" style="width: 50%;"/></a>
+<p class="caption"><em>Indoor Atlas MapCreator</em></p>
+</div>
+</div>
+<div class="section" id="contacting-indoor-atlas">
+<h2>Contacting Indoor Atlas</h2>
+<p>We contacted the people at <a class="reference external" href="http://www.indooratlas.com/">Indoor Atlas</a>, company that produces geomagnetic indoor positioning technology, to find out what they consider their main selling points to help rediscover our own. When it comes to selling their technology they point out that it is very good at selling itself. It is also <strong>highly scalable</strong>, <strong>quite accurate</strong> and has <strong>very low maintenance costs</strong>. These are all shared traits with our technology. The same points can be extended to Wi-Fi triangulation as an existing Wi-Fi infrastructure works in most spaces anyway, and if the connection works, so will positioning based on it. Of course, our technology and geomagnetic mapping can be extended to spaces where Wi-Fi is not present, giving these two approaches a slight edge over Wi-Fi.</p>
+</div>
+<div class="section" id="conclusions">
+<h2>Conclusions</h2>
+<p>This is where we realized that we have very little unique to offer compared to other technologies. Geomagnetic positioning and to an extent Wi-Fi positioning has every property we thought would be our trump card. We looked at our model again and realized that we have file our main draw into a point: we can naturally use <em>augmented reality</em> in our applications. We operate in the same field with competing technologies, but what gives us the edge over them is our innate ability to create 3D-models, which can then be used in AR applications.</p>
+<p>This also made us realize that we are a few years ahead of our time, as not all smartphones are capable of <em>on-the-fly 3D-rendering</em> while essentially recording video and overlaying the two. Still, our project can show that 3D-models can be created and maintained easily from pictures alone and that with sufficient hardware, these models could be used to create AR applications that work in tandem with indoor positioning.</p>
+</div>
+</div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        Jaan Tollander de Balsch
+    </span>
+  </span>
+<time datetime="2016-12-01T00:00:00+02:00" pubdate>2016-12-01</time>  <span class="categories">
+    <a class='category' href='https://jaantollander.github.io/SCI-C1000/category/misc.html'>misc</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/pedestrian-dead-reckoning.html">pedestrian dead reckoning</a>,    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/bluetooth-triangulation.html">bluetooth triangulation</a>,    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/geomagnetic-positioning.html">geomagnetic positioning</a>,    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/3d-modelling.html">3D-modelling</a>,    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/indoor-atlas.html">Indoor Atlas</a>,    <a class="category" href="https://jaantollander.github.io/SCI-C1000/tag/wi-fi-triangulation.html">Wi-Fi triangulation</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
 
-  <div class="entry-content"><div class="section" id="plans-and-goals-for-the-first-week">
-<h2>Plans and Goals for the first week</h2>
-<ul>
-<li><dl class="first docutils">
-<dt>Contacts</dt>
-<dd><ul class="first last simple">
-<li>Meeting up with our contact professor</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Project Branding</dt>
-<dd><ul class="first last simple">
-<li>Creating a project blog</li>
-<li>Name the project</li>
-<li>Design a logo and icon</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Project Managment</dt>
-<dd><ul class="first last simple">
-<li>Planning the allocation of time</li>
-<li>Keeping track of workhours</li>
-<li>Flowchart of the project</li>
-</ul>
-</dd>
-</dl>
-</li>
-<li><dl class="first docutils">
-<dt>Project</dt>
-<dd><ul class="first last simple">
-<li>Defining the problem and how to ...</li></ul></dd></dl></li></ul></div></div>
-  <footer>
-    <a rel="full-article" href="https://jaantollander.github.io/SCI-C1000/week-1-starting-up.html">Read On &crarr;</a>
-  </footer>
-  		</article>
-<div class="pagination">
-
-    <a class="next" href="https://jaantollander.github.io/SCI-C1000/index.html">Newer &rarr;</a>
-  <br />
-</div></div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
 <aside class="sidebar">
   <section>
 	  <img src="https://jaantollander.github.io/SCI-C1000/logo.png" alt="logo" width=""/> 
@@ -187,6 +171,9 @@
 
   <script type="text/javascript">
     var disqus_shortname = 'sci-c1000';
+    var disqus_identifier = '/further-research.html';
+    var disqus_url = 'https://jaantollander.github.io/SCI-C1000/further-research.html';
+    var disqus_title = 'Further Research on Indoor Positioning';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
