@@ -74,3 +74,11 @@ In addition to weekly meeting out main communication channel was **Telegram**. F
 
 Development of teamwork skills
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Evaluation of Teamwork
+----------------------
+
+.. csv-table::
+   :header-rows: 1
+   :file: teamwork-evaluation.csv
