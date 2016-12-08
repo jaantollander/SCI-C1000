@@ -44,14 +44,10 @@ Some of these solutions such as *bluetooth beacons* or *WIFI triangulation* requ
 *Magnetic Field Measurement* have been implemented successfully by `Indoor Atlas <http://www.indooratlas.com/>`_ and on it self purely for navigation is better than our solution, but it doesn't offer the possibility for augmented or virtual reality applications.
 
 
-.. Possible applications and customers for indoor navigation system that uses multiple crowd sourced images to build 3D point cloud and potentially 3D model for augmented reality and virtual reality applications.
-
-.. Analysing weaknesses and strengths of our technology compared to competition currently on the market.
-
-
 Solution
 ^^^^^^^^
 Our solution *Indoor navigation using multiple images* is based on building 3D point cloud using multiple crowd sources images. The point cloud allows us to locate the position of new images of that space using existing ones.
+
 
 Pros
 
@@ -66,11 +62,13 @@ Cons
 - Technologically quite challenging
 - Convenient use requires that technology that enables taking photos of your visual field seamlessly such smart glasses becomes common.
 
+
 Business and monetization models propose
 
 * Initial fixed costs and monthly maintenance and update fees
 * Initial cost is based on size and complexity of the area to be modelled
 * Maintenance costs are based on estimated amount of end users and additional customer specific features.
+
 
 In conclusion
 

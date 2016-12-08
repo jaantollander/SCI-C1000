@@ -30,10 +30,49 @@ Tiivistelmä
 
 Ongelma
 -------
+GPS järjestelmää ei voida käyttää sisätilapaikannukseen esteiden tukkiessa satellien suoran näköyhteyden tehden siitä epätarkan ja epäluotettavan. Tämän takia sisätilapaikannukseen on kehitetty monia muita menetelmiä kuten
+
+- *WIFI Kolmiomittaus*
+- *Bluetooth Signaalitolpat*
+- *Maan magneettikentän mittaus*
+- *Pedestrian Dead Reckoning*
+- *Sisätilapaikannus kuvien avulla*
+
+Osa järjestelmistä kuten *bluetooth signaalitolpat* tai *WIFI kolmiomittaus* edellyttävät kalliin infrastruktuurin asentamista tilaan. Toisaalta *Pedestrian Dead Reckoning* menetelmän virhe on kasautuva eikä sitä voida käyttää paikantamiseen yksinään. `Indoor Atlas <http://www.indooratlas.com/>`_ on kehittänyt *maan magneettikentän mittaukseen* perustuvan järjestelmän joka on toimiva ja pelkästään paikantamiseen *kuvista paikantamista* parempi ratkaisu, mutta se ei tarjoa mahdollisuutta virtuaali- tai lisättyyn todellisuuteen eikä se kerro käyttäjän suuntaa.
 
 
 Ratkaisu
 --------
+Ryhmän esittämä ratkaisu ongelmaan *sisätilapaikannus kuvien avulla*, joka perustuu 3-ulotteisen pistepilven rakentamiseen valokuvista. Pistepilven avulla käyttäjä voidaan paikantaa kun käyttäjän ottama kuva sijoitetaan pistepilveen vertaamalla sitä olemassa oleviin kuviin.
+
+
+Vahvuudet
+
+- Mahdollisuus rakentaa 3-ulotteinen malli tekstuureineen virtuaali- ja lisättyä todellisuutta varten.
+- Kykenee ratkaisemaan käyttäjän katseen suunnan
+- Perustuu jo olemassa olevaan infrastruktuuriin (esim kännykkä kamerat).
+- Ratkaisu on ohjelmistoon perustuva (vastakohtana laitteistoon perustuva) tehden siitä paremmin *skaalautuvan* ja pienentäen *ylläpito kustannuksia*
+
+
+Haasteet
+
+- Teknologisesti haastava ongelma
+- Vaatii laskentatehoa ja aikaa
+- Helppo käytettävyys vaatii teknologiaa jonka avulla on mahdollista ottaa kuvia ympäristöstä hyvin vaivattomasti, esimerkiksi älylasit.
+- Vaati teknologian ja algoritmien kehittymistä ennenkuin ratkaisu voidaan valjastaa massayleisön käyttöön
+
+
+Bisness ja tuotteen kaupallistaminen
+
+- Kiinnitetty aloitushinta ja kuukausittaiset päivitys ja ylläpitökustannukset
+- Aloitushinta perustuu mallinettavan alueen kokoon ja monimutkaisuuteen
+- Ylläpitökustannukset perustuvat arvoituun käyttäjämäärään ja käyttäjäkohtaisiin ominaisuuksiin
+
+
+Yhteenveto
+
+- Tulevaisuuden ratkaisu
+
 
 
 Ryhmätyö
@@ -41,6 +80,18 @@ Ryhmätyö
 
 Menetelmät
 ----------
+
+
+.. csv-table:: Työtehtävien jako
+   :header: "**Nimi**", "**Tehtävä**"
+
+   "Lauri", "Teknologioiden vertailu, blogin kirjoittaminen, kilpailijoihin yhteydenotto"
+   "Markus", "Presentaatiot, blogin kirjoittaminen, organisointi"
+   "Misamatti", "Teknologioihin tutustuminen, blogin kirjoittelu, sähköpostihaastatteluja"
+   "Aapo", "Valokuvaus, mallien rakentaminen, teknologioihin tutustuminen"
+   "Jaan", "Blogin hallinointia ja kirjoittelua, potree malli, "
+   "Juhani", "Lähdemateriaalin hankkiminen, Yritysten haastattelu, 3D-malli (potree/JS)"
+   "Antti", "Haastis pohja, yleisiä suunnitteluja ja pohdintoja"
 
 
 Kommunikaatio
@@ -54,3 +105,18 @@ Kehittyminen
 Arviointimatriisi
 -----------------
 
+.. csv-table::
+   :header: "Mielestäni...", "tämä onnistui todella hyvin", "tämä sujui ihan OK", "tämä meni pieleen"
+
+   "ymmärsimme, mitä projektissamme pitäisi tehdä samalla tavalla", "", "", ""
+   "ymmärsimme asiakkaamme tarpeet", "", "", ""
+   "keskustelimme riittävästi keskenämme", "", "", ""
+   "osasimme ratkaista konfliktit", "", "", ""
+   "meillä oli yhtenevät tavoitteet projektimme suhteen", "", "", ""
+   "ymmärsin hyvin, mitä muut ryhmässäni tekevät", "", "", ""
+   "olimme sopineet yhteisistä toimintatavoistamme", "", "", ""
+   "olimme laatineet yhteisen aikataulun", "", "", ""
+   "minulla oli hyvä käsitys, mitä muut odottavat minulta", "", "", ""
+   "ryhmällämme oli johtaja", "", "", ""
+   "kaikki ryhmän jäsenet työskentelivät tasapuolisesti", "", "", ""
+   "saimme projektiimme riittävästi tukea", "", "", ""
