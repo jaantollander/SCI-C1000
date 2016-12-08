@@ -5,7 +5,6 @@
 
 SCI-C1000 - Final Report
 ========================
-
 .. SCI-projektikurssin tavoitteena on, että jokainen ryhmä omassa tehtävässään huomaa kehittyvänsä epämääräisen haasteen selkeyttämisessä, toimintasuunnitelmansa toteuttamisessa, ideansa liiketoimintapotentiaalin kartoittamisessa, ideansa kommunikoinnissa sekä ennen kaikkea ryhmänä työskentelemisessä.
 
 .. Loppuraportin tavoitteena on kuvata saavuttamanne tulos, mutta ennen kaikkea dokumentoida ryhmänne oppimis- ja kehittymispolun reflektointi ryhmänä sekä ryhmän jäsenittäin. Loppuraportti on pohdinta prosessista ja edistymisestänne, jonka ryhmänä kävitte läpi:

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # SCI-C1000 documentation build configuration file, created by
-# sphinx-quickstart on Fri Nov 25 10:00:36 2016.
+# sphinx-quickstart on Thu Dec  8 11:32:07 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -49,11 +49,11 @@ source_suffix = '.rst'
 # source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'index_EN'
+master_doc = 'index_FI'
 
 # General information about the project.
-project = 'SCI-C1000 - Final Report'  # Indoor Navigation from Multiple Images
-topic = 'Indoor Navigation from Multiple Images'
+project = 'SCI-C1000 - Loppuraportti'
+topic = 'Sisätilapaikannus kuvien avulla'
 copyright = '2016, Jaan Tollander de Balsch'
 authors = ('Jaan Tollander de Balsch',
            'Aapo Haavisto',
@@ -62,7 +62,7 @@ authors = ('Jaan Tollander de Balsch',
            'Lauri Seppäläinen',
            'Juhani Sipilä',
            'Markus Tyrkkö',)
-author = "Jaan Tollander de Balsch"
+author = 'Jaan Tollander de Balsch'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -78,7 +78,7 @@ release = ''
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = 'fi'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -87,7 +87,7 @@ language = 'en'
 #
 # Else, today_fmt is used as the format for a strftime call.
 #
-today_fmt = '%Y-%m-%d'
+# today_fmt = '%B %d, %Y'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -124,6 +124,7 @@ pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
+
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -259,7 +260,7 @@ latex_elements = {
     # 'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '10pt',
+    'pointsize': '12pt',
 
     # Additional stuff for the LaTeX preamble.
     'preamble': latex_preamble,
@@ -276,7 +277,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_title = r"Aalto University \\" +  \
               project + r"\\" + \
-              r"\it{Indoor Navigation from Multiple Images}"
+              r"\it{%s}" % topic
 latex_target = 'SCI-C1000.tex'
 latex_authors = r" \and ".join(authors)
 latex_documentclass = 'report'
@@ -286,8 +287,8 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-
-latex_logo = "logo.png"
+#
+# latex_logo = None
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
