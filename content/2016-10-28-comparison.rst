@@ -79,10 +79,9 @@ Summary
    "*Point-cloud from Images*", ":math:`5\,\mathrm{m}`", "API + initial photoshoot", "Crowdsourced", "Device battery", "Creates 3D model to be used with AR etc."
 
 .. Footnotes
-.. [#] depending on algorithms (>2m claimed by `Anyplace`_)
+.. [#] depending on algorithms (>2m claimed by `Anyplace <https://anyplace.cs.ucy.ac.cy/>`_)
 
 .. Links
-.. _Anyplace: https://anyplace.cs.ucy.ac.cy/
 .. _Indoor Atlas: https://www.indooratlas.com/
 
 

@@ -23,19 +23,58 @@ SCI-C1000 - Final Report
 Abstract
 --------
 
+.. csv-table::
+
+   "Group", "*3+4Dudes*"
+   "Topic", "*Indoor navigation using multiple images*"
+   "Blog", "`https://jaantollander.github.io/SCI-C1000/ <https://jaantollander.github.io/SCI-C1000/>`_"
+
+
 Problem
 ^^^^^^^
-Possible applications and customers for indoor navigation system that uses multiple crowd sourced images to build 3D point cloud and potentially 3D model for augmented reality and virtual reality applications.
+GPS cannot be used for *indoor navigation*, because it is inaccurate and unreliable in indoor environments due to obstructed line of sight to satellites. For this reason alternative solutions have been developed, such as:
 
-Analysing weaknesses and strenths of our technology compared to competition currently on the market.
+- *WIFI Triangulation*
+- *Bluetooth Beacons*
+- *Magnetic Field Measurement*
+- *Pedestrian Dead Reckoning*
+- *Point-cloud from Images*
 
-Bussiness and monetization models.
+Some of these solutions such as *bluetooth beacons* or *WIFI triangulation* requires expensive infrastructure to be installed in the space. For *Pedestrian dead reckoning* the error is cumulative and cannot be used alone.
 
-Building a prototype of the concept.
+*Magnetic Field Measurement* have been implemented successfully by `Indoor Atlas <http://www.indooratlas.com/>`_ and on it self purely for navigation is better than our solution, but it doesn't offer the possibility for augmented or virtual reality applications.
+
+
+.. Possible applications and customers for indoor navigation system that uses multiple crowd sourced images to build 3D point cloud and potentially 3D model for augmented reality and virtual reality applications.
+
+.. Analysing weaknesses and strengths of our technology compared to competition currently on the market.
 
 
 Solution
 ^^^^^^^^
+Our solution *Indoor navigation using multiple images* is based on building 3D point cloud using multiple crowd sources images. The point cloud allows us to locate the position of new images of that space using existing ones.
+
+Pros
+
+- Because this technology is based on images we can also reconstruct the 3D model fully with textures which then can be applied to augmented/virtual reality applications.
+- Based on existing infrastructure, e.g. mobile phone cameras and existing super computing clusters.
+- *Software* based solution (contrary to *hardware* based) making it more *scalable* and lowering *maintenance costs*.
+- Is able to tell you which direction of your line of sight (contrary to magnetic field measurements).
+
+
+Cons
+
+- Technologically quite challenging
+- Convenient use requires that technology that enables taking photos of your visual field seamlessly such smart glasses becomes common.
+
+Business and monetization models propose
+
+* Initial fixed costs and monthly maintenance and update fees
+* Initial cost is based on size and complexity of the area to be modelled
+* Maintenance costs are based on estimated amount of end users and additional customer specific features.
+
+In conclusion
+
 
 
 
@@ -49,36 +88,41 @@ Methods
 .. Working methods
 .. Groupd meetings, distributed tasks,
 
-We had group meeting in learning hub every thursday at 10am, which usually lasted usually around 2 hours. We usually discussed about and distributed tasks for the following week.
-
+The group had meetings in learning hub every thursday from *10am* to around *12am*. In the meetings we usually discussed about the tasks for the next week and made scetches. Tasks were distributed according to the skills of each member.
 
 .. csv-table:: Distribution of tasks between group members
-   :header: "Name", "Tasks"
+   :header: "**Name**", "**Tasks**"
 
    "Lauri", "Compared techologies, blog posts, contacted competitors"
    "Markus", "Presentations, blog posts, organizing"
-   "Misa-Matti", "Reading about related technologies, blog posts, email interviews"
+   "Misamatti", "Reading about related technologies, blog posts, email interviews"
    "Aapo", "Photographing, building 3D models and prototype, reading about related technologies"
    "Jaan", "Managing and writing the blog, 3D models"
    "Juhani", "Acquiring source material, interviewing companies, 3D models"
    "Antti", "Interview base, general planning"
 
 
+Usually tasks were finished at home and the files were shared through *Google Drive*. Texts for the blog posts were written in a *google docs* file and them transferred in to *ReStructuredText* format to be compiled in to the blog. Similarly the steps to create the 3D models, photographing, constructing, visualizing and creating a website, were done in cooperation. Markus was the main speaker in the presentations.
+
+
 Communication
 ^^^^^^^^^^^^^
-.. Telegram
-.. Google Drive
+- Weekly meeting
+- **Telegram** our main communication channel
+- **Google Drive** for sharing files.
+- **Email** was used only for the most important announcements
 
-In addition to weekly meeting out main communication channel was **Telegram**. For sharing files we used **Google Drive**. **Email** was used only for the most important announcements.
 
-
-Development of teamwork skills
+Development of Teamwork Skills
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Evaluation of Teamwork
-----------------------
+Teamwork Evaluation Matrix
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. csv-table::
+.. csv-table:: Teamwork Evaluation Matrix
    :header-rows: 1
-   :file: teamwork-evaluation.csv
+   :file: teamwork-evaluation-matrix.csv
+
+
+.. Reasons

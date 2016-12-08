@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHORS = ['Jaan Tollander de Balsch',
            'Aapo Haavisto',
            'Oskari Karkkinen',
-           'Tapani Koistinen',
+           'Misamatti Koistinen',
            'Lauri Seppäläinen',
            'Juhani Sipilä',
            'Markus Tyrkkö', ]
@@ -40,18 +40,16 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 GITHUB_URL = 'https://github.com/jaantollander'
+GITHUB_ICON = '<i class="fa fa-github" aria-hidden="true"></i> '
 SOCIAL = (
-    ('GitHub Repository', 'https://github.com/jaantollander/SCI-C1000'),
+    (GITHUB_ICON + 'GitHub Repository', 'https://github.com/jaantollander/SCI-C1000'),
 )
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
 # SETTINGS
 MENUITEMS = [
-    ('Home Page', 'index.html'),
+    # ('Home Page', '/index.html'),
 ]
 STATIC_PATHS = [
     'images',
@@ -69,6 +67,7 @@ PLUGINS = [
     'render_math',
     'better_tables',
     'pelican_youtube',
+    'pelicanfly',
     # 'bootstrap-rst',
 ]
 

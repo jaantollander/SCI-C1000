@@ -57,7 +57,7 @@ copyright = '2016, Jaan Tollander de Balsch'
 authors = ('Jaan Tollander de Balsch',
            'Aapo Haavisto',
            'Oskari Karkkinen',
-           'Tapani Koistinen',
+           'Misamatti Koistinen',
            'Lauri Seppäläinen',
            'Juhani Sipilä',
            'Markus Tyrkkö',)
@@ -86,7 +86,7 @@ language = None
 #
 # Else, today_fmt is used as the format for a strftime call.
 #
-# today_fmt = '%B %d, %Y'
+today_fmt = '%Y-%m-%d'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -273,11 +273,14 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
+latex_title = r"Aalto University \\" +  \
+              project + r"\\" + \
+              r"\it{Indoor Navigation from Multiple Images}"
 latex_target = 'SCI-C1000.tex'
 latex_authors = r" \and ".join(authors)
 latex_documentclass = 'report'
 latex_documents = [
-    (master_doc, latex_target, project, latex_authors, latex_documentclass),
+    (master_doc, latex_target, latex_title, latex_authors, latex_documentclass),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

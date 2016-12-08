@@ -8,3 +8,7 @@ Markdown
 livereload
 Fabric
 ghp-import
+
+# Pelican plugins
+pelican-youtube
+# pelicanfly
