@@ -54,6 +54,7 @@ master_doc = 'index_FI'
 # General information about the project.
 project = 'SCI-C1000 - Loppuraportti'
 topic = 'Sisätilapaikannus kuvien avulla'
+group = '3+4Dudes'
 copyright = '2016, Jaan Tollander de Balsch'
 authors = ('Jaan Tollander de Balsch',
            'Aapo Haavisto',

@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 SCI-C1000 - Loppuraportti
-=========================
+*************************
 .. SCI-projektikurssin tavoitteena on, että jokainen ryhmä omassa tehtävässään huomaa kehittyvänsä epämääräisen haasteen selkeyttämisessä, toimintasuunnitelmansa toteuttamisessa, ideansa liiketoimintapotentiaalin kartoittamisessa, ideansa kommunikoinnissa sekä ennen kaikkea ryhmänä työskentelemisessä.
 
 .. Loppuraportin tavoitteena on kuvata saavuttamanne tulos, mutta ennen kaikkea dokumentoida ryhmänne oppimis- ja kehittymispolun reflektointi ryhmänä sekä ryhmän jäsenittäin. Loppuraportti on pohdinta prosessista ja edistymisestänne, jonka ryhmänä kävitte läpi:
@@ -20,30 +20,37 @@ SCI-C1000 - Loppuraportti
 .. Loppuraportin laajuus on noin 5-7 sivua riippuen. ryhmän jäsenten määrästä. Loppuraportti on oma erillinen dokumentti, joka voi olla linkitettynä ryhmän blogiin. Määräaika 16.12 klo 23.59.
 
 Tiivistelmä
------------
+===========
+
+.. csv-table::
+
+   "Ryhmä", "*3+4Dudes*"
+   "Aihe", "*Sisätilapaikannus kuvien avulla*"
+   "Blog", "`https://jaantollander.github.io/SCI-C1000/ <https://jaantollander.github.io/SCI-C1000/>`_"
 
 Ongelma
-^^^^^^^
+-------
 
 
 Ratkaisu
-^^^^^^^^
+--------
 
 
 Ryhmätyö
---------
+========
 
 Menetelmät
-^^^^^^^^^^
+----------
 
 
 Kommunikaatio
-^^^^^^^^^^^^^
+-------------
 
 
 Kehittyminen
-^^^^^^^^^^^^
+------------
 
 
 Arviointimatriisi
-^^^^^^^^^^^^^^^^^
+-----------------
+
