@@ -47,22 +47,27 @@ Ryhmän esittämä ratkaisu ongelmaan *sisätilapaikannus kuvien avulla*, joka p
 
 
 Vahvuudet
+^^^^^^^^^
 
 - Mahdollisuus rakentaa 3-ulotteinen malli tekstuureineen virtuaali- ja lisättyä todellisuutta varten.
 - Kykenee ratkaisemaan käyttäjän katseen suunnan
-- Perustuu jo olemassa olevaan infrastruktuuriin (esim kännykkä kamerat).
+- Perustuu jo olemassa olevaan infrastruktuuriin, kuten kännykkä kamerat
 - Ratkaisu on ohjelmistoon perustuva (vastakohtana laitteistoon perustuva) tehden siitä paremmin *skaalautuvan* ja pienentäen *ylläpito kustannuksia*
 
 
 Haasteet
+^^^^^^^^
 
-- Teknologisesti haastava ongelma
+- Teknologisesti haastava
 - Vaatii laskentatehoa ja aikaa
 - Helppo käytettävyys vaatii teknologiaa jonka avulla on mahdollista ottaa kuvia ympäristöstä hyvin vaivattomasti, esimerkiksi älylasit.
-- Vaati teknologian ja algoritmien kehittymistä ennenkuin ratkaisu voidaan valjastaa massayleisön käyttöön
+- 3D mallien rakentamiseen käytettyyn *Structure from motion* algoritmin hahmon tunnistukseen pitäisi tehdä parannuksia, jotta suuria malleja rakentaessa mallista tulisi yhtenäinen. Ongelmana suurien mallien rakentamisessa on ollut että algoritmit saattavat rakentaa monta pienempää mallia jos en eivät tunnista riittävästi yksityiskohtia kuvista.
+- Algoritmien tehokkuutta voisi parantaa sekä rakentaa spesialisoitua teknologiaa 3D mallien kuvaamiseen, jotta laskenta aikaa saataisin pienemmäksi
+- Linssien aiheuttamea vääristymiä pitäisi korjata korjaavilla algoritmeilla
 
 
 Bisness ja tuotteen kaupallistaminen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Kiinnitetty aloitushinta ja kuukausittaiset päivitys ja ylläpitökustannukset
 - Aloitushinta perustuu mallinettavan alueen kokoon ja monimutkaisuuteen
@@ -70,9 +75,8 @@ Bisness ja tuotteen kaupallistaminen
 
 
 Yhteenveto
-
-- Tulevaisuuden ratkaisu
-
+^^^^^^^^^^
+Käytännössä teknologia kuviin perustuvassa navigoinnissa on jo olemassa, mutta käytännön sovellukseen, varsinkin ei ammatti käyttöön, on vielä matkaa. Teknologialle on kuitenkin kysyntää ja markkina potentiaalia virtuaali ja lisätty todellisuus sovellusten, sekä älylasien kehityksen, takia joten on todennäkoistä että näemme teknologiaan pohjautuvia sovelluksia jo lähitulevaisuudessa.
 
 
 Ryhmätyö

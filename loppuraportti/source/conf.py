@@ -16,10 +16,10 @@
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
@@ -40,7 +40,7 @@ templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
-#
+
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
 
@@ -88,7 +88,7 @@ language = 'fi'
 #
 # Else, today_fmt is used as the format for a strftime call.
 #
-# today_fmt = '%B %d, %Y'
+today_fmt = '%Y-%m-%d'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -261,7 +261,7 @@ latex_elements = {
     # 'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '12pt',
+    'pointsize': '11pt',
 
     # Additional stuff for the LaTeX preamble.
     'preamble': latex_preamble,
@@ -288,8 +288,8 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#
-# latex_logo = None
+
+latex_logo = None
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.

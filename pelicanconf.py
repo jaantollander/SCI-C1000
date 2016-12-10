@@ -64,10 +64,10 @@ STATIC_PATHS = [
 THEME = 'pelican-octopress-theme'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
-    'render_math',
-    'better_tables',
+    # 'render_math',
+    # 'better_tables',
     'pelican_youtube',
-    'pelicanfly',
+    # 'pelicanfly',
     # 'bootstrap-rst',
 ]
 
