@@ -11,8 +11,8 @@ Analysis of Presentation Video
    :format: html
 
 
-- :raw-html:`<i class="fa fa-download" aria-hidden="true"></i>` `Presentation slides  <{filename}./downloads/presentation_11-18-2016.pptx>`_
-- :raw-html:`<i class="fa fa-download" aria-hidden="true"></i>` `Video of the presentation  <{filename}./downloads/video_2016-11-24_17-06-07.mov>`_
+- :raw-html:`<i class="fa fa-download" aria-hidden="true"></i>` `Presentation slides  <{filename}./downloads/11-18-2016_presentation.pptx>`_
+- :raw-html:`<i class="fa fa-download" aria-hidden="true"></i>` `Video of the presentation  <{filename}./downloads/2016-11-24_17-06-07_video.mov>`_
 
 
 

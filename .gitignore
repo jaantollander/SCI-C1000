@@ -2,7 +2,6 @@
 output/
 final-report/build
 loppuraportti/build
-!loppuraportti/build/latex/SCI-C1000.pdf
 
 
 # Created by .ignore support plugin (hsz.mobi)

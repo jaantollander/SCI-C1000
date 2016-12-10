@@ -57,7 +57,8 @@ STATIC_PATHS = [
     'downloads',
     'tables',
     'favicon.png',
-    'logo.png'
+    'logo.png',
+    'banner.png',
 ]
 
 # Themes and Plugins
@@ -77,4 +78,4 @@ DISPLAY_CATEGORIES_ON_MENU = False
 SIDEBAR_IMAGE = "logo.png"
 SIDEBAR_IMAGE_ALT = "logo"
 
-HEADER_IMAGE = "images/aula2.png"
+HEADER_IMAGE = "banner.png"
