@@ -35,7 +35,7 @@
     <style>
         body > header {
 
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://jaantollander.github.io/SCI-C1000/images/aula2.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://jaantollander.github.io/SCI-C1000/banner.png");
         background-size: 100%, 100%;
         background-position: center, center;
         background-repeat: no-repeat;
@@ -71,81 +71,25 @@
   <div class="entry-content"><!-- .. figure:: images/2016-10-23_17-43-47_imoon.jpg
    :target: images/2016-10-23_17-43-47_imoon.jpg
    :alt: image of iMoon software -->
-<div class="youtube youtube-16x9"><iframe allowfullscreen="" frameborder="0" seamless="" src="https://www.youtube.com/embed/sNvf7N_s59c"></iframe></div><p>During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (<a class="reference external" href="https://www.youtube.com/watch?v=sNvf7N_s59c&amp;feature=youtu.be">youtube</a>) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues <a class="citation-reference" href="#imoon" id="id1">[iMoon]</a>.</p>
+<div class="youtube youtube-16x9"><iframe src="https://www.youtube.com/embed/sNvf7N_s59c" allowfullscreen seamless frameBorder="0"></iframe></div><p>During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (<a class="reference external" href="https://www.youtube.com/watch?v=sNvf7N_s59c&amp;feature=youtu.be">youtube</a>) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues <a class="citation-reference" href="#imoon" id="id1">[iMoon]</a>.</p>
 <p>Indoor navigation is a topic that has been researched for several decades. Yet there isn’t a solution that could be widely utilized in every environment, for floor plans of public buildings are either not detailed enough or are not kept up to date. Many other methods also need a specific and often expensive infrastructure to be installed in the location. Thus an alternate method is direly needed. The method should be able to adapt to constantly changing environments and be efficient at the same time. Ylä-Jääski’s research group is developing a method to achieve the aforementioned requirements.</p>
 <p>iMoon technology is based on generating 3D-models from multiple pictures taken from a space and then matching new pictures with the model to determine a location. The model is generated using Structure from Motion technology which provides a point cloud of the environment. The photos can be crowdsourced and taken with differing equipment. While users take new photos to determine their location, these photos are also used to update the model.</p>
 <p>Because of varying quality and locations of crowdsourced photos, it’s unlikely that every corner of the area is covered in many good quality photos. This being the case, iMoon first creates new separate model from new images and then tries to merge separate model with existing one by comparing details in both models. This way the model can also adapt to small changes in environment caused by eg. moving furniture and other objects.</p>
 <p>iMoon also utilizes other technologies in addition to locating the user with pictures. This is necessary to keep the computation time at minimum and to provide a pleasant user experience. The time complexity of calculations increase with respect to the size of the model for more points need to compared with one another. In order to narrow down the raw location of the user iMoon uses Wi-Fi fingerprinting with K-nearest neighbours algorithm.</p>
 <p>In addition to Wi-fi fingerprinting, iMoon also utilizes user provided trajectories to generate original model and later increase navigation accuracy. Using information from motion sensors available in various smartphones, iMoon can calculate distance user has walked from last known location. The research group found out that the use of trajectories significantly improves performance of the service and quality of the generated model.</p>
 <p>iMoon is also capable of calculating navigation instructions and presenting them on top of existing images, which can be seen on youtube video linked earlier. Embedded navigation have positive impact on user friendliness, but they also provide base for using application with smart glasses like Google Glasses.</p>
-<p>The most relevant advantage of iMoon is that it runs on regular smartphones. This makes the technology affordable and user friendly. When compared to pure Wi-Fi positioning and image based positioning without Wi-Fi fingerprinting or user trajectories, iMoon clearly outperformed Wi-Fi positioning in every aspect, but was not significantly more accurate than pure image-based positioning. Both of them were able to locate user from <span class="math">\(95\%\)</span> of the photos sent with <span class="math">\(2\)</span> meters of location error and <span class="math">\(6\)</span> degrees of facing direction error. The main question here is about performance, and that’s where iMoon is superior when compared to pure image-based positioning. On average, iMoon was able to locate user in under <span class="math">\(4\)</span> seconds but reference implementation took over <span class="math">\(40\)</span> seconds, which is far from acceptable when considering actually usable system that someone would actually pay something.</p>
+<p>The most relevant advantage of iMoon is that it runs on regular smartphones. This makes the technology affordable and user friendly. When compared to pure Wi-Fi positioning and image based positioning without Wi-Fi fingerprinting or user trajectories, iMoon clearly outperformed Wi-Fi positioning in every aspect, but was not significantly more accurate than pure image-based positioning. Both of them were able to locate user from <span class="formula">95%</span> of the photos sent with <span class="formula">2</span> meters of location error and <span class="formula">6</span> degrees of facing direction error. The main question here is about performance, and that’s where iMoon is superior when compared to pure image-based positioning. On average, iMoon was able to locate user in under <span class="formula">4</span> seconds but reference implementation took over <span class="formula">40</span> seconds, which is far from acceptable when considering actually usable system that someone would actually pay something.</p>
 <p>There are also many other technologies to use for indoor positioning, like Bluetooth beacons and analyzing magnetic field. We’ll do a bit more research before presenting those in detail, but we’ll get back to them in the next post.</p>
 <div class="section" id="references">
 <h2>References</h2>
 <table class="docutils citation" frame="void" id="imoon" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id1">[iMoon]</a></td><td>Dong, J., Xiao, Y., Noreikis, M., Ou, Z., &amp; Ylä-Jääski, A. (2015). iMoon : Using Smartphones for Image-based Indoor Navigation Categories and Subject Descriptors. Proceedings of the ACM Conference on Embedded Networked Sensor Systems, 85–97. <a class="reference external" href="http://doi.org/10.1145/2809695.2809722">http://doi.org/10.1145/2809695.2809722</a></td></tr>
 </tbody>
 </table>
 </div>
-<script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    var location_protocol = (false) ? 'https' : document.location.protocol;
-    if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script></div>
+</div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -182,6 +126,12 @@
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/grand-finale.html">Our stand is now open</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/teamwork-analysis.html">Analysis of the Teamwork</a>
+      </li>
+      <li class="post">
           <a href="https://jaantollander.github.io/SCI-C1000/further-research.html">Further Research on Indoor Positioning</a>
       </li>
       <li class="post">
@@ -189,12 +139,6 @@
       </li>
       <li class="post">
           <a href="https://jaantollander.github.io/SCI-C1000/video-analysis.html">Analysis of Presentation Video</a>
-      </li>
-      <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/bmc.html">Refining the business model</a>
-      </li>
-      <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/prototype.html">Creating the Prototype</a>
       </li>
     </ul>
   </section>
@@ -212,7 +156,7 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="https://jaantollander.github.io/SCI-C1000/tag/bmc.html">bmc</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/3d-modelling.html">3D-modelling</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/video-analysis.html">video analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/bluetooth-triangulation.html">bluetooth triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/value-proposition.html">value proposition</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/wi-fi-triangulation.html">Wi-Fi triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/indoor-atlas.html">Indoor Atlas</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/geomagnetic-positioning.html">geomagnetic positioning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/pedestrian-dead-reckoning.html">pedestrian dead reckoning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/prototype.html">prototype</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale-invitation.html">grand finale invitation</a>  </section>
+    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/stand.html">stand</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/awesome.html">awesome</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale.html">grand finale</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/wi-fi-triangulation.html">Wi-Fi triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/3d-modelling.html">3D-modelling</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/indoor-atlas.html">Indoor Atlas</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/value-proposition.html">value proposition</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/pedestrian-dead-reckoning.html">pedestrian dead reckoning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/video-analysis.html">video analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/prototype.html">prototype</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale-invitation.html">grand finale invitation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/bluetooth-triangulation.html">bluetooth triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/geomagnetic-positioning.html">geomagnetic positioning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/bmc.html">bmc</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/teamwork-analysis.html">teamwork analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>  </section>
 
 
 </aside>    </div>

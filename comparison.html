@@ -35,7 +35,7 @@
     <style>
         body > header {
 
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://jaantollander.github.io/SCI-C1000/images/aula2.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://jaantollander.github.io/SCI-C1000/banner.png");
         background-size: 100%, 100%;
         background-position: center, center;
         background-repeat: no-repeat;
@@ -69,7 +69,7 @@
 </header>
 
   <div class="entry-content"><div class="figure">
-<a class="reference external image-reference" href="figures/comparison.png"><img alt="image of comparison" src="figures/comparison.png"/></a>
+<a class="reference external image-reference" href="figures/comparison.png"><img alt="image of comparison" src="figures/comparison.png" /></a>
 </div>
 <p>There exits numerous competing methods for indoor navigation on the market, some more similar with out model than others. In this blog post these method are compared technically</p>
 <div class="section" id="wifi-triangulation">
@@ -78,14 +78,14 @@
 <p>The strengths of this positioning method include the fact that it relies on existing infrastructure: WiFi can be nowadays found in almost any building. This method also ensures that the device making the location query can be connected to the database enabling the positioning, as without WiFi there is no positioning system at all. This positioning system can also be used in Internet of Things objects as most of them connect to the internet wirelessly anyway.</p>
 <p>As for weaknesses, the system needs WiFi to function, and in a world of near ubiquitous mobile networks (at least in Finland), the lack of WiFi in order to get positioning data is not that big of a problem. The accuracy of some systems is also of question, although some very accurate systems have been developed, such as the award winning <a class="reference external" href="https://anyplace.cs.ucy.ac.cy/">Anyplace</a>, which claims accuracy of less than 2 m. The initial layout of the building has to be created externally before the system can be deployed and as everyone surely knows, WiFi signals are sometimes finicky especially in rooms with thick walls.</p>
 <table class="docutils footnote" frame="void" id="id3" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Service set identifier (SSID)</td></tr>
 </tbody>
 </table>
 <table class="docutils footnote" frame="void" id="id4" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id2">[2]</a></td><td>A media access control address (MAC adress)</td></tr>
 </tbody>
 </table>
@@ -114,9 +114,16 @@
 </div>
 <div class="section" id="summary">
 <h2>Summary</h2>
-<table class="docutils">
-
-<thead>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+<col width="17%" />
+</colgroup>
+<thead valign="bottom">
 <tr><th class="head">Name</th>
 <th class="head">Accuracy</th>
 <th class="head">Infrastructure</th>
@@ -125,27 +132,27 @@
 <th class="head">Other</th>
 </tr>
 </thead>
-<tbody>
+<tbody valign="top">
 <tr><td><em>WIFI Triangulation</em></td>
-<td><span class="math">\(5-30\,\mathrm{m}\)</span> <a class="footnote-reference" href="#id6" id="id5">[3]</a></td>
+<td><span class="formula">5 − 30 <span class="mathrm"> m</span></span> <a class="footnote-reference" href="#id6" id="id5">[3]</a></td>
 <td>Usually existing</td>
 <td>Remapping</td>
 <td>Device battery + AC</td>
 <td>Relies on existing infrastructure</td>
 </tr>
 <tr><td><em>Bluetooth Beacons</em></td>
-<td><span class="math">\(2-30\,\mathrm{m}\)</span></td>
+<td><span class="formula">2 − 30 <span class="mathrm"> m</span></span></td>
 <td>Hardware installation, Device management</td>
 <td>Remapping</td>
 <td>Device battery + AC</td>
-<td> </td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><em>Magnetic Field Measurement</em></td>
-<td><span class="math">\(2\,\mathrm{m}\)</span></td>
+<td><span class="formula">2 <span class="mathrm"> m</span></span></td>
 <td>API + initial magnetic mapping</td>
 <td>Crowdsourced</td>
 <td>Device battery</td>
-<td> </td>
+<td>&nbsp;</td>
 </tr>
 <tr><td><em>Pedestrian Dead Reckoning</em></td>
 <td>Varies</td>
@@ -155,7 +162,7 @@
 <td>No additional devices / services needed</td>
 </tr>
 <tr><td><em>Point-cloud from Images</em></td>
-<td><span class="math">\(5\,\mathrm{m}\)</span></td>
+<td><span class="formula">5 <span class="mathrm"> m</span></span></td>
 <td>API + initial photoshoot</td>
 <td>Crowdsourced</td>
 <td>Device battery</td>
@@ -165,8 +172,8 @@
 </table>
 <!-- Footnotes -->
 <table class="docutils footnote" frame="void" id="id6" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label"><a class="fn-backref" href="#id5">[3]</a></td><td>depending on algorithms (&gt;2m claimed by <a class="reference external" href="https://anyplace.cs.ucy.ac.cy/">Anyplace</a>)</td></tr>
 </tbody>
 </table>
@@ -175,93 +182,37 @@
 <div class="section" id="references">
 <h2>References</h2>
 <table class="docutils footnote" frame="void" id="id7" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label">[4]</td><td>Sterling, Greg (Opus Research, I. . (2014). Magnetic Positioning, 1–8.</td></tr>
 </tbody>
 </table>
 <table class="docutils footnote" frame="void" id="id8" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label">[5]</td><td>Zandbergen, P. A. (2009). Accuracy of iPhone locations: A comparison of assisted GPS, WiFi and cellular positioning. Transactions in GIS, 13(SUPPL. 1), 5–25. <a class="reference external" href="http://doi.org/10.1111/j.1467-9671.2009.01152.x">http://doi.org/10.1111/j.1467-9671.2009.01152.x</a></td></tr>
 </tbody>
 </table>
 <table class="docutils footnote" frame="void" id="id9" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label">[6]</td><td>Bekkelien, A. (2012). Bluetooth indoor positioning. Master’s Thesis, University …, (March), 1. Retrieved from <a class="reference external" href="http://cui.unige.ch/~deriazm/masters/bekkelien/Bekkelien_Master_Thesis.pdf">http://cui.unige.ch/~deriazm/masters/bekkelien/Bekkelien_Master_Thesis.pdf</a></td></tr>
 </tbody>
 </table>
 <table class="docutils footnote" frame="void" id="id10" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label">[7]</td><td>Beauregard, S., &amp; Haas, H. (2006). Pedestrian dead reckoning: A basis for personal positioning. Positioning, Navigation and Communication, 27–35. <a class="reference external" href="http://doi.org/10.1613/jair.301">http://doi.org/10.1613/jair.301</a></td></tr>
 </tbody>
 </table>
 <table class="docutils footnote" frame="void" id="id11" rules="none">
-
-<tbody>
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
 <tr><td class="label">[8]</td><td>Liu, H., Darabi, H., Banerjee, P., &amp; Liu, J. (2007). Survey of wireless indoor positioning techniques and systems. IEEE Transactions on Systems, Man and Cybernetics Part C: Applications and Reviews, 37(6), 1067–1080. <a class="reference external" href="http://doi.org/10.1109/TSMCC.2007.905750">http://doi.org/10.1109/TSMCC.2007.905750</a></td></tr>
 </tbody>
 </table>
 </div>
-<script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    var location_protocol = (false) ? 'https' : document.location.protocol;
-    if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script></div>
+</div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -298,6 +249,12 @@
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/grand-finale.html">Our stand is now open</a>
+      </li>
+      <li class="post">
+          <a href="https://jaantollander.github.io/SCI-C1000/teamwork-analysis.html">Analysis of the Teamwork</a>
+      </li>
+      <li class="post">
           <a href="https://jaantollander.github.io/SCI-C1000/further-research.html">Further Research on Indoor Positioning</a>
       </li>
       <li class="post">
@@ -305,12 +262,6 @@
       </li>
       <li class="post">
           <a href="https://jaantollander.github.io/SCI-C1000/video-analysis.html">Analysis of Presentation Video</a>
-      </li>
-      <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/bmc.html">Refining the business model</a>
-      </li>
-      <li class="post">
-          <a href="https://jaantollander.github.io/SCI-C1000/prototype.html">Creating the Prototype</a>
       </li>
     </ul>
   </section>
@@ -328,7 +279,7 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="https://jaantollander.github.io/SCI-C1000/tag/bmc.html">bmc</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/3d-modelling.html">3D-modelling</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/video-analysis.html">video analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/bluetooth-triangulation.html">bluetooth triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/value-proposition.html">value proposition</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/wi-fi-triangulation.html">Wi-Fi triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/indoor-atlas.html">Indoor Atlas</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/geomagnetic-positioning.html">geomagnetic positioning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/pedestrian-dead-reckoning.html">pedestrian dead reckoning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/prototype.html">prototype</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale-invitation.html">grand finale invitation</a>  </section>
+    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1.html">Week 1</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/stand.html">stand</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/awesome.html">awesome</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale.html">grand finale</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/wi-fi-triangulation.html">Wi-Fi triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/3d-modelling.html">3D-modelling</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/indoor-atlas.html">Indoor Atlas</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/value-proposition.html">value proposition</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/pedestrian-dead-reckoning.html">pedestrian dead reckoning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/video-analysis.html">video analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-1-2.html">Week 1-2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/week-2.html">Week 2</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/prototype.html">prototype</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/grand-finale-invitation.html">grand finale invitation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/bluetooth-triangulation.html">bluetooth triangulation</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/geomagnetic-positioning.html">geomagnetic positioning</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/bmc.html">bmc</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/teamwork-analysis.html">teamwork analysis</a>,    <a href="https://jaantollander.github.io/SCI-C1000/tag/project-plan.html">project plan</a>  </section>
 
 
 </aside>    </div>

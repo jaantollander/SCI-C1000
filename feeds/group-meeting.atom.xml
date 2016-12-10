@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Indoor Navigation from Multiple Images</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/group-meeting.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-09-28T00:00:00+03:00</updated><entry><title>First Group Meeting</title><link href="https://jaantollander.github.io/SCI-C1000/first-group-meeting.html" rel="alternate"></link><published>2016-09-28T00:00:00+03:00</published><updated>2016-09-28T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-09-28:SCI-C1000/first-group-meeting.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/20160928_162236.jpg"&gt;&lt;img alt="picture about first group meeting" src="images/20160928_162236.jpg" style="height: 400px;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/20160928_162236.jpg"&gt;&lt;img alt="picture about first group meeting" src="images/20160928_162236.jpg" style="height: 400px;" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;We met at the CS building to discuss the first steps of our project. After an intesive photoshoot to capture our freely flowing creative process, we soon arrived at a satisfactory title for our party: &lt;strong&gt;3+4Dudes&lt;/strong&gt;. After some brief discussion about blog-keeping tools, we began talking about the scope of our project.&lt;/p&gt;
 &lt;p&gt;Despite our previous research finding that &lt;a class="citation-reference" href="#lidar" id="id1"&gt;[LIDAR]&lt;/a&gt; is a superior tool compared to our &lt;a class="citation-reference" href="#sfm" id="id2"&gt;[SFM]&lt;/a&gt; tools, one of our group with experience in a company working with SFM technique protested: the company was of the opinion that SFM offers a sufficient degree of detail while being &lt;strong&gt;a lot faster and cheaper&lt;/strong&gt;.&lt;/p&gt;
@@ -26,14 +26,14 @@
 &lt;div class="section" id="references"&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;table class="docutils citation" frame="void" id="lidar" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[LIDAR]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Lidar"&gt;https://en.wikipedia.org/wiki/Lidar&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="sfm" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[SFM]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Structure_from_motion"&gt;https://en.wikipedia.org/wiki/Structure_from_motion&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

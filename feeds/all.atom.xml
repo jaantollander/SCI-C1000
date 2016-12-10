@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Indoor Navigation from Multiple Images</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/all.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-12-02T11:57:00+02:00</updated><entry><title>Further Research on Indoor Positioning</title><link href="https://jaantollander.github.io/SCI-C1000/further-research.html" rel="alternate"></link><published>2016-12-02T11:57:00+02:00</published><updated>2016-12-02T11:57:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-12-01:SCI-C1000/further-research.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/17bits-atlasmagnetic-tmagArticle.png"&gt;&lt;img alt="geomagnetic map" src="images/17bits-atlasmagnetic-tmagArticle.png"/&gt;&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Indoor Navigation from Multiple Images</title><link href="https://jaantollander.github.io/SCI-C1000/" rel="alternate"></link><link href="https://jaantollander.github.io/SCI-C1000/feeds/all.atom.xml" rel="self"></link><id>https://jaantollander.github.io/SCI-C1000/</id><updated>2016-12-09T00:00:00+02:00</updated><entry><title>Our stand is now open</title><link href="https://jaantollander.github.io/SCI-C1000/grand-finale.html" rel="alternate"></link><published>2016-12-09T00:00:00+02:00</published><updated>2016-12-09T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-12-09:SCI-C1000/grand-finale.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="images/pohina.PNG"&gt;&lt;img alt="Eager visitors at our stand" src="images/pohina.PNG" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Eager visitors at our stand&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The grand finale is finally here!&lt;/p&gt;
+&lt;p&gt;If you want to test our interactive prototype or have any questions conserning our solution and/or business model, come visit us at our stand in Aalto Undergraduate Centre's (Otakaari 1) first floor. Our team will gladly provide you with answers and coffee!&lt;/p&gt;
+&lt;p&gt;We will also have a short and informative presentation about the project around 11.20 am.&lt;/p&gt;
+</summary><category term="grand finale"></category><category term="stand"></category><category term="awesome"></category></entry><entry><title>Analysis of the Teamwork</title><link href="https://jaantollander.github.io/SCI-C1000/teamwork-analysis.html" rel="alternate"></link><published>2016-12-08T00:00:00+02:00</published><updated>2016-12-08T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-12-08:SCI-C1000/teamwork-analysis.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="images/IMG_20161209_210802.jpg"&gt;&lt;img alt="photo of the team" src="images/IMG_20161209_210802.jpg" /&gt;&lt;/a&gt;
+&lt;p class="caption"&gt;&lt;em&gt;Team 3+4Dudes&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- On our team dynamics --&gt;
+&lt;p&gt;This week’s group meeting was dedicated to two things: practicalities concerning tomorrow’s Grande Finale, and discussing our group dynamics and how we felt that our group has grown during these months.&lt;/p&gt;
+&lt;p&gt;First, however, a word about our group meetings that we have neglected to describe thus far. Our group meetings consist of catch-up across different people about the state of their respective tasks and dealing out new ones. A few things we have learned to be invaluable to do in addition to these somewhat simple topics are re-evaluation and visual thinking. At a few points along the course we have gathered to discuss our project as a whole and to ponder whether we are going in the right direction. Taking a step back has often shown to be an eye-opening experience. Another lesson learned is the value of visual thinking: the simple act of writing our ideas down and drawing diagrams. We have noticed how these small visualisations help us to shape and focus our process.&lt;/p&gt;
+&lt;p&gt;Anyway, time to move the spotlight back at us. As we set out to this rather grand project, our team work was not very organized. We spent the first few weeks in an anarchistic dream: no leadership, only ideas. Suffice to say, this lead to slow progress. Under pressure our figurative lump of coal began its metamorphosis. &lt;strong&gt;Misamatti&lt;/strong&gt; was selected as our team leader and as our first Amendment he started our Thursday morning meetings, the structure of which is described in the above paragraph. With his help the natural process of job division took its course and we emerged out. He has led us with a supportive and subtle style, which is exactly what a motivated group needs in our opinion. &lt;strong&gt;Misamatti&lt;/strong&gt; also was from the start the one to research the strengths and boundaries of our idea. Another great mover and shaker of this project has been &lt;strong&gt;Markus&lt;/strong&gt;, who has at many junctions been the one pushing us forward. He has been the one behind our sleek presentations and has helped tremendously in the organization of our group. Our technical team consists of &lt;strong&gt;Aapo&lt;/strong&gt;, &lt;strong&gt;Jaan&lt;/strong&gt;, and &lt;strong&gt;Juhani&lt;/strong&gt;, who all we have thank for our impressive 3D-demos. &lt;strong&gt;Jaan&lt;/strong&gt; has also worked as the tech guy behind this blog. &lt;strong&gt;Aapo&lt;/strong&gt; has always been thinking about the business possibilities of our product while also participating in the technical side. He has also introduced us to many problem solving and innovating processes. &lt;strong&gt;Juhani&lt;/strong&gt; has from the start been researching the technical aspects and realisation of our model, and he also participated to business interviews when we were mapping out our marketing landscape. &lt;strong&gt;Antti&lt;/strong&gt; has helped us to generally plan our technical side and he was responsible for our business interviews, writing our questions and coordinating our efforts in that front. I myself, &lt;strong&gt;Lauri&lt;/strong&gt;, have been researching competing technologies, contacting them and have also written quite a few of our blog posts.&lt;/p&gt;
+&lt;p&gt;As a group we have grown from our rather rough beginnings. After the emergence of leadership we have quite naturally slipped into our respective roles. The technical guys began cracking the problem of modelling while the rest of us set our sights towards the current market. While we were working on our respective fields, we have increasingly been noticing the value of cross-team sharing - often an outside look has proved to be the critical rung in our figurative ladder in our ascent. All in all, our team has advanced significantly during this process and we now function in a manner totally unlike than our initial setting out.&lt;/p&gt;
+</summary><category term="teamwork analysis"></category></entry><entry><title>Further Research on Indoor Positioning</title><link href="https://jaantollander.github.io/SCI-C1000/further-research.html" rel="alternate"></link><published>2016-12-02T11:57:00+02:00</published><updated>2016-12-02T11:57:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-12-01:SCI-C1000/further-research.html</id><summary type="html">&lt;div class="figure"&gt;
+&lt;a class="reference external image-reference" href="images/17bits-atlasmagnetic-tmagArticle.png"&gt;&lt;img alt="geomagnetic map" src="images/17bits-atlasmagnetic-tmagArticle.png" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Picture of unique map used in geomagnetic positioning&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;In a &lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/comparison.html"&gt;blog post&lt;/a&gt; written a few weeks ago we looked at competing techniques in the field of indoor positioning. In this post we will follow up on the analysis and present how our technology compares.&lt;/p&gt;
@@ -9,7 +25,7 @@
 &lt;p&gt;Compared to &lt;em&gt;pedestrian dead reckoning&lt;/em&gt; we are simply far more accurate, and our error is not cumulative. Our limitation - the need to be connected to internet - is hardly a problem in our modern age. Compared to &lt;em&gt;bluetooth triangulation&lt;/em&gt; we have the strength of not needing any infrastructure. In fact, we consider this one our main benefits, but we are not uncontested in this category.&lt;/p&gt;
 &lt;p&gt;Our key selling point is the freedom from infrastructure, but we are not alone in this category. Both &lt;em&gt;Wi-Fi triangulation&lt;/em&gt; and &lt;em&gt;geomagnetic positioning&lt;/em&gt; offer the same benefit in most spaces nowadays as Wi-Fi is near ubiquitous. They are both rather accurate and geomagnetic positioning has a “cool” factor with it, something that we thought was singular for our &lt;em&gt;3D-modelling&lt;/em&gt;. This forced us to rethink our technology’s strengths: we are not the only ones with these benefits.&lt;/p&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/main_floor.png"&gt;&lt;img alt="main floor plan" src="images/main_floor.png" style="width: 50%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/main_floor.png"&gt;&lt;img alt="main floor plan" src="images/main_floor.png" style="width: 50%;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Indoor Atlas MapCreator&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -24,7 +40,7 @@
 &lt;p&gt;If our list of unique technological benefits is this slim, we have to look for strengths elsewhere. This made us to look further into how our business model could be more competitive. As a solution we thought to heavily invest into the ease-of-use of our mapping system for our partners (retail, museums etc.). Our solution of indoor positioning should be a complete package, a hassle-free system that is entirely installed and maintained by us. We should offer dedicated and personalised customer support, able to accurately answer to and solve customer fast. A good customer service renders us a more desirable solution for our partners.&lt;/p&gt;
 &lt;/div&gt;
 </summary><category term="pedestrian dead reckoning"></category><category term="bluetooth triangulation"></category><category term="geomagnetic positioning"></category><category term="3D-modelling"></category><category term="Indoor Atlas"></category><category term="Wi-Fi triangulation"></category></entry><entry><title>Invitation to Grand Finale at 2016-12-09</title><link href="https://jaantollander.github.io/SCI-C1000/grand-finale-invitation.html" rel="alternate"></link><published>2016-11-24T00:00:00+02:00</published><updated>2016-11-24T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-24:SCI-C1000/grand-finale-invitation.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/aula/examples/aula.html"&gt;&lt;img alt="model" src="images/aula2.png" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/aula/examples/aula.html"&gt;&lt;img alt="model" src="images/aula2.png" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Click the image for 3D model&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Our team warmly welcomes you to hear our presentation and further investigate our results about &lt;em&gt;indoor navigation using point cloud from photos&lt;/em&gt;  on &lt;strong&gt;december 9th&lt;/strong&gt;. Presentations are held at Aalto University main building lobby in &lt;strong&gt;Otakaari 1&lt;/strong&gt;.&lt;/p&gt;
@@ -32,38 +48,40 @@
 &lt;p&gt;This kind of navigation is made possible with &lt;em&gt;structure from motion&lt;/em&gt; technology which makes generating 3D models from multiple ordinary photos possible. Generated point cloud can be used for indoor navigation and dense reconstruction (3D model with texture) offers the possibility of using augmented reality elements.&lt;/p&gt;
 &lt;p&gt;You can read more about our research from the blog and these posts&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/comparison.html"&gt;Comparison Between Indoor Navigation Systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/comparison.html"&gt;Comparison Between Indoor Navigation Systems﻿&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/prototype.html"&gt;Creating the Prototype&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</summary><category term="grand finale invitation"></category></entry><entry><title>Analysis of Presentation Video</title><link href="https://jaantollander.github.io/SCI-C1000/video-analysis.html" rel="alternate"></link><published>2016-11-24T00:00:00+02:00</published><updated>2016-11-24T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-24:SCI-C1000/video-analysis.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/downloads/presentation_11-18-2016.pptx"&gt;Presentation slides&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/downloads/video_2016-11-24_17-06-07.mov"&gt;Video of the presentation&lt;/a&gt;&lt;/p&gt;
+</summary><category term="grand finale invitation"></category></entry><entry><title>Analysis of Presentation Video</title><link href="https://jaantollander.github.io/SCI-C1000/video-analysis.html" rel="alternate"></link><published>2016-11-24T00:00:00+02:00</published><updated>2016-11-24T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-24:SCI-C1000/video-analysis.html</id><summary type="html">&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;span class="raw-html"&gt;&lt;i class="fa fa-download" aria-hidden="true"&gt;&lt;/i&gt;&lt;/span&gt; &lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/downloads/11-18-2016_presentation.pptx"&gt;Presentation slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="raw-html"&gt;&lt;i class="fa fa-download" aria-hidden="true"&gt;&lt;/i&gt;&lt;/span&gt; &lt;a class="reference external" href="https://jaantollander.github.io/SCI-C1000/downloads/2016-11-24_17-06-07_video.mov"&gt;Video of the presentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;The goal of this presentation was to give general idea of our oncoming prototype and the progress of the overall project. In general this goal was achieved and presentation got audience interested of our project and prototype. There were still many points left to improve in presentations to come.&lt;/p&gt;
 &lt;p&gt;Overall our presentation was focused on point and didn’t stray from topic. Also the speak was clear and loud enough to be followed easily. However we should have practiced more co-operation between speakers and the slide operator. This was most visible when speakers had to ask for slides or change them by themselves. Also the person speaking should stand out better from the rest of the group.&lt;/p&gt;
 &lt;p&gt;The start of presentation was energetic and went straight to the point so that our topic was crystal clear for everyone from the beginning. The flow was interrupted when the next speaker had to switch between programs to present our prototype. In next presentations we’ll avoid this issue by keeping the whole presentation in powerpoint and presenting prototype with images and videos. The presentation of prototype was also way too long compared to other parts of presentation, but it was clearly the most interesting part of this presentation. It was also good that we chose to present the test model from dumpster, which got excellent feedback from the audience.&lt;/p&gt;
 &lt;p&gt;After presenting the prototype and switching to market potential and next steps the first speaker didn’t have the same contact to the audience anymore. In the market research part it would have been good to give concrete numbers instead of saying that it has “huge” potential. Although the time limit was already exceeded at that point, the presentation was still intact and complete and wasn’t rushed through last parts. The ending of the presentation was also a bit flat when the speaker didn’t give any conclusion and went straight to the questions. It would have been better to gather the main points of the presentation together and thank the audience.&lt;/p&gt;
 &lt;p&gt;Despite many improvement areas, the presentation succeeded in its goals and it was followed by a long and interesting discussion with the audience. There was also clearly interest to trying our final prototype in Grand Finale, which was encouraging for the team.&lt;/p&gt;
-</summary><category term="video analysis"></category></entry><entry><title>Refining the business model</title><link href="https://jaantollander.github.io/SCI-C1000/bmc.html" rel="alternate"></link><published>2016-11-18T00:00:00+02:00</published><updated>2016-11-18T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-18:SCI-C1000/bmc.html</id><summary type="html">&lt;p&gt;This week the topic our of weekly meeting was refining the business model canvas and the monetization model.&lt;/p&gt;
+</summary><category term="video analysis"></category></entry><entry><title>﻿Refining the business model</title><link href="https://jaantollander.github.io/SCI-C1000/bmc.html" rel="alternate"></link><published>2016-11-18T00:00:00+02:00</published><updated>2016-11-18T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-18:SCI-C1000/bmc.html</id><summary type="html">&lt;p&gt;This week the topic our of weekly meeting was refining the business model canvas and the monetization model.&lt;/p&gt;
 &lt;div class="section" id="business-model-canvas"&gt;
 &lt;h2&gt;Business model canvas&lt;/h2&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/bmc.png"&gt;&lt;img alt="business model canvas" src="images/bmc.png"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/bmc.png"&gt;&lt;img alt="business model canvas" src="images/bmc.png" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="monetization-model"&gt;
 &lt;h2&gt;Monetization model&lt;/h2&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/ansaintamalli.png"&gt;&lt;img alt="business model canvas" src="images/ansaintamalli.png"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/ansaintamalli.png"&gt;&lt;img alt="business model canvas" src="images/ansaintamalli.png" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;The monetization model consists of initial fixed cost and monthly maintenance and update fees. The initial cost varies case-by-case depending on the contract made with the customer. Facts taken into consideration when making the contract are the size and complexity of the area to be modelled.  To model larger area more photos are needed and constructing model from a large set of photos takes significant amounts of time and processing power. The size of the monthly costs are based on estimated amount of end users and the additional customer specific features. Computing the position and orientation of the users’ camera is computationally intensive task and therefore requires large investments in server architecture.&lt;/p&gt;
 &lt;p&gt;We also considered other monetization models, but the SaaS (Software as a Service) approach was the most effective one. The single payment model was rejected because upkeep of the positioning servers is expensive and the customer is not willing to invest in server hardware. Also the possibility to take provision of the increased sales generated by the state-of-the-art advertising, but the idea was rejected because it is impossible to accurately measure the increased revenue caused by the advertising.&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="bmc"></category></entry><entry><title>Creating the Prototype</title><link href="https://jaantollander.github.io/SCI-C1000/prototype.html" rel="alternate"></link><published>2016-11-11T00:00:00+02:00</published><updated>2016-11-11T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-11:SCI-C1000/prototype.html</id><summary type="html">&lt;div class="section" id="creating-3d-models-with-visualsfm"&gt;
+</summary><category term="bmc"></category></entry><entry><title>﻿Creating the Prototype</title><link href="https://jaantollander.github.io/SCI-C1000/prototype.html" rel="alternate"></link><published>2016-11-11T00:00:00+02:00</published><updated>2016-11-11T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-11:SCI-C1000/prototype.html</id><summary type="html">&lt;div class="section" id="creating-3d-models-with-visualsfm"&gt;
 &lt;h2&gt;Creating 3D models with VisualSFM&lt;/h2&gt;
 &lt;p&gt;Creating a 3D model from images with VisualSFM consists of three steps. &lt;a class="citation-reference" href="#visualsfm" id="id1"&gt;[VisualSFM]&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="feature-detection-full-pairwise-image-matching"&gt;
 &lt;h3&gt;1. Feature Detection &amp;amp; (Full) Pairwise Image Matching&lt;/h3&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/vsfm/match.PNG"&gt;&lt;img alt="match" src="images/vsfm/match.PNG" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/vsfm/match.PNG"&gt;&lt;img alt="match" src="images/vsfm/match.PNG" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Feature detection of the images finds similar features from each image in order to perform the pairwise image mathing. This operation determines where images are positioned in respect to one another&lt;/p&gt;
 &lt;p&gt;Full pairwise image matching compares every image with every other image in order to do the matching. Full pairwise matching is the only way if we have completely random images but it is computationally expensive.&lt;/p&gt;
@@ -71,197 +89,197 @@
 &lt;div class="section" id="sparse-reconstruction"&gt;
 &lt;h3&gt;2. Sparse Reconstruction&lt;/h3&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/vsfm/sparse_cloud.PNG"&gt;&lt;img alt="sparse cloud" src="images/vsfm/sparse_cloud.PNG" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/vsfm/sparse_cloud.PNG"&gt;&lt;img alt="sparse cloud" src="images/vsfm/sparse_cloud.PNG" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Sparse reconstruction constructs the point cloud from the matched images. It finds the spatial positions the images in the 3D space. Point cloud is required for indoor navigation.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="dense-reconstruction"&gt;
 &lt;h3&gt;3. Dense Reconstruction&lt;/h3&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/kaivuri/examples/kaivuri.html"&gt;&lt;img alt="dense reconstruction" src="images/vsfm/giphy.gif" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/kaivuri/examples/kaivuri.html"&gt;&lt;img alt="dense reconstruction" src="images/vsfm/giphy.gif" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Click the image for 3D model&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Dense reconstruction builds the full 3D model with textures from the sparse reconstruction. This is optional step for the indoor navigation but required for additional features that require 3D model such as &lt;em&gt;alternate reality (AR)&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Live 3D model can be accessed by clicking the gif image above or &lt;a class="reference external" href="https://jaantollander.github.io/3D-models/kaivuri/examples/kaivuri.html"&gt;this link&lt;/a&gt;. It is displayed and rendered with Potree. &lt;a class="citation-reference" href="#potree" id="id2"&gt;[Potree]&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;hr class="docutils"/&gt;
+&lt;hr class="docutils" /&gt;
 &lt;div class="section" id="d-model-of-learning-center-beta"&gt;
 &lt;h2&gt;3D Model of Learning Center Beta&lt;/h2&gt;
 &lt;p&gt;We took approximately 300 photos from the ground floor of the Learning Center beta and computed point cloud using VisualSFM. The results didn't quite turn out as expected.&lt;/p&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/view.jpg"&gt;&lt;img alt="visualsfm point cloud" src="images/view.jpg" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/view.jpg"&gt;&lt;img alt="visualsfm point cloud" src="images/view.jpg" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;VisualSFM generated 23 separate models from the photos. VisualSFM had trouble connecting photos shot with different cameras to each other and the relatively low number of photos considering the size of the space made it hard to combine them into a single model. VisualSFM is known to create many models even with ample amounts of photos due to the way that it builds the point cloud. One possible solution is to add more photos, but that would make the several hour computing time even longer.&lt;/p&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/beta.PNG"&gt;&lt;img alt="beta map" src="images/beta.PNG" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/beta.PNG"&gt;&lt;img alt="beta map" src="images/beta.PNG" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;Most of the cameras were placed in the red circle. This is the most simple part of the floor. It's a large open space so it's easy to take enough overlapping photos. Closer to the entrance the space is divided into much smaller sections which makes it hard to capture photos with enough features for the algorithm to work properly.&lt;/p&gt;
 &lt;p&gt;By changing the feature detection algorithm to search for more details and using a proprietary software for the point could reconstruction we were able to get a bit better results. The program was able to place around twice as many cameras and find more points.&lt;/p&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/pc.PNG"&gt;&lt;img alt="point cloud" src="images/pc.PNG" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/pc.PNG"&gt;&lt;img alt="point cloud" src="images/pc.PNG" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/aula/examples/aula.html"&gt;&lt;img alt="model" src="images/aula.PNG" style="width: 100%;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://jaantollander.github.io/3D-models/aula/examples/aula.html"&gt;&lt;img alt="model" src="images/aula.PNG" style="width: 100%;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;&lt;em&gt;Click the image for 3D model&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;The results are only a slight improvement compared to the VisualSFM and generating a complete model of the whole floor would require many more photos. We estimate that a accurate model for indoor positioning purposes would require around 1000-2000 photos. Shooting a couple thousand photos is not a problem but with that many pictures feature recognition and matching becomes a problem. Without any additional knowledge of the photos every photo has to be matched with every other photo to find possible connections. This means that the computing time grows quadratically as the number of photos increases. With a powerful home computer processing a few thousand photos would take several days. We have to investigate ways to optimize our feature matching or find a powerful computing cluster.&lt;/p&gt;
 &lt;/div&gt;
-&lt;hr class="docutils"/&gt;
+&lt;hr class="docutils" /&gt;
 &lt;div class="section" id="references"&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;table class="docutils citation" frame="void" id="visualsfm" rules="none"&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[VisualSFM]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Wu, Changchang. "VisualSFM: A visual structure from motion system." (2011).&lt;/td&gt;&lt;/tr&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[VisualSFM]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Wu, Changchang. &amp;quot;VisualSFM: A visual structure from motion system.&amp;quot; (2011).&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="potree" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[Potree]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Potree | WebGL pointcloud renderer &lt;a class="reference external" href="http://www.potree.org/"&gt;http://www.potree.org/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 </summary><category term="prototype"></category></entry><entry><title>Value Proposition</title><link href="https://jaantollander.github.io/SCI-C1000/value-proposition.html" rel="alternate"></link><published>2016-11-04T00:00:00+02:00</published><updated>2016-11-04T00:00:00+02:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-11-04:SCI-C1000/value-proposition.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="figures/value-proposition-canvas2.png"&gt;&lt;img alt="value proposition canvas" src="figures/value-proposition-canvas2.png"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="figures/value-proposition-canvas2.png"&gt;&lt;img alt="value proposition canvas" src="figures/value-proposition-canvas2.png" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class="section" id="market-owners"&gt;
 &lt;h2&gt;Market Owners&lt;/h2&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="figures/value-proposition-market-owners.png"&gt;&lt;img alt="value proposition market owners" src="figures/value-proposition-market-owners.png"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="figures/value-proposition-market-owners.png"&gt;&lt;img alt="value proposition market owners" src="figures/value-proposition-market-owners.png" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;!-- Customer Segment --&gt;
 &lt;!-- ^^^^^^^^^^^^^^^^ --&gt;
 &lt;!-- Customer Job --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Buying food, groceries or other products --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Pains --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Getting lost in large hyper markets and not finding needed products --&gt;
 &lt;!-- * Wide variety of products can make finding special product harder --&gt;
 &lt;!-- * The needed product being sold out --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Gains --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Finding needed products with less effort and faster --&gt;
 &lt;!-- * Benefiting from the best discount offers finding about best deals --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Value Proposition --&gt;
 &lt;!-- ^^^^^^^^^^^^^^^^^ --&gt;
 &lt;!-- Products and Services --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Real time indoor navigation --&gt;
 &lt;!-- * Guiding customer to the destination and aiding in finding special products --&gt;
 &lt;!-- * Possibility of adding AR guides or advertisement --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Pain Relievers --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * AR guides help finding products faster --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Gain Creators --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * People will find the products they were looking leading to increased sales --&gt;
 &lt;!-- * Better customer experience --&gt;
 &lt;/div&gt;
-&lt;hr class="docutils"/&gt;
+&lt;hr class="docutils" /&gt;
 &lt;div class="section" id="market-customers"&gt;
 &lt;h2&gt;Market Customers&lt;/h2&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="figures/value-proposition-market-customers.png"&gt;&lt;img alt="value proposition market customers" src="figures/value-proposition-market-customers.png"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="figures/value-proposition-market-customers.png"&gt;&lt;img alt="value proposition market customers" src="figures/value-proposition-market-customers.png" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;!-- Customer segment --&gt;
 &lt;!-- ^^^^^^^^^^^^^^^^ --&gt;
 &lt;!-- Customer jobs --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Filling the fridge --&gt;
 &lt;!-- * Buying groceries and other needed products --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Pains --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Being lost in a strange hypermarket and not finding needed products --&gt;
 &lt;!-- * Wide variety of products so customer needs to put extra effort on finding the right one --&gt;
 &lt;!-- * The needed product being sold out --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Gains --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Benefiting from the best discount offers --&gt;
 &lt;!-- * Finding needed product without further effort --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- Value proposition --&gt;
 &lt;!-- ^^^^^^^^^^^^^^^^^ --&gt;
 &lt;!-- Products and services --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Real-time indoor positioning and navigation with embedded augmented reality information about products --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Pain relievers --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Offering replacing products when the one needed is sold out --&gt;
 &lt;!-- * Navigation instructions directly to the needed product --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Gain creators --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Real-time navigation --&gt;
 &lt;!-- * Easily accessible information about different products and discount campaigns --&gt;
 &lt;/div&gt;
-&lt;hr class="docutils"/&gt;
+&lt;hr class="docutils" /&gt;
 &lt;div class="section" id="museums"&gt;
 &lt;h2&gt;Museums&lt;/h2&gt;
 &lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="figures/value-proposition-museums.png"&gt;&lt;img alt="value proposition museums" src="figures/value-proposition-museums.png"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="figures/value-proposition-museums.png"&gt;&lt;img alt="value proposition museums" src="figures/value-proposition-museums.png" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;!-- Customer segment --&gt;
 &lt;!-- ^^^^^^^^^^^^^^^^ --&gt;
 &lt;!-- Customer jobs --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Offering interesting exhibitions that attract people --&gt;
 &lt;!-- * Teaching new things to visitors --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Pains --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Not enough visitors to keep museum running --&gt;
 &lt;!-- * People finding museums boring or old-fashioned in general --&gt;
 &lt;!-- * Expensive investments --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Gains --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Customer satisfaction --&gt;
 &lt;!-- * Interesting and modern brand --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Value proposition --&gt;
 &lt;!-- ^^^^^^^^^^^^^^^^^ --&gt;
 &lt;!-- Products and services --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Real-time indoor positioning and navigation with embedded augmented reality information about objects on exhibition --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Pain relievers --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Not requiring any additional infrastructure to be installed --&gt;
 &lt;!-- * Keeping up with time by digitizing services --&gt;
-&lt;!-- --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
+&lt;!--  --&gt;
 &lt;!-- Gain creators --&gt;
-&lt;!-- --&gt;
+&lt;!--  --&gt;
 &lt;!-- * Real-time navigation --&gt;
 &lt;!-- * Easily accessible, interesting information about objects --&gt;
 &lt;!-- * Interesting digital service, which is easy and fun to use --&gt;
 &lt;/div&gt;
 </summary><category term="value proposition"></category></entry><entry><title>Comparison Between Indoor Navigation Systems</title><link href="https://jaantollander.github.io/SCI-C1000/comparison.html" rel="alternate"></link><published>2016-10-28T00:00:00+03:00</published><updated>2016-10-28T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-28:SCI-C1000/comparison.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="figures/comparison.png"&gt;&lt;img alt="image of comparison" src="figures/comparison.png"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="figures/comparison.png"&gt;&lt;img alt="image of comparison" src="figures/comparison.png" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;There exits numerous competing methods for indoor navigation on the market, some more similar with out model than others. In this blog post these method are compared technically&lt;/p&gt;
 &lt;div class="section" id="wifi-triangulation"&gt;
@@ -270,14 +288,14 @@
 &lt;p&gt;The strengths of this positioning method include the fact that it relies on existing infrastructure: WiFi can be nowadays found in almost any building. This method also ensures that the device making the location query can be connected to the database enabling the positioning, as without WiFi there is no positioning system at all. This positioning system can also be used in Internet of Things objects as most of them connect to the internet wirelessly anyway.&lt;/p&gt;
 &lt;p&gt;As for weaknesses, the system needs WiFi to function, and in a world of near ubiquitous mobile networks (at least in Finland), the lack of WiFi in order to get positioning data is not that big of a problem. The accuracy of some systems is also of question, although some very accurate systems have been developed, such as the award winning &lt;a class="reference external" href="https://anyplace.cs.ucy.ac.cy/"&gt;Anyplace&lt;/a&gt;, which claims accuracy of less than 2 m. The initial layout of the building has to be created externally before the system can be deployed and as everyone surely knows, WiFi signals are sometimes finicky especially in rooms with thick walls.&lt;/p&gt;
 &lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Service set identifier (SSID)&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils footnote" frame="void" id="id4" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;A media access control address (MAC adress)&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -306,9 +324,16 @@
 &lt;/div&gt;
 &lt;div class="section" id="summary"&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
-&lt;table class="docutils"&gt;
-
-&lt;thead&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;col width="17%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
 &lt;tr&gt;&lt;th class="head"&gt;Name&lt;/th&gt;
 &lt;th class="head"&gt;Accuracy&lt;/th&gt;
 &lt;th class="head"&gt;Infrastructure&lt;/th&gt;
@@ -317,27 +342,27 @@
 &lt;th class="head"&gt;Other&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-&lt;tbody&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;&lt;em&gt;WIFI Triangulation&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class="math"&gt;\(5-30\,\mathrm{m}\)&lt;/span&gt; &lt;a class="footnote-reference" href="#id6" id="id5"&gt;[3]&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="formula"&gt;5 − 30 &lt;span class="mathrm"&gt; m&lt;/span&gt;&lt;/span&gt; &lt;a class="footnote-reference" href="#id6" id="id5"&gt;[3]&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Usually existing&lt;/td&gt;
 &lt;td&gt;Remapping&lt;/td&gt;
 &lt;td&gt;Device battery + AC&lt;/td&gt;
 &lt;td&gt;Relies on existing infrastructure&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;em&gt;Bluetooth Beacons&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class="math"&gt;\(2-30\,\mathrm{m}\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="formula"&gt;2 − 30 &lt;span class="mathrm"&gt; m&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;Hardware installation, Device management&lt;/td&gt;
 &lt;td&gt;Remapping&lt;/td&gt;
 &lt;td&gt;Device battery + AC&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;em&gt;Magnetic Field Measurement&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class="math"&gt;\(2\,\mathrm{m}\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="formula"&gt;2 &lt;span class="mathrm"&gt; m&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;API + initial magnetic mapping&lt;/td&gt;
 &lt;td&gt;Crowdsourced&lt;/td&gt;
 &lt;td&gt;Device battery&lt;/td&gt;
-&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;em&gt;Pedestrian Dead Reckoning&lt;/em&gt;&lt;/td&gt;
 &lt;td&gt;Varies&lt;/td&gt;
@@ -347,7 +372,7 @@
 &lt;td&gt;No additional devices / services needed&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;em&gt;Point-cloud from Images&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span class="math"&gt;\(5\,\mathrm{m}\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class="formula"&gt;5 &lt;span class="mathrm"&gt; m&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;API + initial photoshoot&lt;/td&gt;
 &lt;td&gt;Crowdsourced&lt;/td&gt;
 &lt;td&gt;Device battery&lt;/td&gt;
@@ -357,8 +382,8 @@
 &lt;/table&gt;
 &lt;!-- Footnotes --&gt;
 &lt;table class="docutils footnote" frame="void" id="id6" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id5"&gt;[3]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;depending on algorithms (&amp;gt;2m claimed by &lt;a class="reference external" href="https://anyplace.cs.ucy.ac.cy/"&gt;Anyplace&lt;/a&gt;)&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -367,171 +392,59 @@
 &lt;div class="section" id="references"&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;table class="docutils footnote" frame="void" id="id7" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[4]&lt;/td&gt;&lt;td&gt;Sterling, Greg (Opus Research, I. . (2014). Magnetic Positioning, 1–8.&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils footnote" frame="void" id="id8" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[5]&lt;/td&gt;&lt;td&gt;Zandbergen, P. A. (2009). Accuracy of iPhone locations: A comparison of assisted GPS, WiFi and cellular positioning. Transactions in GIS, 13(SUPPL. 1), 5–25. &lt;a class="reference external" href="http://doi.org/10.1111/j.1467-9671.2009.01152.x"&gt;http://doi.org/10.1111/j.1467-9671.2009.01152.x&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils footnote" frame="void" id="id9" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[6]&lt;/td&gt;&lt;td&gt;Bekkelien, A. (2012). Bluetooth indoor positioning. Master’s Thesis, University …, (March), 1. Retrieved from &lt;a class="reference external" href="http://cui.unige.ch/~deriazm/masters/bekkelien/Bekkelien_Master_Thesis.pdf"&gt;http://cui.unige.ch/~deriazm/masters/bekkelien/Bekkelien_Master_Thesis.pdf&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils footnote" frame="void" id="id10" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[7]&lt;/td&gt;&lt;td&gt;Beauregard, S., &amp;amp; Haas, H. (2006). Pedestrian dead reckoning: A basis for personal positioning. Positioning, Navigation and Communication, 27–35. &lt;a class="reference external" href="http://doi.org/10.1613/jair.301"&gt;http://doi.org/10.1613/jair.301&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils footnote" frame="void" id="id11" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;[8]&lt;/td&gt;&lt;td&gt;Liu, H., Darabi, H., Banerjee, P., &amp;amp; Liu, J. (2007). Survey of wireless indoor positioning techniques and systems. IEEE Transactions on Systems, Man and Cybernetics Part C: Applications and Reviews, 37(6), 1067–1080. &lt;a class="reference external" href="http://doi.org/10.1109/TSMCC.2007.905750"&gt;http://doi.org/10.1109/TSMCC.2007.905750&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    var location_protocol = (false) ? 'https' : document.location.protocol;
-    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</summary></entry><entry><title>Notes on SFM and Image Based Navigation Research</title><link href="https://jaantollander.github.io/SCI-C1000/research.html" rel="alternate"></link><published>2016-10-23T00:00:00+03:00</published><updated>2016-10-23T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-23:SCI-C1000/research.html</id><summary type="html">&lt;!-- .. figure:: images/2016-10-23_17-43-47_imoon.jpg
+</summary></entry><entry><title>Notes on SFM and Image Based Navigation Research</title><link href="https://jaantollander.github.io/SCI-C1000/research.html" rel="alternate"></link><published>2016-10-23T00:00:00+03:00</published><updated>2016-10-23T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-23:SCI-C1000/research.html</id><summary type="html">&lt;!-- .. figure:: images/2016-10-23_17-43-47_imoon.jpg
    :target: images/2016-10-23_17-43-47_imoon.jpg
    :alt: image of iMoon software --&gt;
-&lt;div class="youtube youtube-16x9"&gt;&lt;iframe allowfullscreen="" frameborder="0" seamless="" src="https://www.youtube.com/embed/sNvf7N_s59c"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (&lt;a class="reference external" href="https://www.youtube.com/watch?v=sNvf7N_s59c&amp;amp;feature=youtu.be"&gt;youtube&lt;/a&gt;) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues &lt;a class="citation-reference" href="#imoon" id="id1"&gt;[iMoon]&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="youtube youtube-16x9"&gt;&lt;iframe src="https://www.youtube.com/embed/sNvf7N_s59c" allowfullscreen seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;During our weekly meeting we decided to do some research on some already existing technologies (and those under constant development) for indoor localization, focusing on the work done by our supervising professor Antti Ylä-Jääski and his research group. With their iMoon system they have provably (&lt;a class="reference external" href="https://www.youtube.com/watch?v=sNvf7N_s59c&amp;amp;feature=youtu.be"&gt;youtube&lt;/a&gt;) succeeded in pinpointing indoor locations with sufficient accuracy using user-provided photos. Our team studied the technologies behind iMoon by reading an article published by Ylä-Jääski and his colleagues &lt;a class="citation-reference" href="#imoon" id="id1"&gt;[iMoon]&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Indoor navigation is a topic that has been researched for several decades. Yet there isn’t a solution that could be widely utilized in every environment, for floor plans of public buildings are either not detailed enough or are not kept up to date. Many other methods also need a specific and often expensive infrastructure to be installed in the location. Thus an alternate method is direly needed. The method should be able to adapt to constantly changing environments and be efficient at the same time. Ylä-Jääski’s research group is developing a method to achieve the aforementioned requirements.&lt;/p&gt;
 &lt;p&gt;iMoon technology is based on generating 3D-models from multiple pictures taken from a space and then matching new pictures with the model to determine a location. The model is generated using Structure from Motion technology which provides a point cloud of the environment. The photos can be crowdsourced and taken with differing equipment. While users take new photos to determine their location, these photos are also used to update the model.&lt;/p&gt;
 &lt;p&gt;Because of varying quality and locations of crowdsourced photos, it’s unlikely that every corner of the area is covered in many good quality photos. This being the case, iMoon first creates new separate model from new images and then tries to merge separate model with existing one by comparing details in both models. This way the model can also adapt to small changes in environment caused by eg. moving furniture and other objects.&lt;/p&gt;
 &lt;p&gt;iMoon also utilizes other technologies in addition to locating the user with pictures. This is necessary to keep the computation time at minimum and to provide a pleasant user experience. The time complexity of calculations increase with respect to the size of the model for more points need to compared with one another. In order to narrow down the raw location of the user iMoon uses Wi-Fi fingerprinting with K-nearest neighbours algorithm.&lt;/p&gt;
 &lt;p&gt;In addition to Wi-fi fingerprinting, iMoon also utilizes user provided trajectories to generate original model and later increase navigation accuracy. Using information from motion sensors available in various smartphones, iMoon can calculate distance user has walked from last known location. The research group found out that the use of trajectories significantly improves performance of the service and quality of the generated model.&lt;/p&gt;
 &lt;p&gt;iMoon is also capable of calculating navigation instructions and presenting them on top of existing images, which can be seen on youtube video linked earlier. Embedded navigation have positive impact on user friendliness, but they also provide base for using application with smart glasses like Google Glasses.&lt;/p&gt;
-&lt;p&gt;The most relevant advantage of iMoon is that it runs on regular smartphones. This makes the technology affordable and user friendly. When compared to pure Wi-Fi positioning and image based positioning without Wi-Fi fingerprinting or user trajectories, iMoon clearly outperformed Wi-Fi positioning in every aspect, but was not significantly more accurate than pure image-based positioning. Both of them were able to locate user from &lt;span class="math"&gt;\(95\%\)&lt;/span&gt; of the photos sent with &lt;span class="math"&gt;\(2\)&lt;/span&gt; meters of location error and &lt;span class="math"&gt;\(6\)&lt;/span&gt; degrees of facing direction error. The main question here is about performance, and that’s where iMoon is superior when compared to pure image-based positioning. On average, iMoon was able to locate user in under &lt;span class="math"&gt;\(4\)&lt;/span&gt; seconds but reference implementation took over &lt;span class="math"&gt;\(40\)&lt;/span&gt; seconds, which is far from acceptable when considering actually usable system that someone would actually pay something.&lt;/p&gt;
+&lt;p&gt;The most relevant advantage of iMoon is that it runs on regular smartphones. This makes the technology affordable and user friendly. When compared to pure Wi-Fi positioning and image based positioning without Wi-Fi fingerprinting or user trajectories, iMoon clearly outperformed Wi-Fi positioning in every aspect, but was not significantly more accurate than pure image-based positioning. Both of them were able to locate user from &lt;span class="formula"&gt;95%&lt;/span&gt; of the photos sent with &lt;span class="formula"&gt;2&lt;/span&gt; meters of location error and &lt;span class="formula"&gt;6&lt;/span&gt; degrees of facing direction error. The main question here is about performance, and that’s where iMoon is superior when compared to pure image-based positioning. On average, iMoon was able to locate user in under &lt;span class="formula"&gt;4&lt;/span&gt; seconds but reference implementation took over &lt;span class="formula"&gt;40&lt;/span&gt; seconds, which is far from acceptable when considering actually usable system that someone would actually pay something.&lt;/p&gt;
 &lt;p&gt;There are also many other technologies to use for indoor positioning, like Bluetooth beacons and analyzing magnetic field. We’ll do a bit more research before presenting those in detail, but we’ll get back to them in the next post.&lt;/p&gt;
 &lt;div class="section" id="references"&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;table class="docutils citation" frame="void" id="imoon" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[iMoon]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Dong, J., Xiao, Y., Noreikis, M., Ou, Z., &amp;amp; Ylä-Jääski, A. (2015). iMoon : Using Smartphones for Image-based Indoor Navigation Categories and Subject Descriptors. Proceedings of the ACM Conference on Embedded Networked Sensor Systems, 85–97. &lt;a class="reference external" href="http://doi.org/10.1145/2809695.2809722"&gt;http://doi.org/10.1145/2809695.2809722&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
-&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    var location_protocol = (false) ? 'https' : document.location.protocol;
-    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</summary></entry><entry><title>Project Plan</title><link href="https://jaantollander.github.io/SCI-C1000/project-plan.html" rel="alternate"></link><published>2016-10-14T00:00:00+03:00</published><updated>2016-10-14T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-14:SCI-C1000/project-plan.html</id><summary type="html">&lt;div class="figure" style="width: 100%"&gt;
-&lt;a class="reference external image-reference" href="images/2016-10-14_10-37-27.jpg"&gt;&lt;img alt="pöhinä_garages" src="images/2016-10-14_10-37-27.jpg"/&gt;&lt;/a&gt;
+</summary></entry><entry><title>Project Plan</title><link href="https://jaantollander.github.io/SCI-C1000/project-plan.html" rel="alternate"></link><published>2016-10-14T00:00:00+03:00</published><updated>2016-10-14T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-10-14:SCI-C1000/project-plan.html</id><summary type="html">&lt;div class="figure" style="width: 100%"&gt;
+&lt;a class="reference external image-reference" href="images/2016-10-14_10-37-27.jpg"&gt;&lt;img alt="pöhinä_garages" src="images/2016-10-14_10-37-27.jpg" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class="section" id="introduction"&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
@@ -555,12 +468,15 @@
 &lt;div class="section" id="scope-of-the-project"&gt;
 &lt;h2&gt;Scope of the project&lt;/h2&gt;
 &lt;div class="figure" style="width: 100%"&gt;
-&lt;a class="reference external image-reference" href="images/2016-10-14_11-51-36.jpg"&gt;&lt;img alt="pöhinä2" src="images/2016-10-14_11-51-36.jpg"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/2016-10-14_11-51-36.jpg"&gt;&lt;img alt="pöhinä2" src="images/2016-10-14_11-51-36.jpg" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;We will interview managers of retail stores and customers customers to find out, what kind of problems they have encountered and could more efficient positioning system ease these pains. Based on the analysis we seek to create a demo based on SFM technology and present a business model.&lt;/p&gt;
-&lt;table class="docutils"&gt;
-
-&lt;tbody&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="50%" /&gt;
+&lt;col width="50%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;Time usage&lt;/td&gt;
 &lt;td&gt;person hours&lt;/td&gt;
 &lt;/tr&gt;
@@ -594,10 +510,13 @@
 &lt;div class="section" id="schedule-and-milestones"&gt;
 &lt;h2&gt;Schedule and Milestones&lt;/h2&gt;
 &lt;p&gt;The project schedule is set to according scheduling based on the course. We have set deadlines for the various sub-regions as follows&lt;/p&gt;
-&lt;table class="docutils"&gt;
+&lt;table border="1" class="docutils"&gt;
 &lt;caption&gt;Schedule&lt;/caption&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;
+&lt;col width="20%" /&gt;
+&lt;col width="80%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;Week&lt;/td&gt;
 &lt;td&gt;Tasks&lt;/td&gt;
 &lt;/tr&gt;
@@ -636,9 +555,13 @@
 &lt;div class="section" id="risks"&gt;
 &lt;h2&gt;Risks&lt;/h2&gt;
 &lt;p&gt;We have mapped the risks related to the project and to prepare for them as follows&lt;/p&gt;
-&lt;table class="docutils"&gt;
-
-&lt;tbody&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="40%" /&gt;
+&lt;col width="20%" /&gt;
+&lt;col width="40%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;Risks related to the project&lt;/td&gt;
 &lt;td&gt;The level of risk&lt;/td&gt;
 &lt;td&gt;Measures to prevent&lt;/td&gt;
@@ -677,9 +600,12 @@
 &lt;div class="section" id="responsibilities"&gt;
 &lt;h2&gt;Responsibilities&lt;/h2&gt;
 &lt;p&gt;Our group consists of seven people, whom we have shared responsibilities roughly as follows.&lt;/p&gt;
-&lt;table class="docutils"&gt;
-
-&lt;tbody&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="30%" /&gt;
+&lt;col width="70%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td&gt;Aapo&lt;/td&gt;
 &lt;td&gt;Interviews, photographing, stand&lt;/td&gt;
 &lt;/tr&gt;
@@ -708,38 +634,38 @@
 &lt;div class="section" id="references"&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;table class="docutils citation" frame="void" id="imoon" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id4"&gt;[iMoon]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://dl.acm.org/citation.cfm?id=2809722"&gt;http://dl.acm.org/citation.cfm?id=2809722&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="imoon2" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id5"&gt;[iMoon2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://youtu.be/sNvf7N_s59c"&gt;https://youtu.be/sNvf7N_s59c&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="opensfm" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[OpenSFM]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://github.com/mapillary/OpenSfM"&gt;https://github.com/mapillary/OpenSfM&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="opengvs" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[OpenGVS]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://devmaster.net/devdb/engines/opengvs"&gt;http://devmaster.net/devdb/engines/opengvs&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="visualsfm" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id3"&gt;[VisualSFM]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="http://ccwu.me/vsfm/"&gt;http://ccwu.me/vsfm/&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 </summary><category term="Week 1-2"></category></entry><entry><title>First Group Meeting</title><link href="https://jaantollander.github.io/SCI-C1000/first-group-meeting.html" rel="alternate"></link><published>2016-09-28T00:00:00+03:00</published><updated>2016-09-28T00:00:00+03:00</updated><author><name>Jaan Tollander de Balsch</name></author><id>tag:jaantollander.github.io,2016-09-28:SCI-C1000/first-group-meeting.html</id><summary type="html">&lt;div class="figure"&gt;
-&lt;a class="reference external image-reference" href="images/20160928_162236.jpg"&gt;&lt;img alt="picture about first group meeting" src="images/20160928_162236.jpg" style="height: 400px;"/&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="images/20160928_162236.jpg"&gt;&lt;img alt="picture about first group meeting" src="images/20160928_162236.jpg" style="height: 400px;" /&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;We met at the CS building to discuss the first steps of our project. After an intesive photoshoot to capture our freely flowing creative process, we soon arrived at a satisfactory title for our party: &lt;strong&gt;3+4Dudes&lt;/strong&gt;. After some brief discussion about blog-keeping tools, we began talking about the scope of our project.&lt;/p&gt;
 &lt;p&gt;Despite our previous research finding that &lt;a class="citation-reference" href="#lidar" id="id1"&gt;[LIDAR]&lt;/a&gt; is a superior tool compared to our &lt;a class="citation-reference" href="#sfm" id="id2"&gt;[SFM]&lt;/a&gt; tools, one of our group with experience in a company working with SFM technique protested: the company was of the opinion that SFM offers a sufficient degree of detail while being &lt;strong&gt;a lot faster and cheaper&lt;/strong&gt;.&lt;/p&gt;
@@ -765,14 +691,14 @@
 &lt;div class="section" id="references"&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;table class="docutils citation" frame="void" id="lidar" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[LIDAR]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Lidar"&gt;https://en.wikipedia.org/wiki/Lidar&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils citation" frame="void" id="sfm" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[SFM]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Structure_from_motion"&gt;https://en.wikipedia.org/wiki/Structure_from_motion&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -905,14 +831,14 @@
 &lt;div class="section" id="references"&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;table class="docutils footnote" frame="void" id="id3" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id1"&gt;[1]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/3D_reconstruction_from_multiple_images"&gt;https://en.wikipedia.org/wiki/3D_reconstruction_from_multiple_images&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;table class="docutils footnote" frame="void" id="id4" rules="none"&gt;
-
-&lt;tbody&gt;
+&lt;colgroup&gt;&lt;col class="label" /&gt;&lt;col /&gt;&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
 &lt;tr&gt;&lt;td class="label"&gt;&lt;a class="fn-backref" href="#id2"&gt;[2]&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Lidar"&gt;https://en.wikipedia.org/wiki/Lidar&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
