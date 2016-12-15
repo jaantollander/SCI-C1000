@@ -57,7 +57,7 @@ topic = 'Indoor Navigation from Multiple Images'
 copyright = '2016, Jaan Tollander de Balsch'
 authors = ('Jaan Tollander de Balsch',
            'Aapo Haavisto',
-           'Oskari Karkkinen',
+           'Antti Karkkinen',
            'Misamatti Koistinen',
            'Lauri Seppäläinen',
            'Juhani Sipilä',

@@ -1,82 +1,32 @@
-.. SCI-C1000 documentation master file, created by
-   sphinx-quickstart on Thu Dec  8 11:32:07 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-SCI-C1000 - Loppuraportti
+﻿SCI-C1000 - Loppuraportti
 *************************
-.. SCI-projektikurssin tavoitteena on, että jokainen ryhmä omassa tehtävässään huomaa kehittyvänsä epämääräisen haasteen selkeyttämisessä, toimintasuunnitelmansa toteuttamisessa, ideansa liiketoimintapotentiaalin kartoittamisessa, ideansa kommunikoinnissa sekä ennen kaikkea ryhmänä työskentelemisessä.
-
-.. Loppuraportin tavoitteena on kuvata saavuttamanne tulos, mutta ennen kaikkea dokumentoida ryhmänne oppimis- ja kehittymispolun reflektointi ryhmänä sekä ryhmän jäsenittäin. Loppuraportti on pohdinta prosessista ja edistymisestänne, jonka ryhmänä kävitte läpi:
-
-.. 1) tiivistetty kuvaus haasteestanne ja ratkaisusta, johon päädyitte;
-
-.. 2) miten kehityitte ryhmänä esim. yhteisten 'pelisääntöjen', työskentelytapojen, kommunikointitapojen suhteen, konfliktien ratkaisuissa;
-
-.. 3) mitä opitte ryhmänä haasteeseenne ja ratkaisun liiketoimintamahdollisuuden arvioimiseen liittyen, mitä opitte ryhmänä toimimisesta sekä
-
-.. 4) miten kukin ryhmän jäsen koki kehittyvänsä kurssin aikana ryhmän jäsenenä sekä mitä koki oppivansa ryhmän käsittelemästä teemasta. Hyödyntäkää esim. alla olevaa toiminnan arviointilomaketta.
-
-.. Loppuraportin laajuus on noin 5-7 sivua riippuen. ryhmän jäsenten määrästä. Loppuraportti on oma erillinen dokumentti, joka voi olla linkitettynä ryhmän blogiin. Määräaika 16.12 klo 23.59.
 
 Tiivistelmä
 ===========
 
-.. csv-table::
-
-   "Ryhmä", "*3+4Dudes*"
-   "Aihe", "*Sisätilapaikannus kuvien avulla*"
-   "Blog", "`https://jaantollander.github.io/SCI-C1000/ <https://jaantollander.github.io/SCI-C1000/>`_"
-
 Ongelma
 -------
-GPS järjestelmää ei voida käyttää sisätilapaikannukseen esteiden tukkiessa satellien suoran näköyhteyden tehden siitä epätarkan ja epäluotettavan. Tämän takia sisätilapaikannukseen on kehitetty monia muita menetelmiä kuten
+Ryhmän alkuperäisenä aihealueena oli kolmiulotteisten mallien rakentaminen valokuvien pohjalta sekä selvittää teknologiaan liittyviä liiketoimintamahdollisuuksia. Useiden potentiaalisten mahdollisuuksien joukosta potentiaalisimpana ja mielenkiintoisimpana vaihtoehtona valittiin sisätilapaikannus.
 
-- *WIFI Kolmiomittaus*
-- *Bluetooth Signaalitolpat*
-- *Maan magneettikentän mittaus*
-- *Pedestrian Dead Reckoning*
-- *Sisätilapaikannus kuvien avulla*
 
-Osa järjestelmistä kuten *bluetooth signaalitolpat* tai *WIFI kolmiomittaus* edellyttävät kalliin infrastruktuurin asentamista tilaan. Toisaalta *Pedestrian Dead Reckoning* menetelmän virhe on kasautuva eikä sitä voida käyttää paikantamiseen yksinään. `Indoor Atlas <http://www.indooratlas.com/>`_ on kehittänyt *maan magneettikentän mittaukseen* perustuvan järjestelmän joka on toimiva ja pelkästään paikantamiseen *kuvista paikantamista* parempi ratkaisu, mutta se ei tarjoa mahdollisuutta virtuaali- tai lisättyyn todellisuuteen eikä se kerro käyttäjän suuntaa.
+Sisätilapaikannukseen liittyvä fundamentaalinen ongelman on, ettei GPS-järjestelmää voida käyttää sisätilapaikannukseen rakenteiden estäessä suoran yhteyden paikannussatelliitteihin tehden siitä epätarkan ja epäluotettavan. Tämän takia sisätilapaikannukseen on kehitetty monia vaihtoehtoisia menetelmiä kuten *WiFi-kolmiomittaus*, *Bluetooth signaalitolpat*, *Maan magneettikentän mittaus*, *Kiihtyvyysanturimittaus* ja *Valokuviin pohjautuva paikannus*.
+
+
+Osa järjestelmistä kuten *Bluetooth signaalitolpat* ja *WiFi-kolmiomittaus* edellyttävät kalliin infrastruktuurin asentamista tilaan. Toisaalta infrastruktuurittomissa menetelmissä, kuten kiihtyvyysanturimittauksessa, tarkkuus on usein paikantamiseen riittämätön. `Indoor Atlas <http://www.indooratlas.com/>`_ on kehittänyt *maan magneettikentän mittaukseen* perustuvan järjestelmän, joka on toimiva ja sinällään *kuvien paikantamista* käytännöllisempi ratkaisu, mutta se ei tarjoa käyttäjän katselusuuntaa, mikä on edellytys virtuaali- tai lisätyn todellisuuden hyödyntämiseen.
 
 
 Ratkaisu
 --------
-Ryhmän esittämä ratkaisu ongelmaan *sisätilapaikannus kuvien avulla*, joka perustuu 3-ulotteisen pistepilven rakentamiseen valokuvista. Pistepilven avulla käyttäjä voidaan paikantaa kun käyttäjän ottama kuva sijoitetaan pistepilveen vertaamalla sitä olemassa oleviin kuviin.
+Ryhmän esittämä ratkaisu sisätilapaikannusongelmaan perustuu kolmiulotteisen pistepilven rakentamiseen valokuvista. Pistepilven avulla käyttäjä voidaan paikantaa, kun käyttäjän ottama kuva sijoitetaan pistepilveen vertaamalla sitä jo tunnettuihin valokuviin. Samalla olemassa olevaa mallia voidaan päivittää lähetetyillä kuvilla.
 
 
-Vahvuudet
-^^^^^^^^^
-
-- Mahdollisuus rakentaa 3-ulotteinen malli tekstuureineen virtuaali- ja lisättyä todellisuutta varten.
-- Kykenee ratkaisemaan käyttäjän katseen suunnan
-- Perustuu jo olemassa olevaan infrastruktuuriin, kuten kännykkä kamerat
-- Ratkaisu on ohjelmistoon perustuva (vastakohtana laitteistoon perustuva) tehden siitä paremmin *skaalautuvan* ja pienentäen *ylläpito kustannuksia*
+Ratkaisun **vahvuuksia** ovat tehokas ja tarkka käyttäjän paikantaminen, sekä mahdollisuus rakentaa kolmiulotteinen malli paikannettavasta alueesta. Suurena erona moneen muuhun paikannusteknologiaan on kyky ratkaista käyttäjän katseen suunta, mikä mahdollistaa teknologian käyttämisen lisätyn- ja virtuaalitodellisuuden sovelluskohteissa. Lisäksi ratkaisu perustuu puhtaasti ohjelmistoihin eikä vaadi infrastruktuurin asentamista, mikä tekee siitä paremmin *skaalautuvan* sekä pienentää *ylläpitokustannuksia*.
 
 
-Haasteet
-^^^^^^^^
-
-- Teknologisesti haastava
-- Vaatii laskentatehoa ja aikaa
-- Helppo käytettävyys vaatii teknologiaa jonka avulla on mahdollista ottaa kuvia ympäristöstä hyvin vaivattomasti, esimerkiksi älylasit.
-- 3D mallien rakentamiseen käytettyyn *Structure from motion* algoritmin hahmon tunnistukseen pitäisi tehdä parannuksia, jotta suuria malleja rakentaessa mallista tulisi yhtenäinen. Ongelmana suurien mallien rakentamisessa on ollut että algoritmit saattavat rakentaa monta pienempää mallia jos en eivät tunnista riittävästi yksityiskohtia kuvista.
-- Algoritmien tehokkuutta voisi parantaa sekä rakentaa spesialisoitua teknologiaa 3D mallien kuvaamiseen, jotta laskenta aikaa saataisin pienemmäksi
-- Linssien aiheuttamea vääristymiä pitäisi korjata korjaavilla algoritmeilla
+Ratkaisun **heikkouksia** on sen teknologinen haastavuus: mallin rakentaminen ja käyttäjän paikantaminen vaativat paljon laskentatehoa ja aikaa. Lisäksi suuria haasteita aiheuttaa tietokonenäköön pohjautuvan yksityiskohtien tunnistamisen tarkkuus. Tarkkuuteen on kuitenkin odotettavissa tulevaisuudessa merkittäviä parannuksia, sillä tietokonenäkö on nykyään erittäin suosittu tutkimuskohde.
 
 
-Bisness ja tuotteen kaupallistaminen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Kiinnitetty aloitushinta ja kuukausittaiset päivitys ja ylläpitökustannukset
-- Aloitushinta perustuu mallinettavan alueen kokoon ja monimutkaisuuteen
-- Ylläpitökustannukset perustuvat arvoituun käyttäjämäärään ja käyttäjäkohtaisiin ominaisuuksiin
-
-
-Yhteenveto
-^^^^^^^^^^
-Käytännössä teknologia kuviin perustuvassa navigoinnissa on jo olemassa, mutta käytännön sovellukseen, varsinkin ei ammatti käyttöön, on vielä matkaa. Teknologialle on kuitenkin kysyntää ja markkina potentiaalia virtuaali ja lisätty todellisuus sovellusten, sekä älylasien kehityksen, takia joten on todennäkoistä että näemme teknologiaan pohjautuvia sovelluksia jo lähitulevaisuudessa.
+Paikannuspalvelua myydään suurille julkisille tiloille kokonaisvaltaisena ohjelmistopalveluna. Alkuvaiheessa myynti kohdistetaan pääasiassa hypermarketeille ja kauppakeskuksille, myöhemmin laajentaen myös muihin julkisiin tiloihin, kuten kirjastoihin ja museoihin. Palvelun perushinnoittelu pohjautuu käyttäjämäärään sekä mallinnettavan tilan kokoon ja monimutkaisuuteen, mutta palveluun on mahdollista lisätä myös räätälöityjä ominaisuuksia asiakkaan toiveiden mukaan lisämaksua vastaan.
 
 
 Ryhmätyö
@@ -84,49 +34,41 @@ Ryhmätyö
 
 Menetelmät
 ----------
+Projektin alussa ryhmän tehtävä ja määränpää olivat vielä pimennossa. Alun epämääräinen ja laaja aiherajaus 2D kuvista 3D malleja luovaan SfM (Structure from Motion)-menetelmään antoi ryhmällemme vapautta tutkia ongelmaa tarkemmin. Päätimme, että tutustuttuamme teknologiaan ja vaihtoehtoisiin menetelmiin kykenisimme valitsemaan uuden rajauksen, jonka ympärille lopullinen liiketoimintamalli voitiin sitoa. Jo alussa oli selvää, että ryhmänä keskitymme vahvasti 3D-mallinnukseen. Tästä saatiin muodostettua ensimmäisessä ryhmätapaamisessa seitsenhenkiselle ryhmällemme nimi: **3+4Dudes**.
 
+Alussa otimme jokainen itsenäisesti selvää teknologian perusperiaatteista, miten menetelmä toimii ja mitä muut tutkijat ja kehittäjät ovat aihealueen ympärillä tutkineet tai toteuttaneet.
 
-.. csv-table:: Työtehtävien jako
-   :header: "**Nimi**", "**Tehtävä**"
+Artikkeleihin, raportteihin sekä aiheeseen liittyviin blogeihin ja videoihin tutustumalla saimme alkuun muodostettua kattavan näkemyksen siitä, mitä menetelmällä voi saada aikaan.
 
-   "Lauri", "Teknologioiden vertailu, blogin kirjoittaminen, kilpailijoihin yhteydenotto"
-   "Markus", "Presentaatiot, blogin kirjoittaminen, organisointi"
-   "Misamatti", "Teknologioihin tutustuminen, blogin kirjoittelu, sähköpostihaastatteluja"
-   "Aapo", "Valokuvaus, mallien rakentaminen, teknologioihin tutustuminen"
-   "Jaan", "Blogin hallinointia ja kirjoittelua, potree malli, "
-   "Juhani", "Lähdemateriaalin hankkiminen, Yritysten haastattelu, 3D-malli (potree/JS)"
-   "Antti", "Haastis pohja, yleisiä suunnitteluja ja pohdintoja"
+Jo toisen viikon alussa tapasimme professori Antti Ylä-Jääsken, jolta saimme korvaamatonta tietoa heidän tutkimuksestaan menetelmään liittyen sekä kattavaa tietoa vaihtoehtoisista ohjelmistoista, joilla 3D-mallin voisi rakentaa. Aiempi tutustuminen saatavilla oleviin ohjelmistoihin oli jo antanut ymmärtää, että saatavilla oli erittäin tehokkaita ja optimoituja, vapaan lähdekoodin sekä akateemiseen käyttöön vapaita toteutuksia. Oman SfM-algoritmin rakentamisen työläyden ja aikarajoitteiden takia päädyimme käyttämään VisualSFM-ohjelmaa [visualSFM]_ 3D-mallin luomisessa.
+
+Ryhmänä emme kuitenkaan kokeneet pelkän 3D-mallin muodostamisen tarjoavan riittävää liiketoimintapotentiaalia, joten haimme työhömme inspiraatiota professori Ylä-Jääsken tutkimusryhmän iMoon-sovelluksesta [iMoon]_. iMoon käyttää SfM-tekniikkaa vertaamalla käyttäjän ottamaa kuvaa aiemmin tilasta muodostettuun 3D-pistepilveen ja pystyy määrittämään sijainnin, jossa kamera oli kuvan ottamishetkellä. Vastaavaa paikannustekniikkaa haluttiin ideatasolla käyttää työssämme tarjoamaan lopullisen palvelumme ostaville asiakkaille konkreettista hyötyä esimerkiksi käyttäjien ja tuotteiden paikannuksella tai asiakkaiden reitityksellä kartalla.
 
 
 Kommunikaatio
 -------------
-Ryhmämme kokoonpano kasattiin kurssihenkilökunnan puolesta samasta aiheesta, meidän tapauksessamme 3D-mallintamisesta, kiinnostuneiden opiskelijoiden joukosta eri koulutusaloilta. Näin ollen monet ryhmämme jäsenet eivät tunteneet entuudestaan toisiaan saatikka olleet olleet yhteyksissä keskenään aiemmin. Ryhmätyön onnistumisen kannalta on kuitenkin tärkeää mahdollistaa ryhmän keskinen kommunikaatio mahdollisimman kivuttomasti. Ensimmäinen kommunikaatioon liittyvä haaste olikin saada kaikki ryhmän jäsenet kiinni ja valita jokin kaikille sopiva tapa pitää yhteyttä. Nykyisen pikaviestien aikakauden ansiosta tämä haaste selätettiin kuitenkin nopeasti, sillä jo ennen ensimmäistä yhteistä tapaamista Markus perusti Telegram-ryhmän, jonne lähetti kutsun sähköpostitse ryhmän muille jäsenille. Telegrammin käyttö oli kaikille tuttua ja ryhmä olikin nopeasti koolla.
+Ryhmämme kokoonpano kasattiin kurssihenkilökunnan puolesta samasta aiheesta, meidän tapauksessamme 3D-mallintamisesta, kiinnostuneiden opiskelijoiden joukosta eri koulutusaloilta. Näin ollen monet ryhmämme jäsenet eivät tunteneet entuudestaan toisiaan saatikka olleet olleet yhteyksissä keskenään aiemmin. Ryhmätyön onnistumisen kannalta on kuitenkin tärkeää mahdollistaa ryhmän sisäinen kommunikaatio mahdollisimman kivuttomasti. Ensimmäinen kommunikaatioon liittyvä haaste olikin saada kaikki ryhmän jäsenet kiinni ja valita jokin kaikille sopiva tapa pitää yhteyttä. Nykyisen pikaviestien aikakauden ansiosta tämä haaste selätettiin kuitenkin nopeasti, sillä jo ennen ensimmäistä yhteistä tapaamista Markus perusti Telegram-ryhmän, jonne lähetti kutsun sähköpostitse ryhmän muille jäsenille. Telegramin käyttö oli kaikille tuttua ja ryhmä olikin nopeasti koolla.
 
+Telegram osoittautuikin nopeasti luonnolliseksi keskustelukanavaksi ryhmällemme, sillä se mahdollisti kysymysten ja kommenttien vaihtamisen reaaliaikaisesti koko ryhmän kesken. Lisäksi yhteisen kanavan kautta oli helppo tavoittaa myös yksittäisiä ryhmän jäseniä Telegramiin määriteltyjen nimimerkkien ja yksityisviestien avulla. Myös tiedostojen jakaminen ryhmän kesken onnistui kätevästi Telegramin kautta. Tärkeiden tiedostojen kokoamiseen ja jäsentelyyn käytimme lisäksi Google Driven pilvipalveluita, joskin siellä ei varsinaista kommunikaatiota ryhmän kesken tapahtunut.
 
-Telegram osoittautuikin nopeasti luonnolliseksi keskustelukanavaksi ryhmällemme, sillä se mahdollisti kysymysten ja kommenttien vaihtamisen reaaliaikaisesti koko ryhmän kesken. Lisäksi yhteisen kanavan kautta oli helppo tavoittaa myös yksittäisiä ryhmän jäseniä Telegrammiin määriteltyjen nimimerkkien ja yksityisviestien avulla. Myös tiedostojen jakaminen ryhmän kesken onnistui kätevästi Telegrammin kautta. Tärkeiden tiedostojen kokoamiseen ja jäsentelyyn käytimme lisäksi Google Driven pilvipalveluita, joskin siellä ei varsinaista kommukaatiota ryhmän kesken tapahtunut.
+Telegramin helppoudesta huolimatta oli kuitenkin selvää, että ryhmän keskinäisen sidoksen lisäämiseksi ja saatujen tuloksien kokoamiseksi yhteen oli tarpeen tavata säännöllisesti kasvotusten. Organisoinnin helpottamiseksi sovimme viikottaisen vakioajan, jolloin ryhmämme kokoontui yhteen johonkin sopivaan työtilaan koululla. Näistä torstaitapaamisista on kerrottu tarkemmin luvussa (`Kehittyminen`_). Tapaamisissa ajatuksia voitiin vaihtaa niin, että niistä syntyi keskustelua ryhmän kesken. Saatoimme välillä jutustella hetken projektin ulkopuolisistakin asioista ja näin tiivistää ryhmähenkeämme.
 
-
-Telegrammin helppoudesta huolimatta oli kuitenkin selvää, että ryhmän keskinäisen sidoksen lisäämiseksi ja saatujen tuloksien kokoamiseksi yhteen oli tarpeen tavata säännöllisesti kasvotusten. Organisoinnin helpottamiseksi sovimme viikottaisen vakioajan, jolloin ryhmämme kokoontui yhteen johonkin sopivaan työtilaan koululla. Näistä torstaitapaamisista on kerrottu tarkemmin seuraavassa kappaleessa. Tapaamisissa ajatuksia voitiin vaihtaa niin, että niistä syntyi keskustelua ryhmän kesken. Saatoimme välillä jutustella hetken projektin ulkopuolisistakin asioista ja näin tiivistää ryhmähenkeämme.
-
-
-Pääasiassa kommunikointi toimi odotetulla tavalla. Projektiin liittyvät asiat hoidettiin yhteisellä kanavalla, jolloin kukaan ryhmän jäsenistä ei joutunut pimentoon muidenkaan puuhasteluista. Torstain tapaamiset toimivat erinomaisena yhteenvetona viikon mittaan saaduista tuloksista ja ponnahduslautana tulevan viikon tavoitteiden asettamiseen.
+Pääasiassa kommunikointi toimi odotetulla tavalla. Projektiin liittyvät asiat hoidettiin yhteisellä kanavalla, jolloin kukaan ryhmän jäsenistä ei joutunut pimentoon muidenkaan tekemisistä ja kohtaamista haasteista. Torstain tapaamiset toimivat erinomaisena yhteenvetona viikon aikana saaduista tuloksista ja ponnahduslautana tulevan viikon tavoitteiden asettamiseen. Myös kurssin vaatimat palautettavat työt katsottiin säännöllisesti läpi viikoittaisissa tapaamisissa.
 
 
 Kehittyminen
 ------------
-Ryhmätyömme oli aluksi varsin rosoista: elimme varsin anarkistista unelmaa, jossa jokainen ryhmän jäsen oli samanarvoinen. Alun ideointiin tällainen työskentelytapa kenties toimiikin ja idean rajaaminen sujui varsin hyvin ilman varsinaista johtamista. Hieman sattumalta ja Herran armosta laskeutui kuitenkin keskuuteemme se kohtalokas päivä, jolloin Misa-Matista tuli pienen joukkiomme johtaja. Työskentelytapamme mukautui hyväksi havaittuihin normeihin ja erityisesti mukaan tulivat torstaiset tiimipalaverit.
+Ryhmätyömme oli aluksi varsin rosoista: elimme varsin anarkistista unelmaa, jossa jokainen ryhmän jäsen oli samanarvoinen. Alun ideointiin tällainen työskentelytapa kenties toimiikin ja idean rajaaminen sujui varsin hyvin ilman varsinaista johtamista. Kurssin henkilökunnan puolelta vaadittiin kuitenkin yhden johtajan nimeämistä ja valitsimme tehtävään yksimielisesti Misamatin. Myöhemmissä vaiheissa johtajan määrittäminen osoittautui ensiarvoisen tärkeäksi projektin hallinnoimiseksi ja pitämiseksi aikataulussa. Työskentelytapamme mukautui hyväksi havaittuihin normeihin ja erityisesti mukaan tulivat torstaiset tapaamiset. 
 
+Torstaiset tapaamiset olivatkin erinomainen kehityksen paikka, sillä onnistuimme ryhmänä kehittämään työskentelytapojamme viikosta toiseen vielä kurssin loppupuolellakin. Alussa keskityimme varsin vahvasti omiin osa-alueisiimme korostaen erityisesti teknistä puolta, mihin osittain kurssin aikataulutuskin ohjasi. Kurssin loppupuolella teimme huomattavasti enemmän myös ei-teknistä ideointia ja ideoiden jakamista juurikin ryhmänä. Jakauduimme lähes itsestään kahteen karkeasti jaettuun tiimiin, joista toinen keskittyi teknisen toteutuksen hiomiseen toisen huolehtiessa tukitoiminnoista ja liiketoiminnan kehittämisestä. Toki tehtäviä vaihdettiin keskenään ja ristiin, mutta nämä karkeat suuntaviivat säilyivät läpi koko projektin.
 
-Torstaiset tiimipalaverit olivatkin erinomainen kehityksen paikka: vähittelen, viikojen myötä kehittyi ryhmätyömme. Alussa keskityimme varsin vahvasti omiin tontteihimme (ja teekkarimaisesti erityisesti tekniseen puoleen - tosin tähän projektin aikataulukin ohjasi), mutta loppua kohti teimme huomattavasti enemmän ideointia ja ideoiden jakamista juuri ryhmänä. Varsin luonnollisesta painovoimaa noudattaen solahdimme karkeisiin tiimeihin: toiset tekivät enemmän teknistä toteutusta kuin muut. Toki tehtäviä vaihdettiin ja tehtiin ristiin, mutta nämä karkeat suuntaviivat pysyivät.
+Sisäisestä tiimijaosta huolimatta kenties tärkein yhteinen oppi ryhmällemme oli kuitenkin ideoiden jakamisen voima: monesti ryhmän paras edistyminen tapahtui juuri ryhmätapaamisessa ryhmän jäsenten jakaessa omia edistymisaskeliaan. Yllättäen aivan ulkopuolinen näkemys moneen ongelmaan auttoi, jos ei suoraan ratkaisemaan ongelmaan niin vähintään viitoittamaan oikeaa tietä ongelman ratkaisemiseksi. Tästä jäikin konkreettinen oppi vietäväksi myös työelämään: kommunikaatio tiimin eri jäsenten välillä, erityisesti teknisyyden akselin poikki, voi osoittautua hedelmälliseksi monissa, yllättävissäkin asioissa. Tämä osio ryhmätyöstämme kehittyi erityisen paljon kurssin aikana, kunhan opimme puhumaan toisillemme omasta edistymisestämme.
 
+Hyvänä harjoitteluna toimi varsin luonnollinen roolien vaihtaminen ja eri tehtävien tekeminen: fyysikko pohti liiketoimintaa ja tutalainen työsti 3D-mallia leikkikaivureista. Oli silmiä avaavaa ja toisaalta rohkaisevaa, miten paljon uusista asioista pystyi oppimaan yksinkertaisesti niitä tekemällä. Vaikka harvalla ryhmäläisellä oli kokemusta monista tekemistämme asioista, niitä tekemällä olemme saavuttaneet varsin hyvät pohjatiedot kurssilla käsitellyistä aiheista. 
 
-Kuitenkin tiimijaosta huolimatta kenties tärkein yhteinen oppi ryhmällemme oli kuitenkin ideoiden jakamisen voima: monesti ryhmän paras edistyminen tapahtui juuri ryhmätapaamisessa ryhmän jäsenten jakaessa omia edistymisaskeliaan. Yllättäen aivan ulkopuolinen näkemys moneen ongelmaan auttoi jos ei suoraan ratkaisemaan ongelmaan niin vähintään viitoitti meille oikean polun ongelman ratkaisemiseksi. Tästäpä viesti työelämään: kommunikaatio tiimin eri jäsenten välillä, erityisesti teknisyyden akselin poikki, voi osoittautua hedelmälliseksi monissa, yllättävissäkin asioissa. Tämä osio ryhmätyöstämme kehittyi erityisen paljon kurssin aikana, kunhan opimme puhumaan toisillemme omasta edistymisestämme.
+Loppuvaiheessa projektia oli ryhmätyöskentelymme luovaa ja tarkoitushakuista - tosin ehkä myös lähestyvillä määräajoilla oli vaikutusta asiaan. Misamatin lempeässä ohjauksessa eri ihmiset tekivät ristiin eri tehtäviä ja tulosta todella syntyi: koostimme kasaan hyvän posterin ja vaikuttavan demon Grande Finalea varten. Ryhmätyömme oli vapaata parhaalla mahdollisella tavalla: tehtäville löytyi omat tekijänsä ja kaverit paikkasivat siinä, missä joku ei ehtinyt. Kurssin aikana ryhmän jäsenet saivatkin arvokasta kokemusta toimimisesta uusien ihmisten kanssa sekä erilaisten vuorovaikutus- ja työskentelytyylien yhteensovittamisessa.
 
-
-Hyvänä harjoitteluna toimi varsin luonnollinen roolien vaihtaminen ja eri tehtävien tekeminen: fyysikko pohti liiketoimintaa ja tutalainen työsti 3D-mallia leikkikaivureista. Oli silmiä avaavaa ja toisaalta rohkaisevaa, miten paljon uusista asioista pystyi oppimaan yksinkertaisesti niitä tekemällä. Vaikka harvalla ryhmäläisellä oli kokemusta monista tekemistämme asioista, niitä tekemällä olemme saavuttaneet varsin hyvät pohjatiedot kurssilla käsitellyistä aiheista.
-
-
-Loppuvaiheessa projektia oli ryhmätyöskentelymme luovaa ja tarkoitushakuista - tosin ehkä myös lähestyvillä kalmanrajoilla oli vaikutusta asiaan. Misa-Matin lempeässä ohjauksessa eri ihmiset tekivät ristiin erityyppisiä tehtäviä ja tulosta todella syntyi: vedimme kasaan hyvän posterin ja vaikuttavan demon Grande Finalea varten. Ryhmätyömme oli vapaata parhaalla mahdollisella tavalla: hommille löytyivät omat tekijänsä ja kaverit paikkasivat siinä, missä joku ei ehtinyt.
+Itse aiheestamme, 3D-mallintamisesta SfM-teknologialla, oli yllättävää huomata, että yksityishenkilöille saatavilla oleva avoimen lähdekoodin teknologia on jo nykypäivänä siinä pisteessä, että 3D-mallien laskeminen sadoista valokuvista onnistuu kohtuullisessa ajassa tavallisella pöytäkoneella. Opimme myös huomioimaan valokuvauksellisia seikkoja alkuperäisiä kuvia otettaessa ja arvioimaan erilaisten ilmiöiden, kuten heijastavien tai läpinäkyvien pintojen vaikutusta lopulliseen malliin. Liiketoimintapotentiaalin arvioiminen antoi ryhmällemme käyttökelpoiset viitekehykset erilaisten elementtien huomioimiseen ja huomasimmekin, että valmiin viitekehyksen käyttäminen helpottaa suunnitteluprosessia. Valmista kehystä käyttäen pystyttiin myös varmistamaan, että kaikki osa-alueet tulee huomioitua ennen kuin liiketoimintaa ollaan käynnistämässä suuremmassa mittakaavassa.
 
 
 Henkilökohtainen kehitys
@@ -136,53 +78,83 @@ Markus
 ^^^^^^
 Toimin ryhmässä pääasiassa varsinaista teknistä toteutusta tukevissa osa-alueissa, kuten liiketoimintapotentiaalin analysoimisessa, projektin etenemisen organisoinnissa ja esitysten pitämisessä. Tämän vuoksi omalta osaltani osa teknisistä yksityiskohdista jäi jokseenkin pimentoon, mutta koen silti oppineeni paljon valokuviin pohjautuvasta 3D-mallintamisesta ja siihen liittyvistä haasteista. Ennen kurssia käsitykseni mallintamisen mahdollisuuksista oli varsin rajallinen, mutta pidin kuitenkin teknologiaa mielenkiintoisena ja potentiaalisena tulevaisuuden sovelluksia silmällä pitäen. Kurssin jälkeen hallitsen keskeisimmät vaiheet 3D-mallin muodostamisessa ja tiedän, mitä asioita tulee ottaa huomioon valokuvia otettaessa ja itse mallia luotaessa. Olin myös varsin positiivisesti yllättynyt avoimen lähdekoodin työkalujen tasosta ja tarjoamista mahdollisuuksista.
 
-
 Mitä taas tulee tukitoimiin, koen että suurin kehitys tapahtui henkilökohtaisen esiintymisen saralla. Koen kurssin aikana saaneeni arvokasta kokemusta suurelle yleisölle esiintymisestä ja esitysten rakenteen suunnittelemisesta yleisöä silmällä pitäen. Tämän lisäksi osa liiketoimintapotentiaalin arvioimiseen käytetyistä työkaluista oli uusia, vaikka itse ajatus prosessin taustalla olikin tullut jo tutuksi aiemmilta kursseilta.
 
 
 Lauri
 ^^^^^
-Toimin ryhmässä lähinnä tukitoimissa: kirjoitin blogia ja ideoin eri tehtäviä yhdessä muiden kanssa. Uskon kuitenkin, että juuri näiden tukitoimien kautta pääsin varsin syvälle mukaan projektiin. Pääsin myös kokeilemaan paljon eri rooleja projektia tehdessä: perinteisestä kirjallisuustutkimuksesta teknologien vertailupostausta varten bisnesmallin kehittämispöhinään. Minusta ideamme myynnin ja liiketoiminnan pohtiminen oli mielenkiintoinen ongelma, jonka parissa en ole päässyt työskentelemään ennen tätä projektia (Tuotantotalous 1-kurssia lukuunottamatta). Näin fyysikkona on myönnettävä, että yllättävän paljon ajatustyötä ja ideointia tähän kuuluisaan käsienheilutteluunkin menee. Lisäksi oli yllättävää, miten paljon ulkopuolinen näkemys ryhmätapaamisissa auttoi omien ongelmien ratkaisemisessa.
-
+Toimin ryhmässä lähinnä tukitoimissa: kirjoitin blogia ja ideoin eri tehtäviä yhdessä muiden kanssa. Uskon kuitenkin, että juuri näiden tukitoimien kautta pääsin varsin syvälle mukaan projektiin. Pääsin myös kokeilemaan paljon eri rooleja projektia tehdessä: perinteisestä kirjallisuustutkimuksesta teknologioiden vertailupostausta varten bisnesmallin kehittämispöhinään. Minusta ideamme myynnin ja liiketoiminnan pohtiminen oli mielenkiintoinen ongelma, jonka parissa en ole päässyt työskentelemään ennen tätä projektia (Tuotantotalous 1 -kurssia lukuun ottamatta). Näin fyysikkona on myönnettävä, että yllättävän paljon ajatustyötä ja ideointia tähän kuuluisaan käsienheilutteluunkin menee. Lisäksi oli yllättävää, miten paljon ulkopuolinen näkemys ryhmätapaamisissa auttoi omien ongelmien ratkaisemisessa. 
 
 Lisäksi pääsin luonnollisesti tutustumaan varsin yksityiskohtaisesti eri sisätilapaikannusmetodeihin. Lisäksi on sanottava minunkin vaikuttuneen mahdollisuuksista, joita avoimen lähdekoodin kirjastot tarjoavat. Kuten kuulin jutellessani Grande Finalessa muiden ryhmien kanssa: miksi tehdä itse jos joku muu on jo kerran tehnyt?
 
 
 Jaan
 ^^^^
-Toimin ryhmässä blogin teknisestä puolesta vastaavana. Tähän kuului blogin visuaalisesta lookista huolehtiminen, blogi kirjoitusten lukeminen, editointi julkaistavaan muotoon, kuvien ja linkkien lisääminen, kirjoitusten julkaiseminen sekä 3D mallien laittaminen nettiin. Autoin myös kirjoitusten kirjoittamisessa.
+Toimin ryhmässä blogin teknisestä puolesta vastaavana. Tähän kuului blogin visuaalisesta ilmeestä huolehtiminen, blogikirjoitusten lukeminen, editointi julkaistavaan muotoon, kuvien ja linkkien lisääminen, kirjoitusten julkaiseminen sekä 3D-mallien laittaminen nettiin. Autoin myös kirjoitusten kirjoittamisessa. 
 
+Tarve tutustua 3D-mallintamiseen ja siihen liittyviin ohjelmistoihin kehitti taitoja tällä alueella. Ilman tätä projektia en olisi välttämättä joutunut opettelemaan näitä taitoja enkä olisi nähnyt alaan liittyviä haasteita.
 
-Tarve tutustua 3D mallintamiseen ja siihen liittyviin ohjelmistoihin kehitti taitoja tällä alueella. Ilman tätä projektia en olisi välttämättä joutunut opettelemaan näitä taitoja enkä olisi nähnyt alaan liittyviä haasteita.
-
-
-Blogista huolehtiminen kehitti web development taitojani, koska käytimme staattista blog generaattoria valmiin platformin sijaan.
+Blogista huolehtiminen kehitti web-kehitystaitojani, koska käytimme staattista blogigeneraattoria valmiin alustan sijaan.
 
 
 Misamatti
 ^^^^^^^^^
 Pääasiallinen roolini oli toimia ryhmämme vetäjänä ja auttaa tarpeen mukaan projektin eri osa-alueissa, painottuen kuitenkin tukitoimiin. Ryhmänvetäjänä koin vastuukseni huolehtia siitä, että kaikilla ryhmän jäsenillä oli tasapuolinen mahdollisuus osallistua aktiivisesti projektin työstämiseen ja jokseenkin selkeä käsitys projektin kulloisestakin vaiheesta. Tämä oli kieltämättä hieman haastavaa itsellenikin, sillä projektin edetessä pienet korjausliikkeet tavoitteissamme olivat yleisiä tietojen lisääntyessä tai ongelmatilanteen kohdatessamme. Lisäksi ryhmänvetäjän tehtäviin kuului myös varmistaa viikottaisen tavoitteen täyttyminen (blogipostaus konkreettisimpana esimerkkinä kurssin puitteissa). Tässä ei kuitenkaan ollut suurta ongelmaa motivoituneen ryhmämme ansiosta.
 
+Projektin alkaessa perehdyin vastuuopettajamme tutkimusryhmän tuloksiin ja näin sain hyvän käsityksen valokuviin pohjautuvan paikantamisen mahdollisuuksista. Projektissa autoin blogipostausten suunnittelussa, kirjoittamisessa ja materiaalin keräämisessä. Pääsin myös hyödyntämään aiempaa osaamista mm. posterin suunnittelussa, ja näin vahvistin käsitystäni siitä, että ryhmätyöskentelyn hyödyt syntyvät ryhmän keskisestä synergiasta: kun jokainen tuo soppaan omaa osaamistaan, saadaan tuloksia nopeasti ja tehokkaasti.
 
-Projektin alkaessa perehdyin vastuuopettajamme tutkimusryhmän tuloksiin ja näin sain hyvän käsityksen valokuviin pohjautuvan paikantamisen mahdollisuuksista. Projektissa autoin blogipostausten suunnittelussa, kirjoittamisessa ja materiaalin keräämisessä. Pääsin myös hyödyntämään aiempaa osaamista mm. posterin suunnittelussa, ja näin vahvistin käsitystäni siitä, että ryhmätyöskentelyn hyödyt syntyvät ryhmän keskisestä synergiasta; kun jokainen tuo soppaan omaa osaamistaan, saadaan tuloksia nopeasti ja tehokkaasti.
 
+Antti
+^^^^^
+En ottanut ryhmätyössämme mitään vastuutehtävää, vaan tein kaikkia sekalaisia tehtäviä (esimerkiksi haastattelupohja, yhteiset pohdinnat ja ideoinnit). Tämän vuoksi sain hyvän läpileikkauksen pien/startup -yrityksen arjesta tehdessäni erilaisia pieniä ja suuria hommia. Kurssi on myös hyvin ajankohtainen startuppien suosion ollessa tällä hetkellä katossa, vaikkakin jotkin tehtävänannot tuntuivat jopa turhauttavilta.
+
+Kurssin aikana sain hyvän perustietämyksen valokuviin perustuvasta mallintamisesta ja tietysti pintaraapaisun muihin vaihtoehtoihin. Kurssi myös vahvisti käsitystäni heikkouksistani ja vahvuuksistani, sekä sain pientä tuntumaa miten liiketoimintapotentiaalia kehitetään ja arvioidaan.
+
+
+Juhani
+^^^^^^
+Tehtäväni projektissa painottui lähdemateriaalin, teknologian ja pistepilvimallin tutkimiseen. Suunnittelin ja rakensin myös Grande Finaleen esityksen, jossa kameraa lennätettiin pistepilvessä ja visualisoitiin reitti mallinnetussa tilassa. Suoritin myös yrityshaastatteluja, joiden avulla saimme inspiraatiota liiketoimintamallin suunnitteluun. Liiketoimintapotentiaalin arviointi ja -mallin suunnittelu olivat erittäin mielekkäitä ja opettavaisia. Myös esitysten pitämisestä, keskeneräisten töiden esittelystä ja yleisesti ryhmätyöskentelystä oppi kurssin aikana paljon. Myös itsenäisen työskentelyn aikataulutuksesta ryhmän osana sai hyödyllistä kokemusta.
+
+
+Aapo
+^^^^
+Minun tehtäväni projektissa oli keskittyä ratkaisun teoreettisen taustan tutkimiseen sekä prototyypin rakentamiseen liittyviin käytännön tehtäviin. Ryhmätyöskentely on minulle entuudestaan erittäin tuttua, mutta tämä kurssi poikkesi aikaisemmista kokemuksistani eniten siinä, että työn päämäärä ei ollut aivan yhtä selkeä. Tämä mahdollisesti johtui siitä, että aikaisemmissa kokemuksissani on aina ollut selkeä asiakas/pomo ja niiden lopputulos on ollut helpommin käsitettävä tuote/raportti. Normaalisti, kun projektille asetettu tavoite on saavutettu, se on luovutusta vaille valmis. Tässä projektissa vähäisestä alkutiedosta johtuen projektitavoitteet ovat sisältäneet paljon epävarmuustekijöitä, minkä seurauksena ne ovat eläneet ryhmän edistymisen mukana. Jämäkän auktoriteetin tuominen ryhmään olisi varmasti myös selkiyttänyt työskentelyä. Pähkinänkuoressa siis opin ryhmätyöskentelemään tavallista epävarmemmissa olosuhteissa sekä ymmärtämään projektijohtajan roolin tärkeyttä. Seuraavissa kappaleissa käsittelen saamiani oppeja ryhmäni käsittelemästä teemasta.
+
+Ennen kurssin alkua kolmiulotteisten mallien rakentaminen valokuvien pohjalta oli minulle täydellinen musta laatikko: sisään tuupattiin valokuvia ja muutaman konejumalille annetun uhrilahjan jälkeen ulos singahti lähes täydellinen digitaalinen kopio valokuvien kohteesta. Kurssin aikana kuitenkin pääsin tarkemmin tämän prosessin tekniseen toteutukseen ja nyt tiedän jokaisen tietokoneen sen aikana suorittaman laskutoimituksen merkityksen.
+
+Laskutoimitusten sarja on kuitenkin niin monimutkainen, että rohkenen väittää tuskin kenenkään täysin ymmärtävän millaisia vaatimuksia se asettaa mallin pohjana toimiville valokuville. Internetistä löytyy eri henkilöiden hyväksi havaitsemia toimintatapoja esimerkiksi valokuvien valotukseen ja kuvakulmiin liittyen, mutta jokainen malli on täysin uniikki, joten niitä voidaan käyttää vain karkeana lähtökohtana mallin rakentamiselle. Tämä tuntemattomaan sukeltaminen ja uusien ’parhaiden’ toimintatapojen etsiminen oli varmasti yksi kurssin tärkeimpiä opetuksia. Näin jälkikäteen voin todeta järjestelmällisten ja hyvin dokumentoitujen kokeiden järjestämisen välttämättömäksi työkaluksi uuden etsimisessä. Tässä projektissa tehtyjen koejärjestelyjen ja niiden tulosten tarkemmalla analysoinnilla olisivat tulokset olleet vieläkin parempia.
+
+Aluksi pyrittiin selvittämään, mikä toimii hyvin pienessä mittakaavassa ja sen jälkeen skaalaamaan se tavoitteeksi asetettuun mittakaavaan. Nopeasti havaittiin käytettävissä olevan laskentatehon ja täten valokuvien lukumäärään muodostuvan merkittäväksi haasteeksi. Pienellä määrällä valokuvia on hankala saada muodostettua tarkkaa mallia suuresta tilasta, mutta optimoidulla valokuvaustekniikalla päästiin kuitenkin paikannuskäytössä riittävään lopputulokseen. Tärkeänä havaintona teknologiaan yleisesti liittyen on laskentatehon tarve. Tulevaisuudessa tehokkaampien algoritmien kehittäminen erityisesti yksityiskohtien tunnistamiseen tulee olemaan tärkeä kehityskohde.
 
 
 Arviointimatriisi
 -----------------
 
-.. csv-table::
+.. csv-table:: *Koonti arviointilomakkeiden tulosten jakautumisesta*
    :header: "Mielestäni...", "tämä onnistui todella hyvin", "tämä sujui ihan OK", "tämä meni pieleen"
 
-   "ymmärsimme, mitä projektissamme pitäisi tehdä samalla tavalla", "", "", ""
-   "ymmärsimme asiakkaamme tarpeet", "", "", ""
-   "keskustelimme riittävästi keskenämme", "", "", ""
-   "osasimme ratkaista konfliktit", "", "", ""
-   "meillä oli yhtenevät tavoitteet projektimme suhteen", "", "", ""
-   "ymmärsin hyvin, mitä muut ryhmässäni tekevät", "", "", ""
-   "olimme sopineet yhteisistä toimintatavoistamme", "", "", ""
-   "olimme laatineet yhteisen aikataulun", "", "", ""
-   "minulla oli hyvä käsitys, mitä muut odottavat minulta", "", "", ""
-   "ryhmällämme oli johtaja", "", "", ""
-   "kaikki ryhmän jäsenet työskentelivät tasapuolisesti", "", "", ""
-   "saimme projektiimme riittävästi tukea", "", "", ""
+   "ymmärsimme, mitä projektissamme pitäisi tehdä samalla tavalla", "6", "1", "0"
+   "ymmärsimme asiakkaamme tarpeet", "1", "6", "0"
+   "keskustelimme riittävästi keskenämme", "1", "4", "2"
+   "osasimme ratkaista konfliktit", "3", "4", "0"
+   "meillä oli yhtenevät tavoitteet projektimme suhteen", "6", "1", "0"
+   "ymmärsin hyvin, mitä muut ryhmässäni tekevät", "0", "7", "0"
+   "olimme sopineet yhteisistä toimintatavoistamme", "2", "5", "0"
+   "olimme laatineet yhteisen aikataulun", "2", "5", "0"
+   "minulla oli hyvä käsitys, mitä muut odottavat minulta", "2", "4", "1"
+   "ryhmällämme oli johtaja", "5", "2", "0"
+   "kaikki ryhmän jäsenet työskentelivät tasapuolisesti", "2", "5", "0"
+   "saimme projektiimme riittävästi tukea", "6", "1", "0"
+
+
+Yhteenveto arviointilomakkeista
+-------------------------------
+Suurin haaste ryhmämme toimintatavoissa oli selkeästi kommunikaation puute. Työt tehtiin pääasiassa itsenäisesti ja tulokset koottiin yhteisesti. Tämä olisi ollut mahdollista korjata jakamalla tehtäväkokonaisuuksia alusta alkaen pienille tiimeille yksittäisten henkilöiden sijaan. Myös viikoittaisissa yhteisissä tapaamisissa oli parantamisen varaa, sillä varsinkin alkupuolella kurssia tapaamisiin osallistui ainoastaan osa ryhmästä. Ryhmätapaamiset kuitenkin sujuivat loppupuolella kurssia huomattavasti paremmin. Nämä kaksi ongelmaa aiheuttivat myös sen, että työnjako oli ajoittain hieman epäselvää osalle ryhmän jäsenistä, eikä ryhmä päässyt toimimaan tehokkaasti.
+
+
+Tuloksista huomataan (`Arviointimatriisi`_), että kommunikaatiohaasteista huolimatta ryhmällämme oli kuitenkin selkeä käsitys projektin tavoitteista ja odotetusta tuloksesta. Tämä johtui luultavasti siitä, että aiheemme oli rajattu selkeästi heti ensimmäisen vastuuopettajan tapaamisen jälkeen. Mikäli aiheemme olisi dramaattisesti muuttunut kesken kurssin uuteen suuntaan, olisi mennyt luultavasti liian kauan, että ryhmälle olisi muodostunut uudestaan yhteinen ja selkeä käsitys projektin suunnasta. Onneksemme aiheen määrittely pysyi samana koko kurssin ja pystyimme keskittymään parhaan mahdollisen lopputuloksen tuottamiseen alusta alkaen.
+
+
+.. [iMoon] Dong, J., Xiao, Y., Noreikis, M., Ou, Z., & Ylä-Jääski, A. (2015). iMoon : Using Smartphones for Image-based Indoor Navigation Categories and Subject Descriptors. Proceedings of the ACM Conference on Embedded Networked Sensor Systems, 85–97. http://doi.org/10.1145/2809695.2809722
+
+.. [visualSFM] Wu, C., & others. (2011). VisualSFM: A visual structure from motion system.

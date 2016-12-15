@@ -58,7 +58,7 @@ group = '3+4Dudes'
 copyright = '2016, Jaan Tollander de Balsch'
 authors = ('Jaan Tollander de Balsch',
            'Aapo Haavisto',
-           'Oskari Karkkinen',
+           'Antti Karkkinen',
            'Misamatti Koistinen',
            'Lauri Seppäläinen',
            'Juhani Sipilä',
@@ -270,7 +270,7 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
 
-    'tableofcontents': '',
+    'tableofcontents': r'\tableofcontents',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
